@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named AdvancedSFINAE2
+
+# Build rule for target.
+AdvancedSFINAE2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AdvancedSFINAE2
+.PHONY : AdvancedSFINAE2
+
+# fast build rule for target.
+AdvancedSFINAE2/fast:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAE2.dir/build.make CMakeFiles/AdvancedSFINAE2.dir/build
+.PHONY : AdvancedSFINAE2/fast
+
+#=============================================================================
 # Target rules for targets named AdvancedSFINAE
 
 # Build rule for target.
@@ -305,6 +318,33 @@ AdvancedSFINAE.s: AdvancedSFINAE.cpp.s
 AdvancedSFINAE.cpp.s:
 	$(MAKE) -f CMakeFiles/AdvancedSFINAE.dir/build.make CMakeFiles/AdvancedSFINAE.dir/AdvancedSFINAE.cpp.s
 .PHONY : AdvancedSFINAE.cpp.s
+
+AdvancedSFINAE2.o: AdvancedSFINAE2.cpp.o
+
+.PHONY : AdvancedSFINAE2.o
+
+# target to build an object file
+AdvancedSFINAE2.cpp.o:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAE2.dir/build.make CMakeFiles/AdvancedSFINAE2.dir/AdvancedSFINAE2.cpp.o
+.PHONY : AdvancedSFINAE2.cpp.o
+
+AdvancedSFINAE2.i: AdvancedSFINAE2.cpp.i
+
+.PHONY : AdvancedSFINAE2.i
+
+# target to preprocess a source file
+AdvancedSFINAE2.cpp.i:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAE2.dir/build.make CMakeFiles/AdvancedSFINAE2.dir/AdvancedSFINAE2.cpp.i
+.PHONY : AdvancedSFINAE2.cpp.i
+
+AdvancedSFINAE2.s: AdvancedSFINAE2.cpp.s
+
+.PHONY : AdvancedSFINAE2.s
+
+# target to generate assembly for a file
+AdvancedSFINAE2.cpp.s:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAE2.dir/build.make CMakeFiles/AdvancedSFINAE2.dir/AdvancedSFINAE2.cpp.s
+.PHONY : AdvancedSFINAE2.cpp.s
 
 BasicSFINAE.o: BasicSFINAE.cpp.o
 
@@ -638,6 +678,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... AdvancedSFINAE2"
 	@echo "... AdvancedSFINAE"
 	@echo "... BasicSFINAE"
 	@echo "... SFINAE"
@@ -654,6 +695,9 @@ help:
 	@echo "... AdvancedSFINAE.o"
 	@echo "... AdvancedSFINAE.i"
 	@echo "... AdvancedSFINAE.s"
+	@echo "... AdvancedSFINAE2.o"
+	@echo "... AdvancedSFINAE2.i"
+	@echo "... AdvancedSFINAE2.s"
 	@echo "... BasicSFINAE.o"
 	@echo "... BasicSFINAE.i"
 	@echo "... BasicSFINAE.s"

@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /Users/wualex/Documents/DesignPattern/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/AdvancedSFINAE2.dir/all
 all: CMakeFiles/AdvancedSFINAE.dir/all
 all: CMakeFiles/BasicSFINAE.dir/all
 all: CMakeFiles/SFINAE.dir/all
@@ -70,6 +71,7 @@ all: CMakeFiles/Releasing_early.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/AdvancedSFINAE2.dir/clean
 clean: CMakeFiles/AdvancedSFINAE.dir/clean
 clean: CMakeFiles/BasicSFINAE.dir/clean
 clean: CMakeFiles/SFINAE.dir/clean
@@ -90,6 +92,33 @@ clean: CMakeFiles/Releasing_early.dir/clean
 preinstall:
 
 .PHONY : preinstall
+
+#=============================================================================
+# Target rules for target CMakeFiles/AdvancedSFINAE2.dir
+
+# All Build rule for target.
+CMakeFiles/AdvancedSFINAE2.dir/all:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAE2.dir/build.make CMakeFiles/AdvancedSFINAE2.dir/depend
+	$(MAKE) -f CMakeFiles/AdvancedSFINAE2.dir/build.make CMakeFiles/AdvancedSFINAE2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target AdvancedSFINAE2"
+.PHONY : CMakeFiles/AdvancedSFINAE2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/AdvancedSFINAE2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/AdvancedSFINAE2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/AdvancedSFINAE2.dir/rule
+
+# Convenience name for target.
+AdvancedSFINAE2: CMakeFiles/AdvancedSFINAE2.dir/rule
+
+.PHONY : AdvancedSFINAE2
+
+# clean rule for target.
+CMakeFiles/AdvancedSFINAE2.dir/clean:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAE2.dir/build.make CMakeFiles/AdvancedSFINAE2.dir/clean
+.PHONY : CMakeFiles/AdvancedSFINAE2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/AdvancedSFINAE.dir
@@ -125,7 +154,7 @@ CMakeFiles/AdvancedSFINAE.dir/clean:
 CMakeFiles/BasicSFINAE.dir/all:
 	$(MAKE) -f CMakeFiles/BasicSFINAE.dir/build.make CMakeFiles/BasicSFINAE.dir/depend
 	$(MAKE) -f CMakeFiles/BasicSFINAE.dir/build.make CMakeFiles/BasicSFINAE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target BasicSFINAE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target BasicSFINAE"
 .PHONY : CMakeFiles/BasicSFINAE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -152,7 +181,7 @@ CMakeFiles/BasicSFINAE.dir/clean:
 CMakeFiles/SFINAE.dir/all:
 	$(MAKE) -f CMakeFiles/SFINAE.dir/build.make CMakeFiles/SFINAE.dir/depend
 	$(MAKE) -f CMakeFiles/SFINAE.dir/build.make CMakeFiles/SFINAE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target SFINAE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target SFINAE"
 .PHONY : CMakeFiles/SFINAE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -179,7 +208,7 @@ CMakeFiles/SFINAE.dir/clean:
 CMakeFiles/DesignPattern.dir/all:
 	$(MAKE) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/depend
 	$(MAKE) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target DesignPattern"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target DesignPattern"
 .PHONY : CMakeFiles/DesignPattern.dir/all
 
 # Build rule for subdir invocation for target.
@@ -206,7 +235,7 @@ CMakeFiles/DesignPattern.dir/clean:
 CMakeFiles/TypeErasureinCpp.dir/all:
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/depend
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target TypeErasureinCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target TypeErasureinCpp"
 .PHONY : CMakeFiles/TypeErasureinCpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -233,7 +262,7 @@ CMakeFiles/TypeErasureinCpp.dir/clean:
 CMakeFiles/CarefulImplementationOfRAIIobject.dir/all:
 	$(MAKE) -f CMakeFiles/CarefulImplementationOfRAIIobject.dir/build.make CMakeFiles/CarefulImplementationOfRAIIobject.dir/depend
 	$(MAKE) -f CMakeFiles/CarefulImplementationOfRAIIobject.dir/build.make CMakeFiles/CarefulImplementationOfRAIIobject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target CarefulImplementationOfRAIIobject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target CarefulImplementationOfRAIIobject"
 .PHONY : CMakeFiles/CarefulImplementationOfRAIIobject.dir/all
 
 # Build rule for subdir invocation for target.
@@ -260,7 +289,7 @@ CMakeFiles/CarefulImplementationOfRAIIobject.dir/clean:
 CMakeFiles/RAII_in_a_nutshell.dir/all:
 	$(MAKE) -f CMakeFiles/RAII_in_a_nutshell.dir/build.make CMakeFiles/RAII_in_a_nutshell.dir/depend
 	$(MAKE) -f CMakeFiles/RAII_in_a_nutshell.dir/build.make CMakeFiles/RAII_in_a_nutshell.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target RAII_in_a_nutshell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target RAII_in_a_nutshell"
 .PHONY : CMakeFiles/RAII_in_a_nutshell.dir/all
 
 # Build rule for subdir invocation for target.
@@ -287,7 +316,7 @@ CMakeFiles/RAII_in_a_nutshell.dir/clean:
 CMakeFiles/TemplateFunctions.dir/all:
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/depend
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target TemplateFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target TemplateFunctions"
 .PHONY : CMakeFiles/TemplateFunctions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -314,7 +343,7 @@ CMakeFiles/TemplateFunctions.dir/clean:
 CMakeFiles/TheOverheadOfTypeErasure.dir/all:
 	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/depend
 	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target TheOverheadOfTypeErasure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target TheOverheadOfTypeErasure"
 .PHONY : CMakeFiles/TheOverheadOfTypeErasure.dir/all
 
 # Build rule for subdir invocation for target.
@@ -341,7 +370,7 @@ CMakeFiles/TheOverheadOfTypeErasure.dir/clean:
 CMakeFiles/TypeErasureByExample.dir/all:
 	$(MAKE) -f CMakeFiles/TypeErasureByExample.dir/build.make CMakeFiles/TypeErasureByExample.dir/depend
 	$(MAKE) -f CMakeFiles/TypeErasureByExample.dir/build.make CMakeFiles/TypeErasureByExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target TypeErasureByExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target TypeErasureByExample"
 .PHONY : CMakeFiles/TypeErasureByExample.dir/all
 
 # Build rule for subdir invocation for target.
@@ -368,7 +397,7 @@ CMakeFiles/TypeErasureByExample.dir/clean:
 CMakeFiles/RAII_for_other_resources.dir/all:
 	$(MAKE) -f CMakeFiles/RAII_for_other_resources.dir/build.make CMakeFiles/RAII_for_other_resources.dir/depend
 	$(MAKE) -f CMakeFiles/RAII_for_other_resources.dir/build.make CMakeFiles/RAII_for_other_resources.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target RAII_for_other_resources"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target RAII_for_other_resources"
 .PHONY : CMakeFiles/RAII_for_other_resources.dir/all
 
 # Build rule for subdir invocation for target.
@@ -395,7 +424,7 @@ CMakeFiles/RAII_for_other_resources.dir/clean:
 CMakeFiles/CountingResources.dir/all:
 	$(MAKE) -f CMakeFiles/CountingResources.dir/build.make CMakeFiles/CountingResources.dir/depend
 	$(MAKE) -f CMakeFiles/CountingResources.dir/build.make CMakeFiles/CountingResources.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target CountingResources"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target CountingResources"
 .PHONY : CMakeFiles/CountingResources.dir/all
 
 # Build rule for subdir invocation for target.
@@ -422,7 +451,7 @@ CMakeFiles/CountingResources.dir/clean:
 CMakeFiles/Releasing_early.dir/all:
 	$(MAKE) -f CMakeFiles/Releasing_early.dir/build.make CMakeFiles/Releasing_early.dir/depend
 	$(MAKE) -f CMakeFiles/Releasing_early.dir/build.make CMakeFiles/Releasing_early.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target Releasing_early"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target Releasing_early"
 .PHONY : CMakeFiles/Releasing_early.dir/all
 
 # Build rule for subdir invocation for target.

@@ -2,19 +2,20 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="DesignPattern" targetName="RAII_in_a_nutshell" />
       <config projectName="DesignPattern" targetName="DesignPattern" />
+      <config projectName="DesignPattern" targetName="CarefulImplementationOfRAIIobject" />
+      <config projectName="DesignPattern" targetName="TheOverheadOfTypeErasure" />
       <config projectName="DesignPattern" targetName="TemplateFunctions" />
       <config projectName="DesignPattern" targetName="BasicSFINAE" />
-      <config projectName="DesignPattern" targetName="TypeErasureByExample" />
-      <config projectName="DesignPattern" targetName="RAII_in_a_nutshell" />
-      <config projectName="DesignPattern" targetName="Releasing_early" />
-      <config projectName="DesignPattern" targetName="CarefulImplementationOfRAIIobject" />
-      <config projectName="DesignPattern" targetName="SFINAE" />
-      <config projectName="DesignPattern" targetName="TypeErasureinCpp" />
-      <config projectName="DesignPattern" targetName="AdvancedSFINAE" />
-      <config projectName="DesignPattern" targetName="CountingResources" />
-      <config projectName="DesignPattern" targetName="TheOverheadOfTypeErasure" />
       <config projectName="DesignPattern" targetName="RAII_for_other_resources" />
+      <config projectName="DesignPattern" targetName="SFINAE" />
+      <config projectName="DesignPattern" targetName="TypeErasureByExample" />
+      <config projectName="DesignPattern" targetName="Releasing_early" />
+      <config projectName="DesignPattern" targetName="AdvancedSFINAE" />
+      <config projectName="DesignPattern" targetName="AdvancedSFINAE2" />
+      <config projectName="DesignPattern" targetName="CountingResources" />
+      <config projectName="DesignPattern" targetName="TypeErasureinCpp" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -23,7 +24,33 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7456cd16-bad3-4734-9781-2baea0f39b21" name="Default Changelist" comment="" />
+    <list default="true" id="7456cd16-bad3-4734-9781-2baea0f39b21" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdvancedSFINAE.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/AdvancedSFINAE.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAE.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAE.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BasicSFINAE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BasicSFINAE.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CarefulImplementationOfRAIIobject.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CarefulImplementationOfRAIIobject.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CountingResources.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CountingResources.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DesignPattern.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DesignPattern.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_for_other_resources.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_for_other_resources.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_in_a_nutshell.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_in_a_nutshell.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Releasing_early.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Releasing_early.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFINAE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFINAE.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TemplateFunctions.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TemplateFunctions.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheOverheadOfTypeErasure.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheOverheadOfTypeErasure.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureByExample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureByExample.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/DesignPattern.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DesignPattern.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,21 +60,32 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Tgaal7zar96HT5HoZdekQ8NySa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cmake-build-debug" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.SFINAE">
+  <component name="RunManager" selected="CMake Application.AdvancedSFINAE2">
     <configuration name="All in RAII_for_other_resources.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII_for_other_resources" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII_for_other_resources" TEST_PATTERN="all-tests(file://$PROJECT_DIR$/RAII_for_other_resources.cpp)" TEST_MODE="PATTERN">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -79,6 +117,11 @@
       </method>
     </configuration>
     <configuration name="AdvancedSFINAE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="AdvancedSFINAE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="AdvancedSFINAE">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvancedSFINAE2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="AdvancedSFINAE2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="AdvancedSFINAE2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -144,12 +187,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Google Test.All in RAII_for_other_resources.cpp" />
-      <item itemvalue="Google Test.All in RAII_in_a_nutshell.cpp" />
-      <item itemvalue="Google Test.All in Releasing_early.cpp" />
-      <item itemvalue="Google Test.RAII.AcquireRelease" />
-      <item itemvalue="Google Test.mutex_guard.Reset" />
       <item itemvalue="CMake Application.AdvancedSFINAE" />
+      <item itemvalue="CMake Application.AdvancedSFINAE2" />
       <item itemvalue="CMake Application.BasicSFINAE" />
       <item itemvalue="CMake Application.CarefulImplementationOfRAIIobject" />
       <item itemvalue="CMake Application.CountingResources" />
@@ -162,6 +201,11 @@
       <item itemvalue="CMake Application.TheOverheadOfTypeErasure" />
       <item itemvalue="CMake Application.TypeErasureByExample" />
       <item itemvalue="CMake Application.TypeErasureinCpp" />
+      <item itemvalue="Google Test.RAII.AcquireRelease" />
+      <item itemvalue="Google Test.All in RAII_in_a_nutshell.cpp" />
+      <item itemvalue="Google Test.All in RAII_for_other_resources.cpp" />
+      <item itemvalue="Google Test.All in Releasing_early.cpp" />
+      <item itemvalue="Google Test.mutex_guard.Reset" />
     </list>
     <recent_temporary>
       <list>
@@ -206,6 +250,7 @@
       <workItem from="1576563029268" duration="6133000" />
       <workItem from="1576725230780" duration="3280000" />
       <workItem from="1576801134574" duration="19000" />
+      <workItem from="1576801184190" duration="5853000" />
     </task>
     <servers />
   </component>
@@ -225,21 +270,25 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="609" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575771127543" />
-    <state width="893" height="285" key="GridCell.Tab.0.bottom" timestamp="1576754620449">
+    <state width="838" height="285" key="GridCell.Tab.0.bottom" timestamp="1576808385490">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="893" height="285" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576754620449" />
-    <state width="893" height="285" key="GridCell.Tab.0.center" timestamp="1576754620447">
+    <state width="838" height="285" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576808385490" />
+    <state width="838" height="285" key="GridCell.Tab.0.center" timestamp="1576808385489">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="893" height="285" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576754620447" />
-    <state width="893" height="285" key="GridCell.Tab.0.left" timestamp="1576754620446">
+    <state width="838" height="285" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576808385489" />
+    <state width="838" height="285" key="GridCell.Tab.0.left" timestamp="1576808385488">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="893" height="285" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576754620446" />
-    <state width="893" height="285" key="GridCell.Tab.0.right" timestamp="1576754620448">
+    <state width="838" height="285" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576808385488" />
+    <state width="838" height="285" key="GridCell.Tab.0.right" timestamp="1576808385489">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="893" height="285" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576754620448" />
+    <state width="838" height="285" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576808385489" />
+    <state x="905" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1576802241578">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="905" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1576802241578" />
   </component>
 </project>

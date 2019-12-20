@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wualex/Documents/DesignPattern/CountingResources.cpp
+gtest/gtest.h
+/Users/wualex/Documents/DesignPattern/gtest/gtest.h
+object_counter.h
+/Users/wualex/Documents/DesignPattern/object_counter.h
+
+/Users/wualex/Documents/DesignPattern/object_counter.h
+

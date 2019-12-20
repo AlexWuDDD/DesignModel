@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wualex/Documents/DesignPattern/RAII_in_a_nutshell.cpp
+gtest/gtest.h
+/Users/wualex/Documents/DesignPattern/gtest/gtest.h
+benchmark/benchmark.h
+/Users/wualex/Documents/DesignPattern/benchmark/benchmark.h
+object_counter.h
+/Users/wualex/Documents/DesignPattern/object_counter.h
+
+/Users/wualex/Documents/DesignPattern/object_counter.h
+

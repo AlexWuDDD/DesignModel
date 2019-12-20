@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="DesignPattern" targetName="DesignPattern" />
+      <config projectName="DesignPattern" targetName="TemplateFunctions" />
+      <config projectName="DesignPattern" targetName="BasicSFINAE" />
+      <config projectName="DesignPattern" targetName="TypeErasureByExample" />
+      <config projectName="DesignPattern" targetName="RAII_in_a_nutshell" />
+      <config projectName="DesignPattern" targetName="Releasing_early" />
+      <config projectName="DesignPattern" targetName="CarefulImplementationOfRAIIobject" />
+      <config projectName="DesignPattern" targetName="SFINAE" />
+      <config projectName="DesignPattern" targetName="TypeErasureinCpp" />
+      <config projectName="DesignPattern" targetName="AdvancedSFINAE" />
+      <config projectName="DesignPattern" targetName="CountingResources" />
+      <config projectName="DesignPattern" targetName="TheOverheadOfTypeErasure" />
+      <config projectName="DesignPattern" targetName="RAII_for_other_resources" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7456cd16-bad3-4734-9781-2baea0f39b21" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1Tgaal7zar96HT5HoZdekQ8NySa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.SFINAE">
+    <configuration name="All in RAII_for_other_resources.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII_for_other_resources" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII_for_other_resources" TEST_PATTERN="all-tests(file://$PROJECT_DIR$/RAII_for_other_resources.cpp)" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in RAII_in_a_nutshell.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII_in_a_nutshell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII_in_a_nutshell" TEST_PATTERN="all-tests(file://$PROJECT_DIR$/RAII_in_a_nutshell.cpp)" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Releasing_early.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="Releasing_early" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="Releasing_early" TEST_PATTERN="all-tests(file://$PROJECT_DIR$/Releasing_early.cpp)" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RAII.AcquireRelease" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII_in_a_nutshell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII_in_a_nutshell" TEST_CLASS="RAII" TEST_METHOD="AcquireRelease" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mutex_guard.Reset" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="Releasing_early" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="Releasing_early" TEST_CLASS="mutex_guard" TEST_METHOD="Reset" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdvancedSFINAE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="AdvancedSFINAE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="AdvancedSFINAE">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicSFINAE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="BasicSFINAE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="BasicSFINAE">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarefulImplementationOfRAIIobject" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="CarefulImplementationOfRAIIobject" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="CarefulImplementationOfRAIIobject">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountingResources" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="CountingResources" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="CountingResources">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignPattern" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="DesignPattern" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="DesignPattern">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RAII_for_other_resources" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII_for_other_resources" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII_for_other_resources">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RAII_in_a_nutshell" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII_in_a_nutshell" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII_in_a_nutshell">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Releasing_early" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="Releasing_early" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="Releasing_early">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SFINAE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="SFINAE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="SFINAE">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TemplateFunctions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="TemplateFunctions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="TemplateFunctions">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheOverheadOfTypeErasure" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="TheOverheadOfTypeErasure" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="TheOverheadOfTypeErasure">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeErasureByExample" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="TypeErasureByExample" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="TypeErasureByExample">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeErasureinCpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="TypeErasureinCpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="TypeErasureinCpp">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google Test.All in RAII_for_other_resources.cpp" />
+      <item itemvalue="Google Test.All in RAII_in_a_nutshell.cpp" />
+      <item itemvalue="Google Test.All in Releasing_early.cpp" />
+      <item itemvalue="Google Test.RAII.AcquireRelease" />
+      <item itemvalue="Google Test.mutex_guard.Reset" />
+      <item itemvalue="CMake Application.AdvancedSFINAE" />
+      <item itemvalue="CMake Application.BasicSFINAE" />
+      <item itemvalue="CMake Application.CarefulImplementationOfRAIIobject" />
+      <item itemvalue="CMake Application.CountingResources" />
+      <item itemvalue="CMake Application.DesignPattern" />
+      <item itemvalue="CMake Application.RAII_for_other_resources" />
+      <item itemvalue="CMake Application.RAII_in_a_nutshell" />
+      <item itemvalue="CMake Application.Releasing_early" />
+      <item itemvalue="CMake Application.SFINAE" />
+      <item itemvalue="CMake Application.TemplateFunctions" />
+      <item itemvalue="CMake Application.TheOverheadOfTypeErasure" />
+      <item itemvalue="CMake Application.TypeErasureByExample" />
+      <item itemvalue="CMake Application.TypeErasureinCpp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.mutex_guard.Reset" />
+        <item itemvalue="Google Test.All in Releasing_early.cpp" />
+        <item itemvalue="Google Test.All in RAII_for_other_resources.cpp" />
+        <item itemvalue="Google Test.RAII.AcquireRelease" />
+        <item itemvalue="Google Test.All in RAII_in_a_nutshell.cpp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7456cd16-bad3-4734-9781-2baea0f39b21" name="Default Changelist" comment="" />
+      <created>1573884258070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573884258070</updated>
+      <workItem from="1573884261039" duration="18594000" />
+      <workItem from="1574670283000" duration="20000" />
+      <workItem from="1574670330880" duration="1835000" />
+      <workItem from="1574727138756" duration="17000" />
+      <workItem from="1575527488738" duration="1469000" />
+      <workItem from="1575704563319" duration="265000" />
+      <workItem from="1575704886923" duration="9524000" />
+      <workItem from="1575947102214" duration="7000" />
+      <workItem from="1576563029268" duration="6133000" />
+      <workItem from="1576725230780" duration="3280000" />
+      <workItem from="1576801134574" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="970" y="258" width="582" height="543" key="#RAII.AcquireRelease" timestamp="1575772807021">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="970" y="258" width="582" height="543" key="#RAII.AcquireRelease/0.0.1680.1050@0.0.1680.1050" timestamp="1575772807021" />
+    <state x="970" y="258" width="582" height="543" key="#Scoped_ptr.Construct" timestamp="1575768208307">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="970" y="258" width="582" height="543" key="#Scoped_ptr.Construct/0.0.1680.1050@0.0.1680.1050" timestamp="1575768208307" />
+    <state x="609" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575771127543">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="609" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1575771127543" />
+    <state width="893" height="285" key="GridCell.Tab.0.bottom" timestamp="1576754620449">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="893" height="285" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1576754620449" />
+    <state width="893" height="285" key="GridCell.Tab.0.center" timestamp="1576754620447">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="893" height="285" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1576754620447" />
+    <state width="893" height="285" key="GridCell.Tab.0.left" timestamp="1576754620446">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="893" height="285" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1576754620446" />
+    <state width="893" height="285" key="GridCell.Tab.0.right" timestamp="1576754620448">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="893" height="285" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1576754620448" />
+  </component>
+</project>

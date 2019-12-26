@@ -52,12 +52,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/TheUltimateSFINAE.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAE2.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAE.dir/DependInfo.cmake"
   "CMakeFiles/BasicSFINAE.dir/DependInfo.cmake"
   "CMakeFiles/SFINAE.dir/DependInfo.cmake"
+  "CMakeFiles/AdvancedSFINAErevisited.dir/DependInfo.cmake"
   "CMakeFiles/DesignPattern.dir/DependInfo.cmake"
   "CMakeFiles/TypeErasureinCpp.dir/DependInfo.cmake"
+  "CMakeFiles/AdvancedSFINAErevisited2.dir/DependInfo.cmake"
   "CMakeFiles/CarefulImplementationOfRAIIobject.dir/DependInfo.cmake"
   "CMakeFiles/RAII_in_a_nutshell.dir/DependInfo.cmake"
   "CMakeFiles/TemplateFunctions.dir/DependInfo.cmake"

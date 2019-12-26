@@ -1,11 +1,14 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/BasicSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SFINAE.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/DesignPattern.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CarefulImplementationOfRAIIobject.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/RAII_in_a_nutshell.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TemplateFunctions.dir

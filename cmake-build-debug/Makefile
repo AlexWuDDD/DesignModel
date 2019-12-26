@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named TheUltimateSFINAE
+
+# Build rule for target.
+TheUltimateSFINAE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TheUltimateSFINAE
+.PHONY : TheUltimateSFINAE
+
+# fast build rule for target.
+TheUltimateSFINAE/fast:
+	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/build
+.PHONY : TheUltimateSFINAE/fast
+
+#=============================================================================
 # Target rules for targets named AdvancedSFINAE2
 
 # Build rule for target.
@@ -163,6 +176,19 @@ SFINAE/fast:
 .PHONY : SFINAE/fast
 
 #=============================================================================
+# Target rules for targets named AdvancedSFINAErevisited
+
+# Build rule for target.
+AdvancedSFINAErevisited: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AdvancedSFINAErevisited
+.PHONY : AdvancedSFINAErevisited
+
+# fast build rule for target.
+AdvancedSFINAErevisited/fast:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited.dir/build.make CMakeFiles/AdvancedSFINAErevisited.dir/build
+.PHONY : AdvancedSFINAErevisited/fast
+
+#=============================================================================
 # Target rules for targets named DesignPattern
 
 # Build rule for target.
@@ -187,6 +213,19 @@ TypeErasureinCpp: cmake_check_build_system
 TypeErasureinCpp/fast:
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/build
 .PHONY : TypeErasureinCpp/fast
+
+#=============================================================================
+# Target rules for targets named AdvancedSFINAErevisited2
+
+# Build rule for target.
+AdvancedSFINAErevisited2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AdvancedSFINAErevisited2
+.PHONY : AdvancedSFINAErevisited2
+
+# fast build rule for target.
+AdvancedSFINAErevisited2/fast:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited2.dir/build.make CMakeFiles/AdvancedSFINAErevisited2.dir/build
+.PHONY : AdvancedSFINAErevisited2/fast
 
 #=============================================================================
 # Target rules for targets named CarefulImplementationOfRAIIobject
@@ -345,6 +384,60 @@ AdvancedSFINAE2.s: AdvancedSFINAE2.cpp.s
 AdvancedSFINAE2.cpp.s:
 	$(MAKE) -f CMakeFiles/AdvancedSFINAE2.dir/build.make CMakeFiles/AdvancedSFINAE2.dir/AdvancedSFINAE2.cpp.s
 .PHONY : AdvancedSFINAE2.cpp.s
+
+AdvancedSFINAErevisited.o: AdvancedSFINAErevisited.cpp.o
+
+.PHONY : AdvancedSFINAErevisited.o
+
+# target to build an object file
+AdvancedSFINAErevisited.cpp.o:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited.dir/build.make CMakeFiles/AdvancedSFINAErevisited.dir/AdvancedSFINAErevisited.cpp.o
+.PHONY : AdvancedSFINAErevisited.cpp.o
+
+AdvancedSFINAErevisited.i: AdvancedSFINAErevisited.cpp.i
+
+.PHONY : AdvancedSFINAErevisited.i
+
+# target to preprocess a source file
+AdvancedSFINAErevisited.cpp.i:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited.dir/build.make CMakeFiles/AdvancedSFINAErevisited.dir/AdvancedSFINAErevisited.cpp.i
+.PHONY : AdvancedSFINAErevisited.cpp.i
+
+AdvancedSFINAErevisited.s: AdvancedSFINAErevisited.cpp.s
+
+.PHONY : AdvancedSFINAErevisited.s
+
+# target to generate assembly for a file
+AdvancedSFINAErevisited.cpp.s:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited.dir/build.make CMakeFiles/AdvancedSFINAErevisited.dir/AdvancedSFINAErevisited.cpp.s
+.PHONY : AdvancedSFINAErevisited.cpp.s
+
+AdvancedSFINAErevisited2.o: AdvancedSFINAErevisited2.cpp.o
+
+.PHONY : AdvancedSFINAErevisited2.o
+
+# target to build an object file
+AdvancedSFINAErevisited2.cpp.o:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited2.dir/build.make CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.o
+.PHONY : AdvancedSFINAErevisited2.cpp.o
+
+AdvancedSFINAErevisited2.i: AdvancedSFINAErevisited2.cpp.i
+
+.PHONY : AdvancedSFINAErevisited2.i
+
+# target to preprocess a source file
+AdvancedSFINAErevisited2.cpp.i:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited2.dir/build.make CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.i
+.PHONY : AdvancedSFINAErevisited2.cpp.i
+
+AdvancedSFINAErevisited2.s: AdvancedSFINAErevisited2.cpp.s
+
+.PHONY : AdvancedSFINAErevisited2.s
+
+# target to generate assembly for a file
+AdvancedSFINAErevisited2.cpp.s:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited2.dir/build.make CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.s
+.PHONY : AdvancedSFINAErevisited2.cpp.s
 
 BasicSFINAE.o: BasicSFINAE.cpp.o
 
@@ -589,6 +682,33 @@ TheOverheadOfTypeErasure.cpp.s:
 	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/TheOverheadOfTypeErasure.cpp.s
 .PHONY : TheOverheadOfTypeErasure.cpp.s
 
+TheUltimateSFINAE.o: TheUltimateSFINAE.cpp.o
+
+.PHONY : TheUltimateSFINAE.o
+
+# target to build an object file
+TheUltimateSFINAE.cpp.o:
+	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.o
+.PHONY : TheUltimateSFINAE.cpp.o
+
+TheUltimateSFINAE.i: TheUltimateSFINAE.cpp.i
+
+.PHONY : TheUltimateSFINAE.i
+
+# target to preprocess a source file
+TheUltimateSFINAE.cpp.i:
+	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.i
+.PHONY : TheUltimateSFINAE.cpp.i
+
+TheUltimateSFINAE.s: TheUltimateSFINAE.cpp.s
+
+.PHONY : TheUltimateSFINAE.s
+
+# target to generate assembly for a file
+TheUltimateSFINAE.cpp.s:
+	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.s
+.PHONY : TheUltimateSFINAE.cpp.s
+
 TypeErasureByExample.o: TypeErasureByExample.cpp.o
 
 .PHONY : TypeErasureByExample.o
@@ -678,12 +798,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... TheUltimateSFINAE"
 	@echo "... AdvancedSFINAE2"
 	@echo "... AdvancedSFINAE"
 	@echo "... BasicSFINAE"
 	@echo "... SFINAE"
+	@echo "... AdvancedSFINAErevisited"
 	@echo "... DesignPattern"
 	@echo "... TypeErasureinCpp"
+	@echo "... AdvancedSFINAErevisited2"
 	@echo "... CarefulImplementationOfRAIIobject"
 	@echo "... RAII_in_a_nutshell"
 	@echo "... TemplateFunctions"
@@ -698,6 +821,12 @@ help:
 	@echo "... AdvancedSFINAE2.o"
 	@echo "... AdvancedSFINAE2.i"
 	@echo "... AdvancedSFINAE2.s"
+	@echo "... AdvancedSFINAErevisited.o"
+	@echo "... AdvancedSFINAErevisited.i"
+	@echo "... AdvancedSFINAErevisited.s"
+	@echo "... AdvancedSFINAErevisited2.o"
+	@echo "... AdvancedSFINAErevisited2.i"
+	@echo "... AdvancedSFINAErevisited2.s"
 	@echo "... BasicSFINAE.o"
 	@echo "... BasicSFINAE.i"
 	@echo "... BasicSFINAE.s"
@@ -725,6 +854,9 @@ help:
 	@echo "... TheOverheadOfTypeErasure.o"
 	@echo "... TheOverheadOfTypeErasure.i"
 	@echo "... TheOverheadOfTypeErasure.s"
+	@echo "... TheUltimateSFINAE.o"
+	@echo "... TheUltimateSFINAE.i"
+	@echo "... TheUltimateSFINAE.s"
 	@echo "... TypeErasureByExample.o"
 	@echo "... TypeErasureByExample.i"
 	@echo "... TypeErasureByExample.s"

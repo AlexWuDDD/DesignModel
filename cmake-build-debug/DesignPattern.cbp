@@ -37,6 +37,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TheUltimateSFINAE">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/TheUltimateSFINAE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 TheUltimateSFINAE"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TheUltimateSFINAE/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/TheUltimateSFINAE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 TheUltimateSFINAE/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="AdvancedSFINAE2">
 				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/AdvancedSFINAE2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
@@ -213,6 +257,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="AdvancedSFINAErevisited">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/AdvancedSFINAErevisited" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSFINAErevisited"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AdvancedSFINAErevisited/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/AdvancedSFINAErevisited" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSFINAErevisited/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="DesignPattern">
 				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/DesignPattern" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
@@ -296,6 +384,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 TypeErasureinCpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AdvancedSFINAErevisited2">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/AdvancedSFINAErevisited2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSFINAErevisited2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AdvancedSFINAErevisited2/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/AdvancedSFINAErevisited2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSFINAErevisited2/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -660,6 +792,12 @@
 		<Unit filename="/Users/wualex/Documents/DesignPattern/AdvancedSFINAE2.cpp">
 			<Option target="AdvancedSFINAE2"/>
 		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/AdvancedSFINAErevisited.cpp">
+			<Option target="AdvancedSFINAErevisited"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/AdvancedSFINAErevisited2.cpp">
+			<Option target="AdvancedSFINAErevisited2"/>
+		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/BasicSFINAE.cpp">
 			<Option target="BasicSFINAE"/>
 		</Unit>
@@ -686,6 +824,9 @@
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/TheOverheadOfTypeErasure.cpp">
 			<Option target="TheOverheadOfTypeErasure"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/TheUltimateSFINAE.cpp">
+			<Option target="TheUltimateSFINAE"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/TypeErasureByExample.cpp">
 			<Option target="TypeErasureByExample"/>

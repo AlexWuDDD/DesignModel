@@ -111,6 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named AdvancedSFINAErevisited
+
+# Build rule for target.
+AdvancedSFINAErevisited: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AdvancedSFINAErevisited
+.PHONY : AdvancedSFINAErevisited
+
+# fast build rule for target.
+AdvancedSFINAErevisited/fast:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited.dir/build.make CMakeFiles/AdvancedSFINAErevisited.dir/build
+.PHONY : AdvancedSFINAErevisited/fast
+
+#=============================================================================
+# Target rules for targets named IntroducingCRTP
+
+# Build rule for target.
+IntroducingCRTP: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 IntroducingCRTP
+.PHONY : IntroducingCRTP
+
+# fast build rule for target.
+IntroducingCRTP/fast:
+	$(MAKE) -f CMakeFiles/IntroducingCRTP.dir/build.make CMakeFiles/IntroducingCRTP.dir/build
+.PHONY : IntroducingCRTP/fast
+
+#=============================================================================
+# Target rules for targets named CRTPandAccessControl
+
+# Build rule for target.
+CRTPandAccessControl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CRTPandAccessControl
+.PHONY : CRTPandAccessControl
+
+# fast build rule for target.
+CRTPandAccessControl/fast:
+	$(MAKE) -f CMakeFiles/CRTPandAccessControl.dir/build.make CMakeFiles/CRTPandAccessControl.dir/build
+.PHONY : CRTPandAccessControl/fast
+
+#=============================================================================
+# Target rules for targets named DesignPattern
+
+# Build rule for target.
+DesignPattern: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DesignPattern
+.PHONY : DesignPattern
+
+# fast build rule for target.
+DesignPattern/fast:
+	$(MAKE) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/build
+.PHONY : DesignPattern/fast
+
+#=============================================================================
+# Target rules for targets named CompileTimePolymorphism
+
+# Build rule for target.
+CompileTimePolymorphism: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CompileTimePolymorphism
+.PHONY : CompileTimePolymorphism
+
+# fast build rule for target.
+CompileTimePolymorphism/fast:
+	$(MAKE) -f CMakeFiles/CompileTimePolymorphism.dir/build.make CMakeFiles/CompileTimePolymorphism.dir/build
+.PHONY : CompileTimePolymorphism/fast
+
+#=============================================================================
+# Target rules for targets named WhatIsWringWithAVirtualFunction
+
+# Build rule for target.
+WhatIsWringWithAVirtualFunction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WhatIsWringWithAVirtualFunction
+.PHONY : WhatIsWringWithAVirtualFunction
+
+# fast build rule for target.
+WhatIsWringWithAVirtualFunction/fast:
+	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build
+.PHONY : WhatIsWringWithAVirtualFunction/fast
+
+#=============================================================================
 # Target rules for targets named TheUltimateSFINAE
 
 # Build rule for target.
@@ -137,6 +215,19 @@ AdvancedSFINAE2/fast:
 .PHONY : AdvancedSFINAE2/fast
 
 #=============================================================================
+# Target rules for targets named BasicSFINAE
+
+# Build rule for target.
+BasicSFINAE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BasicSFINAE
+.PHONY : BasicSFINAE
+
+# fast build rule for target.
+BasicSFINAE/fast:
+	$(MAKE) -f CMakeFiles/BasicSFINAE.dir/build.make CMakeFiles/BasicSFINAE.dir/build
+.PHONY : BasicSFINAE/fast
+
+#=============================================================================
 # Target rules for targets named AdvancedSFINAE
 
 # Build rule for target.
@@ -150,17 +241,17 @@ AdvancedSFINAE/fast:
 .PHONY : AdvancedSFINAE/fast
 
 #=============================================================================
-# Target rules for targets named BasicSFINAE
+# Target rules for targets named ExpandingTheInterface
 
 # Build rule for target.
-BasicSFINAE: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BasicSFINAE
-.PHONY : BasicSFINAE
+ExpandingTheInterface: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ExpandingTheInterface
+.PHONY : ExpandingTheInterface
 
 # fast build rule for target.
-BasicSFINAE/fast:
-	$(MAKE) -f CMakeFiles/BasicSFINAE.dir/build.make CMakeFiles/BasicSFINAE.dir/build
-.PHONY : BasicSFINAE/fast
+ExpandingTheInterface/fast:
+	$(MAKE) -f CMakeFiles/ExpandingTheInterface.dir/build.make CMakeFiles/ExpandingTheInterface.dir/build
+.PHONY : ExpandingTheInterface/fast
 
 #=============================================================================
 # Target rules for targets named SFINAE
@@ -176,30 +267,17 @@ SFINAE/fast:
 .PHONY : SFINAE/fast
 
 #=============================================================================
-# Target rules for targets named AdvancedSFINAErevisited
+# Target rules for targets named TheOverheadOfTypeErasure
 
 # Build rule for target.
-AdvancedSFINAErevisited: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 AdvancedSFINAErevisited
-.PHONY : AdvancedSFINAErevisited
+TheOverheadOfTypeErasure: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TheOverheadOfTypeErasure
+.PHONY : TheOverheadOfTypeErasure
 
 # fast build rule for target.
-AdvancedSFINAErevisited/fast:
-	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited.dir/build.make CMakeFiles/AdvancedSFINAErevisited.dir/build
-.PHONY : AdvancedSFINAErevisited/fast
-
-#=============================================================================
-# Target rules for targets named DesignPattern
-
-# Build rule for target.
-DesignPattern: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DesignPattern
-.PHONY : DesignPattern
-
-# fast build rule for target.
-DesignPattern/fast:
-	$(MAKE) -f CMakeFiles/DesignPattern.dir/build.make CMakeFiles/DesignPattern.dir/build
-.PHONY : DesignPattern/fast
+TheOverheadOfTypeErasure/fast:
+	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/build
+.PHONY : TheOverheadOfTypeErasure/fast
 
 #=============================================================================
 # Target rules for targets named TypeErasureinCpp
@@ -265,19 +343,6 @@ TemplateFunctions: cmake_check_build_system
 TemplateFunctions/fast:
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/build
 .PHONY : TemplateFunctions/fast
-
-#=============================================================================
-# Target rules for targets named TheOverheadOfTypeErasure
-
-# Build rule for target.
-TheOverheadOfTypeErasure: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TheOverheadOfTypeErasure
-.PHONY : TheOverheadOfTypeErasure
-
-# fast build rule for target.
-TheOverheadOfTypeErasure/fast:
-	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/build
-.PHONY : TheOverheadOfTypeErasure/fast
 
 #=============================================================================
 # Target rules for targets named TypeErasureByExample
@@ -466,6 +531,33 @@ BasicSFINAE.cpp.s:
 	$(MAKE) -f CMakeFiles/BasicSFINAE.dir/build.make CMakeFiles/BasicSFINAE.dir/BasicSFINAE.cpp.s
 .PHONY : BasicSFINAE.cpp.s
 
+CRTPandAccessControl.o: CRTPandAccessControl.cpp.o
+
+.PHONY : CRTPandAccessControl.o
+
+# target to build an object file
+CRTPandAccessControl.cpp.o:
+	$(MAKE) -f CMakeFiles/CRTPandAccessControl.dir/build.make CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.o
+.PHONY : CRTPandAccessControl.cpp.o
+
+CRTPandAccessControl.i: CRTPandAccessControl.cpp.i
+
+.PHONY : CRTPandAccessControl.i
+
+# target to preprocess a source file
+CRTPandAccessControl.cpp.i:
+	$(MAKE) -f CMakeFiles/CRTPandAccessControl.dir/build.make CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.i
+.PHONY : CRTPandAccessControl.cpp.i
+
+CRTPandAccessControl.s: CRTPandAccessControl.cpp.s
+
+.PHONY : CRTPandAccessControl.s
+
+# target to generate assembly for a file
+CRTPandAccessControl.cpp.s:
+	$(MAKE) -f CMakeFiles/CRTPandAccessControl.dir/build.make CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.s
+.PHONY : CRTPandAccessControl.cpp.s
+
 CarefulImplementationOfRAIIobject.o: CarefulImplementationOfRAIIobject.cpp.o
 
 .PHONY : CarefulImplementationOfRAIIobject.o
@@ -493,6 +585,33 @@ CarefulImplementationOfRAIIobject.cpp.s:
 	$(MAKE) -f CMakeFiles/CarefulImplementationOfRAIIobject.dir/build.make CMakeFiles/CarefulImplementationOfRAIIobject.dir/CarefulImplementationOfRAIIobject.cpp.s
 .PHONY : CarefulImplementationOfRAIIobject.cpp.s
 
+CompileTimePolymorphism.o: CompileTimePolymorphism.cpp.o
+
+.PHONY : CompileTimePolymorphism.o
+
+# target to build an object file
+CompileTimePolymorphism.cpp.o:
+	$(MAKE) -f CMakeFiles/CompileTimePolymorphism.dir/build.make CMakeFiles/CompileTimePolymorphism.dir/CompileTimePolymorphism.cpp.o
+.PHONY : CompileTimePolymorphism.cpp.o
+
+CompileTimePolymorphism.i: CompileTimePolymorphism.cpp.i
+
+.PHONY : CompileTimePolymorphism.i
+
+# target to preprocess a source file
+CompileTimePolymorphism.cpp.i:
+	$(MAKE) -f CMakeFiles/CompileTimePolymorphism.dir/build.make CMakeFiles/CompileTimePolymorphism.dir/CompileTimePolymorphism.cpp.i
+.PHONY : CompileTimePolymorphism.cpp.i
+
+CompileTimePolymorphism.s: CompileTimePolymorphism.cpp.s
+
+.PHONY : CompileTimePolymorphism.s
+
+# target to generate assembly for a file
+CompileTimePolymorphism.cpp.s:
+	$(MAKE) -f CMakeFiles/CompileTimePolymorphism.dir/build.make CMakeFiles/CompileTimePolymorphism.dir/CompileTimePolymorphism.cpp.s
+.PHONY : CompileTimePolymorphism.cpp.s
+
 CountingResources.o: CountingResources.cpp.o
 
 .PHONY : CountingResources.o
@@ -519,6 +638,60 @@ CountingResources.s: CountingResources.cpp.s
 CountingResources.cpp.s:
 	$(MAKE) -f CMakeFiles/CountingResources.dir/build.make CMakeFiles/CountingResources.dir/CountingResources.cpp.s
 .PHONY : CountingResources.cpp.s
+
+ExpandingTheInterface.o: ExpandingTheInterface.cpp.o
+
+.PHONY : ExpandingTheInterface.o
+
+# target to build an object file
+ExpandingTheInterface.cpp.o:
+	$(MAKE) -f CMakeFiles/ExpandingTheInterface.dir/build.make CMakeFiles/ExpandingTheInterface.dir/ExpandingTheInterface.cpp.o
+.PHONY : ExpandingTheInterface.cpp.o
+
+ExpandingTheInterface.i: ExpandingTheInterface.cpp.i
+
+.PHONY : ExpandingTheInterface.i
+
+# target to preprocess a source file
+ExpandingTheInterface.cpp.i:
+	$(MAKE) -f CMakeFiles/ExpandingTheInterface.dir/build.make CMakeFiles/ExpandingTheInterface.dir/ExpandingTheInterface.cpp.i
+.PHONY : ExpandingTheInterface.cpp.i
+
+ExpandingTheInterface.s: ExpandingTheInterface.cpp.s
+
+.PHONY : ExpandingTheInterface.s
+
+# target to generate assembly for a file
+ExpandingTheInterface.cpp.s:
+	$(MAKE) -f CMakeFiles/ExpandingTheInterface.dir/build.make CMakeFiles/ExpandingTheInterface.dir/ExpandingTheInterface.cpp.s
+.PHONY : ExpandingTheInterface.cpp.s
+
+IntroducingCRTP.o: IntroducingCRTP.cpp.o
+
+.PHONY : IntroducingCRTP.o
+
+# target to build an object file
+IntroducingCRTP.cpp.o:
+	$(MAKE) -f CMakeFiles/IntroducingCRTP.dir/build.make CMakeFiles/IntroducingCRTP.dir/IntroducingCRTP.cpp.o
+.PHONY : IntroducingCRTP.cpp.o
+
+IntroducingCRTP.i: IntroducingCRTP.cpp.i
+
+.PHONY : IntroducingCRTP.i
+
+# target to preprocess a source file
+IntroducingCRTP.cpp.i:
+	$(MAKE) -f CMakeFiles/IntroducingCRTP.dir/build.make CMakeFiles/IntroducingCRTP.dir/IntroducingCRTP.cpp.i
+.PHONY : IntroducingCRTP.cpp.i
+
+IntroducingCRTP.s: IntroducingCRTP.cpp.s
+
+.PHONY : IntroducingCRTP.s
+
+# target to generate assembly for a file
+IntroducingCRTP.cpp.s:
+	$(MAKE) -f CMakeFiles/IntroducingCRTP.dir/build.make CMakeFiles/IntroducingCRTP.dir/IntroducingCRTP.cpp.s
+.PHONY : IntroducingCRTP.cpp.s
 
 RAII_for_other_resources.o: RAII_for_other_resources.cpp.o
 
@@ -763,6 +936,33 @@ TypeErasureinCpp.cpp.s:
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.s
 .PHONY : TypeErasureinCpp.cpp.s
 
+WhatIsWringWithAVirtualFunction.o: WhatIsWringWithAVirtualFunction.cpp.o
+
+.PHONY : WhatIsWringWithAVirtualFunction.o
+
+# target to build an object file
+WhatIsWringWithAVirtualFunction.cpp.o:
+	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/WhatIsWringWithAVirtualFunction.cpp.o
+.PHONY : WhatIsWringWithAVirtualFunction.cpp.o
+
+WhatIsWringWithAVirtualFunction.i: WhatIsWringWithAVirtualFunction.cpp.i
+
+.PHONY : WhatIsWringWithAVirtualFunction.i
+
+# target to preprocess a source file
+WhatIsWringWithAVirtualFunction.cpp.i:
+	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/WhatIsWringWithAVirtualFunction.cpp.i
+.PHONY : WhatIsWringWithAVirtualFunction.cpp.i
+
+WhatIsWringWithAVirtualFunction.s: WhatIsWringWithAVirtualFunction.cpp.s
+
+.PHONY : WhatIsWringWithAVirtualFunction.s
+
+# target to generate assembly for a file
+WhatIsWringWithAVirtualFunction.cpp.s:
+	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/WhatIsWringWithAVirtualFunction.cpp.s
+.PHONY : WhatIsWringWithAVirtualFunction.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -797,20 +997,25 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... AdvancedSFINAErevisited"
 	@echo "... edit_cache"
+	@echo "... IntroducingCRTP"
+	@echo "... CRTPandAccessControl"
+	@echo "... DesignPattern"
+	@echo "... CompileTimePolymorphism"
+	@echo "... WhatIsWringWithAVirtualFunction"
 	@echo "... TheUltimateSFINAE"
 	@echo "... AdvancedSFINAE2"
-	@echo "... AdvancedSFINAE"
 	@echo "... BasicSFINAE"
+	@echo "... AdvancedSFINAE"
+	@echo "... ExpandingTheInterface"
 	@echo "... SFINAE"
-	@echo "... AdvancedSFINAErevisited"
-	@echo "... DesignPattern"
+	@echo "... TheOverheadOfTypeErasure"
 	@echo "... TypeErasureinCpp"
 	@echo "... AdvancedSFINAErevisited2"
 	@echo "... CarefulImplementationOfRAIIobject"
 	@echo "... RAII_in_a_nutshell"
 	@echo "... TemplateFunctions"
-	@echo "... TheOverheadOfTypeErasure"
 	@echo "... TypeErasureByExample"
 	@echo "... RAII_for_other_resources"
 	@echo "... CountingResources"
@@ -830,12 +1035,24 @@ help:
 	@echo "... BasicSFINAE.o"
 	@echo "... BasicSFINAE.i"
 	@echo "... BasicSFINAE.s"
+	@echo "... CRTPandAccessControl.o"
+	@echo "... CRTPandAccessControl.i"
+	@echo "... CRTPandAccessControl.s"
 	@echo "... CarefulImplementationOfRAIIobject.o"
 	@echo "... CarefulImplementationOfRAIIobject.i"
 	@echo "... CarefulImplementationOfRAIIobject.s"
+	@echo "... CompileTimePolymorphism.o"
+	@echo "... CompileTimePolymorphism.i"
+	@echo "... CompileTimePolymorphism.s"
 	@echo "... CountingResources.o"
 	@echo "... CountingResources.i"
 	@echo "... CountingResources.s"
+	@echo "... ExpandingTheInterface.o"
+	@echo "... ExpandingTheInterface.i"
+	@echo "... ExpandingTheInterface.s"
+	@echo "... IntroducingCRTP.o"
+	@echo "... IntroducingCRTP.i"
+	@echo "... IntroducingCRTP.s"
 	@echo "... RAII_for_other_resources.o"
 	@echo "... RAII_for_other_resources.i"
 	@echo "... RAII_for_other_resources.s"
@@ -863,6 +1080,9 @@ help:
 	@echo "... TypeErasureinCpp.o"
 	@echo "... TypeErasureinCpp.i"
 	@echo "... TypeErasureinCpp.s"
+	@echo "... WhatIsWringWithAVirtualFunction.o"
+	@echo "... WhatIsWringWithAVirtualFunction.i"
+	@echo "... WhatIsWringWithAVirtualFunction.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -39,3 +39,14 @@ add_executable(AdvancedSFINAE2 AdvancedSFINAE2.cpp)
 add_executable(AdvancedSFINAErevisited AdvancedSFINAErevisited.cpp)
 add_executable(AdvancedSFINAErevisited2 AdvancedSFINAErevisited2.cpp)
 add_executable(TheUltimateSFINAE TheUltimateSFINAE.cpp)
+
+add_executable(WhatIsWringWithAVirtualFunction WhatIsWringWithAVirtualFunction.cpp)
+target_link_libraries(WhatIsWringWithAVirtualFunction benchmark)
+
+add_executable(IntroducingCRTP IntroducingCRTP.cpp)
+target_link_libraries(IntroducingCRTP benchmark)
+
+add_executable(CompileTimePolymorphism CompileTimePolymorphism.cpp)
+add_executable(CRTPandAccessControl CRTPandAccessControl.cpp)
+
+add_executable(ExpandingTheInterface ExpandingTheInterface.cpp)

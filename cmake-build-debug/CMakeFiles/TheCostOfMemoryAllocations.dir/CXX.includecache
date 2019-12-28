@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wualex/Documents/DesignPattern/TheCostOfMemoryAllocations.cpp
+benchmark/benchmark.h
+/Users/wualex/Documents/DesignPattern/benchmark/benchmark.h
+stdlib.h
+-
+unistd.h
+-
+vector
+-
+

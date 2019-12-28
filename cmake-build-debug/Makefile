@@ -111,17 +111,69 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named AdvancedSFINAErevisited
+# Target rules for targets named MethodChainingInClassHierarchies2
 
 # Build rule for target.
-AdvancedSFINAErevisited: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 AdvancedSFINAErevisited
-.PHONY : AdvancedSFINAErevisited
+MethodChainingInClassHierarchies2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MethodChainingInClassHierarchies2
+.PHONY : MethodChainingInClassHierarchies2
 
 # fast build rule for target.
-AdvancedSFINAErevisited/fast:
-	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited.dir/build.make CMakeFiles/AdvancedSFINAErevisited.dir/build
-.PHONY : AdvancedSFINAErevisited/fast
+MethodChainingInClassHierarchies2/fast:
+	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies2.dir/build.make CMakeFiles/MethodChainingInClassHierarchies2.dir/build
+.PHONY : MethodChainingInClassHierarchies2/fast
+
+#=============================================================================
+# Target rules for targets named GeneralMethodChaining
+
+# Build rule for target.
+GeneralMethodChaining: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GeneralMethodChaining
+.PHONY : GeneralMethodChaining
+
+# fast build rule for target.
+GeneralMethodChaining/fast:
+	$(MAKE) -f CMakeFiles/GeneralMethodChaining.dir/build.make CMakeFiles/GeneralMethodChaining.dir/build
+.PHONY : GeneralMethodChaining/fast
+
+#=============================================================================
+# Target rules for targets named MethodChainingAndNamedArguments
+
+# Build rule for target.
+MethodChainingAndNamedArguments: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MethodChainingAndNamedArguments
+.PHONY : MethodChainingAndNamedArguments
+
+# fast build rule for target.
+MethodChainingAndNamedArguments/fast:
+	$(MAKE) -f CMakeFiles/MethodChainingAndNamedArguments.dir/build.make CMakeFiles/MethodChainingAndNamedArguments.dir/build
+.PHONY : MethodChainingAndNamedArguments/fast
+
+#=============================================================================
+# Target rules for targets named SFINAE
+
+# Build rule for target.
+SFINAE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SFINAE
+.PHONY : SFINAE
+
+# fast build rule for target.
+SFINAE/fast:
+	$(MAKE) -f CMakeFiles/SFINAE.dir/build.make CMakeFiles/SFINAE.dir/build
+.PHONY : SFINAE/fast
+
+#=============================================================================
+# Target rules for targets named MethodChaining
+
+# Build rule for target.
+MethodChaining: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MethodChaining
+.PHONY : MethodChaining
+
+# fast build rule for target.
+MethodChaining/fast:
+	$(MAKE) -f CMakeFiles/MethodChaining.dir/build.make CMakeFiles/MethodChaining.dir/build
+.PHONY : MethodChaining/fast
 
 #=============================================================================
 # Target rules for targets named IntroducingCRTP
@@ -189,6 +241,19 @@ WhatIsWringWithAVirtualFunction/fast:
 .PHONY : WhatIsWringWithAVirtualFunction/fast
 
 #=============================================================================
+# Target rules for targets named MethodChainingInClassHierarchies
+
+# Build rule for target.
+MethodChainingInClassHierarchies: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MethodChainingInClassHierarchies
+.PHONY : MethodChainingInClassHierarchies
+
+# fast build rule for target.
+MethodChainingInClassHierarchies/fast:
+	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies.dir/build.make CMakeFiles/MethodChainingInClassHierarchies.dir/build
+.PHONY : MethodChainingInClassHierarchies/fast
+
+#=============================================================================
 # Target rules for targets named TheUltimateSFINAE
 
 # Build rule for target.
@@ -254,17 +319,30 @@ ExpandingTheInterface/fast:
 .PHONY : ExpandingTheInterface/fast
 
 #=============================================================================
-# Target rules for targets named SFINAE
+# Target rules for targets named AdvancedSFINAErevisited
 
 # Build rule for target.
-SFINAE: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 SFINAE
-.PHONY : SFINAE
+AdvancedSFINAErevisited: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AdvancedSFINAErevisited
+.PHONY : AdvancedSFINAErevisited
 
 # fast build rule for target.
-SFINAE/fast:
-	$(MAKE) -f CMakeFiles/SFINAE.dir/build.make CMakeFiles/SFINAE.dir/build
-.PHONY : SFINAE/fast
+AdvancedSFINAErevisited/fast:
+	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited.dir/build.make CMakeFiles/AdvancedSFINAErevisited.dir/build
+.PHONY : AdvancedSFINAErevisited/fast
+
+#=============================================================================
+# Target rules for targets named EffectOfLocalbufferOptimization
+
+# Build rule for target.
+EffectOfLocalbufferOptimization: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 EffectOfLocalbufferOptimization
+.PHONY : EffectOfLocalbufferOptimization
+
+# fast build rule for target.
+EffectOfLocalbufferOptimization/fast:
+	$(MAKE) -f CMakeFiles/EffectOfLocalbufferOptimization.dir/build.make CMakeFiles/EffectOfLocalbufferOptimization.dir/build
+.PHONY : EffectOfLocalbufferOptimization/fast
 
 #=============================================================================
 # Target rules for targets named TheOverheadOfTypeErasure
@@ -319,6 +397,19 @@ CarefulImplementationOfRAIIobject/fast:
 .PHONY : CarefulImplementationOfRAIIobject/fast
 
 #=============================================================================
+# Target rules for targets named PerformanceOfTheNamedArgumentsIdiom
+
+# Build rule for target.
+PerformanceOfTheNamedArgumentsIdiom: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PerformanceOfTheNamedArgumentsIdiom
+.PHONY : PerformanceOfTheNamedArgumentsIdiom
+
+# fast build rule for target.
+PerformanceOfTheNamedArgumentsIdiom/fast:
+	$(MAKE) -f CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build.make CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build
+.PHONY : PerformanceOfTheNamedArgumentsIdiom/fast
+
+#=============================================================================
 # Target rules for targets named RAII_in_a_nutshell
 
 # Build rule for target.
@@ -343,6 +434,19 @@ TemplateFunctions: cmake_check_build_system
 TemplateFunctions/fast:
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/build
 .PHONY : TemplateFunctions/fast
+
+#=============================================================================
+# Target rules for targets named TheCostOfMemoryAllocations
+
+# Build rule for target.
+TheCostOfMemoryAllocations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TheCostOfMemoryAllocations
+.PHONY : TheCostOfMemoryAllocations
+
+# fast build rule for target.
+TheCostOfMemoryAllocations/fast:
+	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/build
+.PHONY : TheCostOfMemoryAllocations/fast
 
 #=============================================================================
 # Target rules for targets named TypeErasureByExample
@@ -639,6 +743,33 @@ CountingResources.cpp.s:
 	$(MAKE) -f CMakeFiles/CountingResources.dir/build.make CMakeFiles/CountingResources.dir/CountingResources.cpp.s
 .PHONY : CountingResources.cpp.s
 
+EffectOfLocalbufferOptimization.o: EffectOfLocalbufferOptimization.cpp.o
+
+.PHONY : EffectOfLocalbufferOptimization.o
+
+# target to build an object file
+EffectOfLocalbufferOptimization.cpp.o:
+	$(MAKE) -f CMakeFiles/EffectOfLocalbufferOptimization.dir/build.make CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.o
+.PHONY : EffectOfLocalbufferOptimization.cpp.o
+
+EffectOfLocalbufferOptimization.i: EffectOfLocalbufferOptimization.cpp.i
+
+.PHONY : EffectOfLocalbufferOptimization.i
+
+# target to preprocess a source file
+EffectOfLocalbufferOptimization.cpp.i:
+	$(MAKE) -f CMakeFiles/EffectOfLocalbufferOptimization.dir/build.make CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.i
+.PHONY : EffectOfLocalbufferOptimization.cpp.i
+
+EffectOfLocalbufferOptimization.s: EffectOfLocalbufferOptimization.cpp.s
+
+.PHONY : EffectOfLocalbufferOptimization.s
+
+# target to generate assembly for a file
+EffectOfLocalbufferOptimization.cpp.s:
+	$(MAKE) -f CMakeFiles/EffectOfLocalbufferOptimization.dir/build.make CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.s
+.PHONY : EffectOfLocalbufferOptimization.cpp.s
+
 ExpandingTheInterface.o: ExpandingTheInterface.cpp.o
 
 .PHONY : ExpandingTheInterface.o
@@ -666,6 +797,33 @@ ExpandingTheInterface.cpp.s:
 	$(MAKE) -f CMakeFiles/ExpandingTheInterface.dir/build.make CMakeFiles/ExpandingTheInterface.dir/ExpandingTheInterface.cpp.s
 .PHONY : ExpandingTheInterface.cpp.s
 
+GeneralMethodChaining.o: GeneralMethodChaining.cpp.o
+
+.PHONY : GeneralMethodChaining.o
+
+# target to build an object file
+GeneralMethodChaining.cpp.o:
+	$(MAKE) -f CMakeFiles/GeneralMethodChaining.dir/build.make CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.o
+.PHONY : GeneralMethodChaining.cpp.o
+
+GeneralMethodChaining.i: GeneralMethodChaining.cpp.i
+
+.PHONY : GeneralMethodChaining.i
+
+# target to preprocess a source file
+GeneralMethodChaining.cpp.i:
+	$(MAKE) -f CMakeFiles/GeneralMethodChaining.dir/build.make CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.i
+.PHONY : GeneralMethodChaining.cpp.i
+
+GeneralMethodChaining.s: GeneralMethodChaining.cpp.s
+
+.PHONY : GeneralMethodChaining.s
+
+# target to generate assembly for a file
+GeneralMethodChaining.cpp.s:
+	$(MAKE) -f CMakeFiles/GeneralMethodChaining.dir/build.make CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.s
+.PHONY : GeneralMethodChaining.cpp.s
+
 IntroducingCRTP.o: IntroducingCRTP.cpp.o
 
 .PHONY : IntroducingCRTP.o
@@ -692,6 +850,141 @@ IntroducingCRTP.s: IntroducingCRTP.cpp.s
 IntroducingCRTP.cpp.s:
 	$(MAKE) -f CMakeFiles/IntroducingCRTP.dir/build.make CMakeFiles/IntroducingCRTP.dir/IntroducingCRTP.cpp.s
 .PHONY : IntroducingCRTP.cpp.s
+
+MethodChaining.o: MethodChaining.cpp.o
+
+.PHONY : MethodChaining.o
+
+# target to build an object file
+MethodChaining.cpp.o:
+	$(MAKE) -f CMakeFiles/MethodChaining.dir/build.make CMakeFiles/MethodChaining.dir/MethodChaining.cpp.o
+.PHONY : MethodChaining.cpp.o
+
+MethodChaining.i: MethodChaining.cpp.i
+
+.PHONY : MethodChaining.i
+
+# target to preprocess a source file
+MethodChaining.cpp.i:
+	$(MAKE) -f CMakeFiles/MethodChaining.dir/build.make CMakeFiles/MethodChaining.dir/MethodChaining.cpp.i
+.PHONY : MethodChaining.cpp.i
+
+MethodChaining.s: MethodChaining.cpp.s
+
+.PHONY : MethodChaining.s
+
+# target to generate assembly for a file
+MethodChaining.cpp.s:
+	$(MAKE) -f CMakeFiles/MethodChaining.dir/build.make CMakeFiles/MethodChaining.dir/MethodChaining.cpp.s
+.PHONY : MethodChaining.cpp.s
+
+MethodChainingAndNamedArguments.o: MethodChainingAndNamedArguments.cpp.o
+
+.PHONY : MethodChainingAndNamedArguments.o
+
+# target to build an object file
+MethodChainingAndNamedArguments.cpp.o:
+	$(MAKE) -f CMakeFiles/MethodChainingAndNamedArguments.dir/build.make CMakeFiles/MethodChainingAndNamedArguments.dir/MethodChainingAndNamedArguments.cpp.o
+.PHONY : MethodChainingAndNamedArguments.cpp.o
+
+MethodChainingAndNamedArguments.i: MethodChainingAndNamedArguments.cpp.i
+
+.PHONY : MethodChainingAndNamedArguments.i
+
+# target to preprocess a source file
+MethodChainingAndNamedArguments.cpp.i:
+	$(MAKE) -f CMakeFiles/MethodChainingAndNamedArguments.dir/build.make CMakeFiles/MethodChainingAndNamedArguments.dir/MethodChainingAndNamedArguments.cpp.i
+.PHONY : MethodChainingAndNamedArguments.cpp.i
+
+MethodChainingAndNamedArguments.s: MethodChainingAndNamedArguments.cpp.s
+
+.PHONY : MethodChainingAndNamedArguments.s
+
+# target to generate assembly for a file
+MethodChainingAndNamedArguments.cpp.s:
+	$(MAKE) -f CMakeFiles/MethodChainingAndNamedArguments.dir/build.make CMakeFiles/MethodChainingAndNamedArguments.dir/MethodChainingAndNamedArguments.cpp.s
+.PHONY : MethodChainingAndNamedArguments.cpp.s
+
+MethodChainingInClassHierarchies.o: MethodChainingInClassHierarchies.cpp.o
+
+.PHONY : MethodChainingInClassHierarchies.o
+
+# target to build an object file
+MethodChainingInClassHierarchies.cpp.o:
+	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies.dir/build.make CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.o
+.PHONY : MethodChainingInClassHierarchies.cpp.o
+
+MethodChainingInClassHierarchies.i: MethodChainingInClassHierarchies.cpp.i
+
+.PHONY : MethodChainingInClassHierarchies.i
+
+# target to preprocess a source file
+MethodChainingInClassHierarchies.cpp.i:
+	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies.dir/build.make CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.i
+.PHONY : MethodChainingInClassHierarchies.cpp.i
+
+MethodChainingInClassHierarchies.s: MethodChainingInClassHierarchies.cpp.s
+
+.PHONY : MethodChainingInClassHierarchies.s
+
+# target to generate assembly for a file
+MethodChainingInClassHierarchies.cpp.s:
+	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies.dir/build.make CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.s
+.PHONY : MethodChainingInClassHierarchies.cpp.s
+
+MethodChainingInClassHierarchies2.o: MethodChainingInClassHierarchies2.cpp.o
+
+.PHONY : MethodChainingInClassHierarchies2.o
+
+# target to build an object file
+MethodChainingInClassHierarchies2.cpp.o:
+	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies2.dir/build.make CMakeFiles/MethodChainingInClassHierarchies2.dir/MethodChainingInClassHierarchies2.cpp.o
+.PHONY : MethodChainingInClassHierarchies2.cpp.o
+
+MethodChainingInClassHierarchies2.i: MethodChainingInClassHierarchies2.cpp.i
+
+.PHONY : MethodChainingInClassHierarchies2.i
+
+# target to preprocess a source file
+MethodChainingInClassHierarchies2.cpp.i:
+	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies2.dir/build.make CMakeFiles/MethodChainingInClassHierarchies2.dir/MethodChainingInClassHierarchies2.cpp.i
+.PHONY : MethodChainingInClassHierarchies2.cpp.i
+
+MethodChainingInClassHierarchies2.s: MethodChainingInClassHierarchies2.cpp.s
+
+.PHONY : MethodChainingInClassHierarchies2.s
+
+# target to generate assembly for a file
+MethodChainingInClassHierarchies2.cpp.s:
+	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies2.dir/build.make CMakeFiles/MethodChainingInClassHierarchies2.dir/MethodChainingInClassHierarchies2.cpp.s
+.PHONY : MethodChainingInClassHierarchies2.cpp.s
+
+PerformanceOfTheNamedArgumentsIdiom.o: PerformanceOfTheNamedArgumentsIdiom.cpp.o
+
+.PHONY : PerformanceOfTheNamedArgumentsIdiom.o
+
+# target to build an object file
+PerformanceOfTheNamedArgumentsIdiom.cpp.o:
+	$(MAKE) -f CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build.make CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.o
+.PHONY : PerformanceOfTheNamedArgumentsIdiom.cpp.o
+
+PerformanceOfTheNamedArgumentsIdiom.i: PerformanceOfTheNamedArgumentsIdiom.cpp.i
+
+.PHONY : PerformanceOfTheNamedArgumentsIdiom.i
+
+# target to preprocess a source file
+PerformanceOfTheNamedArgumentsIdiom.cpp.i:
+	$(MAKE) -f CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build.make CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.i
+.PHONY : PerformanceOfTheNamedArgumentsIdiom.cpp.i
+
+PerformanceOfTheNamedArgumentsIdiom.s: PerformanceOfTheNamedArgumentsIdiom.cpp.s
+
+.PHONY : PerformanceOfTheNamedArgumentsIdiom.s
+
+# target to generate assembly for a file
+PerformanceOfTheNamedArgumentsIdiom.cpp.s:
+	$(MAKE) -f CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build.make CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.s
+.PHONY : PerformanceOfTheNamedArgumentsIdiom.cpp.s
 
 RAII_for_other_resources.o: RAII_for_other_resources.cpp.o
 
@@ -827,6 +1120,60 @@ TemplateFunctions.s: TemplateFunctions.cpp.s
 TemplateFunctions.cpp.s:
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.s
 .PHONY : TemplateFunctions.cpp.s
+
+TheCostOfMemoryAllocations.o: TheCostOfMemoryAllocations.cpp.o
+
+.PHONY : TheCostOfMemoryAllocations.o
+
+# target to build an object file
+TheCostOfMemoryAllocations.cpp.o:
+	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/TheCostOfMemoryAllocations.cpp.o
+.PHONY : TheCostOfMemoryAllocations.cpp.o
+
+TheCostOfMemoryAllocations.i: TheCostOfMemoryAllocations.cpp.i
+
+.PHONY : TheCostOfMemoryAllocations.i
+
+# target to preprocess a source file
+TheCostOfMemoryAllocations.cpp.i:
+	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/TheCostOfMemoryAllocations.cpp.i
+.PHONY : TheCostOfMemoryAllocations.cpp.i
+
+TheCostOfMemoryAllocations.s: TheCostOfMemoryAllocations.cpp.s
+
+.PHONY : TheCostOfMemoryAllocations.s
+
+# target to generate assembly for a file
+TheCostOfMemoryAllocations.cpp.s:
+	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/TheCostOfMemoryAllocations.cpp.s
+.PHONY : TheCostOfMemoryAllocations.cpp.s
+
+TheMainIdea.o: TheMainIdea.cpp.o
+
+.PHONY : TheMainIdea.o
+
+# target to build an object file
+TheMainIdea.cpp.o:
+	$(MAKE) -f CMakeFiles/EffectOfLocalbufferOptimization.dir/build.make CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.o
+.PHONY : TheMainIdea.cpp.o
+
+TheMainIdea.i: TheMainIdea.cpp.i
+
+.PHONY : TheMainIdea.i
+
+# target to preprocess a source file
+TheMainIdea.cpp.i:
+	$(MAKE) -f CMakeFiles/EffectOfLocalbufferOptimization.dir/build.make CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.i
+.PHONY : TheMainIdea.cpp.i
+
+TheMainIdea.s: TheMainIdea.cpp.s
+
+.PHONY : TheMainIdea.s
+
+# target to generate assembly for a file
+TheMainIdea.cpp.s:
+	$(MAKE) -f CMakeFiles/EffectOfLocalbufferOptimization.dir/build.make CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.s
+.PHONY : TheMainIdea.cpp.s
 
 TheOverheadOfTypeErasure.o: TheOverheadOfTypeErasure.cpp.o
 
@@ -997,25 +1344,33 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... AdvancedSFINAErevisited"
-	@echo "... edit_cache"
+	@echo "... MethodChainingInClassHierarchies2"
+	@echo "... GeneralMethodChaining"
+	@echo "... MethodChainingAndNamedArguments"
+	@echo "... SFINAE"
+	@echo "... MethodChaining"
 	@echo "... IntroducingCRTP"
 	@echo "... CRTPandAccessControl"
 	@echo "... DesignPattern"
 	@echo "... CompileTimePolymorphism"
 	@echo "... WhatIsWringWithAVirtualFunction"
+	@echo "... MethodChainingInClassHierarchies"
 	@echo "... TheUltimateSFINAE"
 	@echo "... AdvancedSFINAE2"
 	@echo "... BasicSFINAE"
 	@echo "... AdvancedSFINAE"
 	@echo "... ExpandingTheInterface"
-	@echo "... SFINAE"
+	@echo "... edit_cache"
+	@echo "... AdvancedSFINAErevisited"
+	@echo "... EffectOfLocalbufferOptimization"
 	@echo "... TheOverheadOfTypeErasure"
 	@echo "... TypeErasureinCpp"
 	@echo "... AdvancedSFINAErevisited2"
 	@echo "... CarefulImplementationOfRAIIobject"
+	@echo "... PerformanceOfTheNamedArgumentsIdiom"
 	@echo "... RAII_in_a_nutshell"
 	@echo "... TemplateFunctions"
+	@echo "... TheCostOfMemoryAllocations"
 	@echo "... TypeErasureByExample"
 	@echo "... RAII_for_other_resources"
 	@echo "... CountingResources"
@@ -1047,12 +1402,33 @@ help:
 	@echo "... CountingResources.o"
 	@echo "... CountingResources.i"
 	@echo "... CountingResources.s"
+	@echo "... EffectOfLocalbufferOptimization.o"
+	@echo "... EffectOfLocalbufferOptimization.i"
+	@echo "... EffectOfLocalbufferOptimization.s"
 	@echo "... ExpandingTheInterface.o"
 	@echo "... ExpandingTheInterface.i"
 	@echo "... ExpandingTheInterface.s"
+	@echo "... GeneralMethodChaining.o"
+	@echo "... GeneralMethodChaining.i"
+	@echo "... GeneralMethodChaining.s"
 	@echo "... IntroducingCRTP.o"
 	@echo "... IntroducingCRTP.i"
 	@echo "... IntroducingCRTP.s"
+	@echo "... MethodChaining.o"
+	@echo "... MethodChaining.i"
+	@echo "... MethodChaining.s"
+	@echo "... MethodChainingAndNamedArguments.o"
+	@echo "... MethodChainingAndNamedArguments.i"
+	@echo "... MethodChainingAndNamedArguments.s"
+	@echo "... MethodChainingInClassHierarchies.o"
+	@echo "... MethodChainingInClassHierarchies.i"
+	@echo "... MethodChainingInClassHierarchies.s"
+	@echo "... MethodChainingInClassHierarchies2.o"
+	@echo "... MethodChainingInClassHierarchies2.i"
+	@echo "... MethodChainingInClassHierarchies2.s"
+	@echo "... PerformanceOfTheNamedArgumentsIdiom.o"
+	@echo "... PerformanceOfTheNamedArgumentsIdiom.i"
+	@echo "... PerformanceOfTheNamedArgumentsIdiom.s"
 	@echo "... RAII_for_other_resources.o"
 	@echo "... RAII_for_other_resources.i"
 	@echo "... RAII_for_other_resources.s"
@@ -1068,6 +1444,12 @@ help:
 	@echo "... TemplateFunctions.o"
 	@echo "... TemplateFunctions.i"
 	@echo "... TemplateFunctions.s"
+	@echo "... TheCostOfMemoryAllocations.o"
+	@echo "... TheCostOfMemoryAllocations.i"
+	@echo "... TheCostOfMemoryAllocations.s"
+	@echo "... TheMainIdea.o"
+	@echo "... TheMainIdea.i"
+	@echo "... TheMainIdea.s"
 	@echo "... TheOverheadOfTypeErasure.o"
 	@echo "... TheOverheadOfTypeErasure.i"
 	@echo "... TheOverheadOfTypeErasure.s"

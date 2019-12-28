@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.15)
 project(DesignPattern)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_FLAG -g -O4 -Wall -Wextra -Werror -pedantic)
 
 include_directories(/usr/local/include)
 link_directories(/usr/local/lib)
@@ -50,3 +51,20 @@ add_executable(CompileTimePolymorphism CompileTimePolymorphism.cpp)
 add_executable(CRTPandAccessControl CRTPandAccessControl.cpp)
 
 add_executable(ExpandingTheInterface ExpandingTheInterface.cpp)
+
+add_executable(MethodChaining MethodChaining.cpp)
+add_executable(MethodChainingAndNamedArguments MethodChainingAndNamedArguments.cpp)
+
+add_executable(PerformanceOfTheNamedArgumentsIdiom PerformanceOfTheNamedArgumentsIdiom.cpp)
+target_link_libraries(PerformanceOfTheNamedArgumentsIdiom benchmark m)
+
+add_executable(GeneralMethodChaining GeneralMethodChaining.cpp)
+add_executable(MethodChainingInClassHierarchies MethodChainingInClassHierarchies.cpp)
+add_executable(MethodChainingInClassHierarchies2 MethodChainingInClassHierarchies2.cpp)
+
+add_executable(TheCostOfMemoryAllocations TheCostOfMemoryAllocations.cpp)
+target_link_libraries(TheCostOfMemoryAllocations benchmark pthread)
+
+add_executable(EffectOfLocalbufferOptimization
+        EffectOfLocalbufferOptimization.cpp TheMainIdea.cpp)
+target_link_libraries(EffectOfLocalbufferOptimization benchmark)

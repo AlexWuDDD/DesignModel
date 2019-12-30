@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wualex/Documents/DesignPattern/SmallVector.cpp
+cstdio
+-
+initializer_list
+-
+cstdlib
+-
+climits
+-
+benchmark/benchmark.h
+/Users/wualex/Documents/DesignPattern/benchmark/benchmark.h
+

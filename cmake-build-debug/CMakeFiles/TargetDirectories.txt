@@ -9,6 +9,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/DesignPattern.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CompileTimePolymorphism.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/WhatIsWringWithAVirtualFunction.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SmallVector.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE2.dir
@@ -17,6 +18,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ExpandingTheInterface.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/Type_erasedAndCallableObjects.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/EffectOfLocalbufferOptimization.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheOverheadOfTypeErasure.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir

@@ -63,6 +63,7 @@ all: CMakeFiles/CRTPandAccessControl.dir/all
 all: CMakeFiles/DesignPattern.dir/all
 all: CMakeFiles/CompileTimePolymorphism.dir/all
 all: CMakeFiles/WhatIsWringWithAVirtualFunction.dir/all
+all: CMakeFiles/SmallVector.dir/all
 all: CMakeFiles/MethodChainingInClassHierarchies.dir/all
 all: CMakeFiles/TheUltimateSFINAE.dir/all
 all: CMakeFiles/AdvancedSFINAE2.dir/all
@@ -70,6 +71,7 @@ all: CMakeFiles/BasicSFINAE.dir/all
 all: CMakeFiles/AdvancedSFINAE.dir/all
 all: CMakeFiles/ExpandingTheInterface.dir/all
 all: CMakeFiles/AdvancedSFINAErevisited.dir/all
+all: CMakeFiles/Type_erasedAndCallableObjects.dir/all
 all: CMakeFiles/EffectOfLocalbufferOptimization.dir/all
 all: CMakeFiles/TheOverheadOfTypeErasure.dir/all
 all: CMakeFiles/TypeErasureinCpp.dir/all
@@ -97,6 +99,7 @@ clean: CMakeFiles/CRTPandAccessControl.dir/clean
 clean: CMakeFiles/DesignPattern.dir/clean
 clean: CMakeFiles/CompileTimePolymorphism.dir/clean
 clean: CMakeFiles/WhatIsWringWithAVirtualFunction.dir/clean
+clean: CMakeFiles/SmallVector.dir/clean
 clean: CMakeFiles/MethodChainingInClassHierarchies.dir/clean
 clean: CMakeFiles/TheUltimateSFINAE.dir/clean
 clean: CMakeFiles/AdvancedSFINAE2.dir/clean
@@ -104,6 +107,7 @@ clean: CMakeFiles/BasicSFINAE.dir/clean
 clean: CMakeFiles/AdvancedSFINAE.dir/clean
 clean: CMakeFiles/ExpandingTheInterface.dir/clean
 clean: CMakeFiles/AdvancedSFINAErevisited.dir/clean
+clean: CMakeFiles/Type_erasedAndCallableObjects.dir/clean
 clean: CMakeFiles/EffectOfLocalbufferOptimization.dir/clean
 clean: CMakeFiles/TheOverheadOfTypeErasure.dir/clean
 clean: CMakeFiles/TypeErasureinCpp.dir/clean
@@ -375,7 +379,7 @@ CMakeFiles/CompileTimePolymorphism.dir/clean:
 CMakeFiles/WhatIsWringWithAVirtualFunction.dir/all:
 	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/depend
 	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target WhatIsWringWithAVirtualFunction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target WhatIsWringWithAVirtualFunction"
 .PHONY : CMakeFiles/WhatIsWringWithAVirtualFunction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -394,6 +398,33 @@ WhatIsWringWithAVirtualFunction: CMakeFiles/WhatIsWringWithAVirtualFunction.dir/
 CMakeFiles/WhatIsWringWithAVirtualFunction.dir/clean:
 	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/clean
 .PHONY : CMakeFiles/WhatIsWringWithAVirtualFunction.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SmallVector.dir
+
+# All Build rule for target.
+CMakeFiles/SmallVector.dir/all:
+	$(MAKE) -f CMakeFiles/SmallVector.dir/build.make CMakeFiles/SmallVector.dir/depend
+	$(MAKE) -f CMakeFiles/SmallVector.dir/build.make CMakeFiles/SmallVector.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target SmallVector"
+.PHONY : CMakeFiles/SmallVector.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SmallVector.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SmallVector.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/SmallVector.dir/rule
+
+# Convenience name for target.
+SmallVector: CMakeFiles/SmallVector.dir/rule
+
+.PHONY : SmallVector
+
+# clean rule for target.
+CMakeFiles/SmallVector.dir/clean:
+	$(MAKE) -f CMakeFiles/SmallVector.dir/build.make CMakeFiles/SmallVector.dir/clean
+.PHONY : CMakeFiles/SmallVector.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/MethodChainingInClassHierarchies.dir
@@ -429,7 +460,7 @@ CMakeFiles/MethodChainingInClassHierarchies.dir/clean:
 CMakeFiles/TheUltimateSFINAE.dir/all:
 	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/depend
 	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target TheUltimateSFINAE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target TheUltimateSFINAE"
 .PHONY : CMakeFiles/TheUltimateSFINAE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -585,6 +616,33 @@ CMakeFiles/AdvancedSFINAErevisited.dir/clean:
 .PHONY : CMakeFiles/AdvancedSFINAErevisited.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/Type_erasedAndCallableObjects.dir
+
+# All Build rule for target.
+CMakeFiles/Type_erasedAndCallableObjects.dir/all:
+	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/depend
+	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target Type_erasedAndCallableObjects"
+.PHONY : CMakeFiles/Type_erasedAndCallableObjects.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Type_erasedAndCallableObjects.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Type_erasedAndCallableObjects.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Type_erasedAndCallableObjects.dir/rule
+
+# Convenience name for target.
+Type_erasedAndCallableObjects: CMakeFiles/Type_erasedAndCallableObjects.dir/rule
+
+.PHONY : Type_erasedAndCallableObjects
+
+# clean rule for target.
+CMakeFiles/Type_erasedAndCallableObjects.dir/clean:
+	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/clean
+.PHONY : CMakeFiles/Type_erasedAndCallableObjects.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/EffectOfLocalbufferOptimization.dir
 
 # All Build rule for target.
@@ -618,7 +676,7 @@ CMakeFiles/EffectOfLocalbufferOptimization.dir/clean:
 CMakeFiles/TheOverheadOfTypeErasure.dir/all:
 	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/depend
 	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target TheOverheadOfTypeErasure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target TheOverheadOfTypeErasure"
 .PHONY : CMakeFiles/TheOverheadOfTypeErasure.dir/all
 
 # Build rule for subdir invocation for target.
@@ -645,7 +703,7 @@ CMakeFiles/TheOverheadOfTypeErasure.dir/clean:
 CMakeFiles/TypeErasureinCpp.dir/all:
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/depend
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target TypeErasureinCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target TypeErasureinCpp"
 .PHONY : CMakeFiles/TypeErasureinCpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -780,7 +838,7 @@ CMakeFiles/RAII_in_a_nutshell.dir/clean:
 CMakeFiles/TemplateFunctions.dir/all:
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/depend
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target TemplateFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target TemplateFunctions"
 .PHONY : CMakeFiles/TemplateFunctions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -807,7 +865,7 @@ CMakeFiles/TemplateFunctions.dir/clean:
 CMakeFiles/TheCostOfMemoryAllocations.dir/all:
 	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/depend
 	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target TheCostOfMemoryAllocations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target TheCostOfMemoryAllocations"
 .PHONY : CMakeFiles/TheCostOfMemoryAllocations.dir/all
 
 # Build rule for subdir invocation for target.
@@ -834,7 +892,7 @@ CMakeFiles/TheCostOfMemoryAllocations.dir/clean:
 CMakeFiles/TypeErasureByExample.dir/all:
 	$(MAKE) -f CMakeFiles/TypeErasureByExample.dir/build.make CMakeFiles/TypeErasureByExample.dir/depend
 	$(MAKE) -f CMakeFiles/TypeErasureByExample.dir/build.make CMakeFiles/TypeErasureByExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target TypeErasureByExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target TypeErasureByExample"
 .PHONY : CMakeFiles/TypeErasureByExample.dir/all
 
 # Build rule for subdir invocation for target.

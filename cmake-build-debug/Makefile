@@ -241,6 +241,19 @@ WhatIsWringWithAVirtualFunction/fast:
 .PHONY : WhatIsWringWithAVirtualFunction/fast
 
 #=============================================================================
+# Target rules for targets named SmallVector
+
+# Build rule for target.
+SmallVector: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SmallVector
+.PHONY : SmallVector
+
+# fast build rule for target.
+SmallVector/fast:
+	$(MAKE) -f CMakeFiles/SmallVector.dir/build.make CMakeFiles/SmallVector.dir/build
+.PHONY : SmallVector/fast
+
+#=============================================================================
 # Target rules for targets named MethodChainingInClassHierarchies
 
 # Build rule for target.
@@ -330,6 +343,19 @@ AdvancedSFINAErevisited: cmake_check_build_system
 AdvancedSFINAErevisited/fast:
 	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited.dir/build.make CMakeFiles/AdvancedSFINAErevisited.dir/build
 .PHONY : AdvancedSFINAErevisited/fast
+
+#=============================================================================
+# Target rules for targets named Type_erasedAndCallableObjects
+
+# Build rule for target.
+Type_erasedAndCallableObjects: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Type_erasedAndCallableObjects
+.PHONY : Type_erasedAndCallableObjects
+
+# fast build rule for target.
+Type_erasedAndCallableObjects/fast:
+	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/build
+.PHONY : Type_erasedAndCallableObjects/fast
 
 #=============================================================================
 # Target rules for targets named EffectOfLocalbufferOptimization
@@ -1094,6 +1120,33 @@ SFINAE.cpp.s:
 	$(MAKE) -f CMakeFiles/SFINAE.dir/build.make CMakeFiles/SFINAE.dir/SFINAE.cpp.s
 .PHONY : SFINAE.cpp.s
 
+SmallVector.o: SmallVector.cpp.o
+
+.PHONY : SmallVector.o
+
+# target to build an object file
+SmallVector.cpp.o:
+	$(MAKE) -f CMakeFiles/SmallVector.dir/build.make CMakeFiles/SmallVector.dir/SmallVector.cpp.o
+.PHONY : SmallVector.cpp.o
+
+SmallVector.i: SmallVector.cpp.i
+
+.PHONY : SmallVector.i
+
+# target to preprocess a source file
+SmallVector.cpp.i:
+	$(MAKE) -f CMakeFiles/SmallVector.dir/build.make CMakeFiles/SmallVector.dir/SmallVector.cpp.i
+.PHONY : SmallVector.cpp.i
+
+SmallVector.s: SmallVector.cpp.s
+
+.PHONY : SmallVector.s
+
+# target to generate assembly for a file
+SmallVector.cpp.s:
+	$(MAKE) -f CMakeFiles/SmallVector.dir/build.make CMakeFiles/SmallVector.dir/SmallVector.cpp.s
+.PHONY : SmallVector.cpp.s
+
 TemplateFunctions.o: TemplateFunctions.cpp.o
 
 .PHONY : TemplateFunctions.o
@@ -1283,6 +1336,33 @@ TypeErasureinCpp.cpp.s:
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.s
 .PHONY : TypeErasureinCpp.cpp.s
 
+Type_erasedAndCallableObjects.o: Type_erasedAndCallableObjects.cpp.o
+
+.PHONY : Type_erasedAndCallableObjects.o
+
+# target to build an object file
+Type_erasedAndCallableObjects.cpp.o:
+	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.o
+.PHONY : Type_erasedAndCallableObjects.cpp.o
+
+Type_erasedAndCallableObjects.i: Type_erasedAndCallableObjects.cpp.i
+
+.PHONY : Type_erasedAndCallableObjects.i
+
+# target to preprocess a source file
+Type_erasedAndCallableObjects.cpp.i:
+	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.i
+.PHONY : Type_erasedAndCallableObjects.cpp.i
+
+Type_erasedAndCallableObjects.s: Type_erasedAndCallableObjects.cpp.s
+
+.PHONY : Type_erasedAndCallableObjects.s
+
+# target to generate assembly for a file
+Type_erasedAndCallableObjects.cpp.s:
+	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.s
+.PHONY : Type_erasedAndCallableObjects.cpp.s
+
 WhatIsWringWithAVirtualFunction.o: WhatIsWringWithAVirtualFunction.cpp.o
 
 .PHONY : WhatIsWringWithAVirtualFunction.o
@@ -1354,6 +1434,7 @@ help:
 	@echo "... DesignPattern"
 	@echo "... CompileTimePolymorphism"
 	@echo "... WhatIsWringWithAVirtualFunction"
+	@echo "... SmallVector"
 	@echo "... MethodChainingInClassHierarchies"
 	@echo "... TheUltimateSFINAE"
 	@echo "... AdvancedSFINAE2"
@@ -1362,6 +1443,7 @@ help:
 	@echo "... ExpandingTheInterface"
 	@echo "... edit_cache"
 	@echo "... AdvancedSFINAErevisited"
+	@echo "... Type_erasedAndCallableObjects"
 	@echo "... EffectOfLocalbufferOptimization"
 	@echo "... TheOverheadOfTypeErasure"
 	@echo "... TypeErasureinCpp"
@@ -1441,6 +1523,9 @@ help:
 	@echo "... SFINAE.o"
 	@echo "... SFINAE.i"
 	@echo "... SFINAE.s"
+	@echo "... SmallVector.o"
+	@echo "... SmallVector.i"
+	@echo "... SmallVector.s"
 	@echo "... TemplateFunctions.o"
 	@echo "... TemplateFunctions.i"
 	@echo "... TemplateFunctions.s"
@@ -1462,6 +1547,9 @@ help:
 	@echo "... TypeErasureinCpp.o"
 	@echo "... TypeErasureinCpp.i"
 	@echo "... TypeErasureinCpp.s"
+	@echo "... Type_erasedAndCallableObjects.o"
+	@echo "... Type_erasedAndCallableObjects.i"
+	@echo "... Type_erasedAndCallableObjects.s"
 	@echo "... WhatIsWringWithAVirtualFunction.o"
 	@echo "... WhatIsWringWithAVirtualFunction.i"
 	@echo "... WhatIsWringWithAVirtualFunction.s"

@@ -467,6 +467,50 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="SmallVector">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/SmallVector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 SmallVector"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SmallVector/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/SmallVector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 SmallVector/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="MethodChainingInClassHierarchies">
 				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/MethodChainingInClassHierarchies" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
@@ -780,6 +824,50 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSFINAErevisited/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Type_erasedAndCallableObjects">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/Type_erasedAndCallableObjects" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 Type_erasedAndCallableObjects"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Type_erasedAndCallableObjects/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/Type_erasedAndCallableObjects" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 Type_erasedAndCallableObjects/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1424,6 +1512,9 @@
 		<Unit filename="/Users/wualex/Documents/DesignPattern/SFINAE.cpp">
 			<Option target="SFINAE"/>
 		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/SmallVector.cpp">
+			<Option target="SmallVector"/>
+		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/TemplateFunctions.cpp">
 			<Option target="TemplateFunctions"/>
 		</Unit>
@@ -1444,6 +1535,9 @@
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/TypeErasureinCpp.cpp">
 			<Option target="TypeErasureinCpp"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Type_erasedAndCallableObjects.cpp">
+			<Option target="Type_erasedAndCallableObjects"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/WhatIsWringWithAVirtualFunction.cpp">
 			<Option target="WhatIsWringWithAVirtualFunction"/>

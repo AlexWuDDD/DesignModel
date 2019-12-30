@@ -68,3 +68,9 @@ target_link_libraries(TheCostOfMemoryAllocations benchmark pthread)
 add_executable(EffectOfLocalbufferOptimization
         EffectOfLocalbufferOptimization.cpp TheMainIdea.cpp)
 target_link_libraries(EffectOfLocalbufferOptimization benchmark)
+
+add_executable(SmallVector SmallVector.cpp)
+target_link_libraries(SmallVector benchmark)
+
+add_executable(Type_erasedAndCallableObjects Type_erasedAndCallableObjects.cpp)
+target_link_libraries(Type_erasedAndCallableObjects benchmark)

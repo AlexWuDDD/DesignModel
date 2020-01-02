@@ -26,9 +26,11 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CarefulImplementationOfRAIIobject.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/RAII_in_a_nutshell.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ScopedGuardBasics.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TemplateFunctions.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheCostOfMemoryAllocations.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TypeErasureByExample.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/RAII_for_other_resources.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CountingResources.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/RAII.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/Releasing_early.dir

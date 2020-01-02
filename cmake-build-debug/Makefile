@@ -449,6 +449,19 @@ RAII_in_a_nutshell/fast:
 .PHONY : RAII_in_a_nutshell/fast
 
 #=============================================================================
+# Target rules for targets named ScopedGuardBasics
+
+# Build rule for target.
+ScopedGuardBasics: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ScopedGuardBasics
+.PHONY : ScopedGuardBasics
+
+# fast build rule for target.
+ScopedGuardBasics/fast:
+	$(MAKE) -f CMakeFiles/ScopedGuardBasics.dir/build.make CMakeFiles/ScopedGuardBasics.dir/build
+.PHONY : ScopedGuardBasics/fast
+
+#=============================================================================
 # Target rules for targets named TemplateFunctions
 
 # Build rule for target.
@@ -512,6 +525,19 @@ CountingResources: cmake_check_build_system
 CountingResources/fast:
 	$(MAKE) -f CMakeFiles/CountingResources.dir/build.make CMakeFiles/CountingResources.dir/build
 .PHONY : CountingResources/fast
+
+#=============================================================================
+# Target rules for targets named RAII
+
+# Build rule for target.
+RAII: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RAII
+.PHONY : RAII
+
+# fast build rule for target.
+RAII/fast:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/build
+.PHONY : RAII/fast
 
 #=============================================================================
 # Target rules for targets named Releasing_early
@@ -1120,6 +1146,60 @@ SFINAE.cpp.s:
 	$(MAKE) -f CMakeFiles/SFINAE.dir/build.make CMakeFiles/SFINAE.dir/SFINAE.cpp.s
 .PHONY : SFINAE.cpp.s
 
+ScopedGuard/RAII.o: ScopedGuard/RAII.cpp.o
+
+.PHONY : ScopedGuard/RAII.o
+
+# target to build an object file
+ScopedGuard/RAII.cpp.o:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/ScopedGuard/RAII.cpp.o
+.PHONY : ScopedGuard/RAII.cpp.o
+
+ScopedGuard/RAII.i: ScopedGuard/RAII.cpp.i
+
+.PHONY : ScopedGuard/RAII.i
+
+# target to preprocess a source file
+ScopedGuard/RAII.cpp.i:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/ScopedGuard/RAII.cpp.i
+.PHONY : ScopedGuard/RAII.cpp.i
+
+ScopedGuard/RAII.s: ScopedGuard/RAII.cpp.s
+
+.PHONY : ScopedGuard/RAII.s
+
+# target to generate assembly for a file
+ScopedGuard/RAII.cpp.s:
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/ScopedGuard/RAII.cpp.s
+.PHONY : ScopedGuard/RAII.cpp.s
+
+ScopedGuard/ScopedGuardBasics.o: ScopedGuard/ScopedGuardBasics.cpp.o
+
+.PHONY : ScopedGuard/ScopedGuardBasics.o
+
+# target to build an object file
+ScopedGuard/ScopedGuardBasics.cpp.o:
+	$(MAKE) -f CMakeFiles/ScopedGuardBasics.dir/build.make CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.o
+.PHONY : ScopedGuard/ScopedGuardBasics.cpp.o
+
+ScopedGuard/ScopedGuardBasics.i: ScopedGuard/ScopedGuardBasics.cpp.i
+
+.PHONY : ScopedGuard/ScopedGuardBasics.i
+
+# target to preprocess a source file
+ScopedGuard/ScopedGuardBasics.cpp.i:
+	$(MAKE) -f CMakeFiles/ScopedGuardBasics.dir/build.make CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.i
+.PHONY : ScopedGuard/ScopedGuardBasics.cpp.i
+
+ScopedGuard/ScopedGuardBasics.s: ScopedGuard/ScopedGuardBasics.cpp.s
+
+.PHONY : ScopedGuard/ScopedGuardBasics.s
+
+# target to generate assembly for a file
+ScopedGuard/ScopedGuardBasics.cpp.s:
+	$(MAKE) -f CMakeFiles/ScopedGuardBasics.dir/build.make CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.s
+.PHONY : ScopedGuard/ScopedGuardBasics.cpp.s
+
 SmallVector.o: SmallVector.cpp.o
 
 .PHONY : SmallVector.o
@@ -1451,11 +1531,13 @@ help:
 	@echo "... CarefulImplementationOfRAIIobject"
 	@echo "... PerformanceOfTheNamedArgumentsIdiom"
 	@echo "... RAII_in_a_nutshell"
+	@echo "... ScopedGuardBasics"
 	@echo "... TemplateFunctions"
 	@echo "... TheCostOfMemoryAllocations"
 	@echo "... TypeErasureByExample"
 	@echo "... RAII_for_other_resources"
 	@echo "... CountingResources"
+	@echo "... RAII"
 	@echo "... Releasing_early"
 	@echo "... AdvancedSFINAE.o"
 	@echo "... AdvancedSFINAE.i"
@@ -1523,6 +1605,12 @@ help:
 	@echo "... SFINAE.o"
 	@echo "... SFINAE.i"
 	@echo "... SFINAE.s"
+	@echo "... ScopedGuard/RAII.o"
+	@echo "... ScopedGuard/RAII.i"
+	@echo "... ScopedGuard/RAII.s"
+	@echo "... ScopedGuard/ScopedGuardBasics.o"
+	@echo "... ScopedGuard/ScopedGuardBasics.i"
+	@echo "... ScopedGuard/ScopedGuardBasics.s"
 	@echo "... SmallVector.o"
 	@echo "... SmallVector.i"
 	@echo "... SmallVector.s"

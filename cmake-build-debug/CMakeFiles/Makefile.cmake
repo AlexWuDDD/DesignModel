@@ -78,10 +78,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CarefulImplementationOfRAIIobject.dir/DependInfo.cmake"
   "CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/DependInfo.cmake"
   "CMakeFiles/RAII_in_a_nutshell.dir/DependInfo.cmake"
+  "CMakeFiles/ScopedGuardBasics.dir/DependInfo.cmake"
   "CMakeFiles/TemplateFunctions.dir/DependInfo.cmake"
   "CMakeFiles/TheCostOfMemoryAllocations.dir/DependInfo.cmake"
   "CMakeFiles/TypeErasureByExample.dir/DependInfo.cmake"
   "CMakeFiles/RAII_for_other_resources.dir/DependInfo.cmake"
   "CMakeFiles/CountingResources.dir/DependInfo.cmake"
+  "CMakeFiles/RAII.dir/DependInfo.cmake"
   "CMakeFiles/Releasing_early.dir/DependInfo.cmake"
   )

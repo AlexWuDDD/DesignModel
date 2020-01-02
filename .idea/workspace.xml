@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="DesignPattern" targetName="ExpandingTheInterface" />
       <config projectName="DesignPattern" targetName="RAII_in_a_nutshell" />
+      <config projectName="DesignPattern" targetName="ExpandingTheInterface" />
       <config projectName="DesignPattern" targetName="CarefulImplementationOfRAIIobject" />
       <config projectName="DesignPattern" targetName="WhatIsWringWithAVirtualFunction" />
       <config projectName="DesignPattern" targetName="TemplateFunctions" />
@@ -12,6 +12,7 @@
       <config projectName="DesignPattern" targetName="RAII_for_other_resources" />
       <config projectName="DesignPattern" targetName="TheCostOfMemoryAllocations" />
       <config projectName="DesignPattern" targetName="IntroducingCRTP" />
+      <config projectName="DesignPattern" targetName="RAII" />
       <config projectName="DesignPattern" targetName="Releasing_early" />
       <config projectName="DesignPattern" targetName="Type_erasedAndCallableObjects" />
       <config projectName="DesignPattern" targetName="CountingResources" />
@@ -19,21 +20,22 @@
       <config projectName="DesignPattern" targetName="CompileTimePolymorphism" />
       <config projectName="DesignPattern" targetName="DesignPattern" />
       <config projectName="DesignPattern" targetName="TheOverheadOfTypeErasure" />
-      <config projectName="DesignPattern" targetName="SFINAE" />
       <config projectName="DesignPattern" targetName="MethodChainingAndNamedArguments" />
+      <config projectName="DesignPattern" targetName="SFINAE" />
+      <config projectName="DesignPattern" targetName="EffectOfLocalbufferOptimization" />
       <config projectName="DesignPattern" targetName="AdvancedSFINAErevisited" />
       <config projectName="DesignPattern" targetName="TypeErasureByExample" />
-      <config projectName="DesignPattern" targetName="EffectOfLocalbufferOptimization" />
       <config projectName="DesignPattern" targetName="TheUltimateSFINAE" />
-      <config projectName="DesignPattern" targetName="MethodChaining" />
       <config projectName="DesignPattern" targetName="MethodChainingInClassHierarchies" />
+      <config projectName="DesignPattern" targetName="MethodChaining" />
       <config projectName="DesignPattern" targetName="PerformanceOfTheNamedArgumentsIdiom" />
       <config projectName="DesignPattern" targetName="AdvancedSFINAE" />
       <config projectName="DesignPattern" targetName="SmallVector" />
       <config projectName="DesignPattern" targetName="AdvancedSFINAE2" />
+      <config projectName="DesignPattern" targetName="ScopedGuardBasics" />
       <config projectName="DesignPattern" targetName="TypeErasureinCpp" />
-      <config projectName="DesignPattern" targetName="GeneralMethodChaining" />
       <config projectName="DesignPattern" targetName="MethodChainingInClassHierarchies2" />
+      <config projectName="DesignPattern" targetName="GeneralMethodChaining" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -47,6 +49,11 @@
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_for_other_resources.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_for_other_resources.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_in_a_nutshell.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_in_a_nutshell.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Releasing_early.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Releasing_early.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFINAE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SFINAE.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SmallVector.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SmallVector.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TemplateFunctions.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TemplateFunctions.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheCostOfMemoryAllocations.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheCostOfMemoryAllocations.dir/progress.make" afterDir="false" />
@@ -54,6 +61,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureByExample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureByExample.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Type_erasedAndCallableObjects.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Type_erasedAndCallableObjects.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatIsWringWithAVirtualFunction.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatIsWringWithAVirtualFunction.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/DesignPattern.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DesignPattern.cbp" afterDir="false" />
@@ -86,14 +94,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ScopedGuard" />
+      <recent name="$PROJECT_DIR$/cmake-build-debug" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cmake-build-debug" />
-    </key>
   </component>
-  <component name="RunManager" selected="CMake Application.Type_erasedAndCallableObjects">
+  <component name="RunManager" selected="CMake Application.ScopedGuardBasics">
     <configuration name="All in RAII_for_other_resources.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII_for_other_resources" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII_for_other_resources" TEST_PATTERN="all-tests(file://$PROJECT_DIR$/RAII_for_other_resources.cpp)" TEST_MODE="PATTERN">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -219,6 +228,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RAII" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RAII_for_other_resources" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII_for_other_resources" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII_for_other_resources">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -235,6 +249,11 @@
       </method>
     </configuration>
     <configuration name="SFINAE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="SFINAE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="SFINAE">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScopedGuardBasics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="ScopedGuardBasics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="ScopedGuardBasics">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -304,9 +323,11 @@
       <item itemvalue="CMake Application.MethodChainingInClassHierarchies" />
       <item itemvalue="CMake Application.MethodChainingInClassHierarchies2" />
       <item itemvalue="CMake Application.PerformanceOfTheNamedArgumentsIdiom" />
+      <item itemvalue="CMake Application.RAII" />
       <item itemvalue="CMake Application.RAII_for_other_resources" />
       <item itemvalue="CMake Application.RAII_in_a_nutshell" />
       <item itemvalue="CMake Application.Releasing_early" />
+      <item itemvalue="CMake Application.ScopedGuardBasics" />
       <item itemvalue="CMake Application.SFINAE" />
       <item itemvalue="CMake Application.SmallVector" />
       <item itemvalue="CMake Application.TemplateFunctions" />
@@ -371,7 +392,8 @@
       <workItem from="1577406293926" duration="2386000" />
       <workItem from="1577409041585" duration="5113000" />
       <workItem from="1577414956692" duration="20000" />
-      <workItem from="1577494514225" duration="13907000" />
+      <workItem from="1577494514225" duration="14285000" />
+      <workItem from="1577761257826" duration="6260000" />
     </task>
     <servers />
   </component>
@@ -395,25 +417,25 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="922" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577409027292" />
-    <state width="811" height="285" key="GridCell.Tab.0.bottom" timestamp="1577669135458">
+    <state width="850" height="285" key="GridCell.Tab.0.bottom" timestamp="1577942092139">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="811" height="285" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577669135458" />
-    <state width="811" height="285" key="GridCell.Tab.0.center" timestamp="1577669135457">
+    <state width="850" height="285" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577942092139" />
+    <state width="850" height="285" key="GridCell.Tab.0.center" timestamp="1577942092137">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="811" height="285" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577669135457" />
-    <state width="811" height="285" key="GridCell.Tab.0.left" timestamp="1577669135456">
+    <state width="850" height="285" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577942092137" />
+    <state width="850" height="285" key="GridCell.Tab.0.left" timestamp="1577942092137">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="811" height="285" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577669135456" />
-    <state width="811" height="285" key="GridCell.Tab.0.right" timestamp="1577669135457">
+    <state width="850" height="285" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577942092137" />
+    <state width="850" height="285" key="GridCell.Tab.0.right" timestamp="1577942092138">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="811" height="285" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577669135457" />
-    <state x="905" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1577537088623">
+    <state width="850" height="285" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577942092138" />
+    <state x="905" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1577932348917">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="905" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1577537088623" />
+    <state x="905" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1577932348917" />
   </component>
 </project>

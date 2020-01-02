@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wualex/Documents/DesignPattern/ScopedGuard/ScopedGuardBasics.cpp
+common.h
+/Users/wualex/Documents/DesignPattern/ScopedGuard/common.h
+
+/Users/wualex/Documents/DesignPattern/ScopedGuard/common.h
+iostream
+-
+

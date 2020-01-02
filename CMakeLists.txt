@@ -74,3 +74,6 @@ target_link_libraries(SmallVector benchmark)
 
 add_executable(Type_erasedAndCallableObjects Type_erasedAndCallableObjects.cpp)
 target_link_libraries(Type_erasedAndCallableObjects benchmark)
+
+add_executable(RAII ScopedGuard/RAII.cpp)
+add_executable(ScopedGuardBasics ScopedGuard/ScopedGuardBasics.cpp)

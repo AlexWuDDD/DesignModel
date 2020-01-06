@@ -25,7 +25,7 @@ public:
     }
     void finalize() {
         finalized_ = true;
-        //std::cout << "do finalized" << std::endl;
+        std::cout << "do finalized" << std::endl;
     }
     bool finalized() const { return finalized_; }
     int get() const { return i_; }

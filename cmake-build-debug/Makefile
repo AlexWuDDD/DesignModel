@@ -111,6 +111,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named FriendFactoryFinal
+
+# Build rule for target.
+FriendFactoryFinal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FriendFactoryFinal
+.PHONY : FriendFactoryFinal
+
+# fast build rule for target.
+FriendFactoryFinal/fast:
+	$(MAKE) -f CMakeFiles/FriendFactoryFinal.dir/build.make CMakeFiles/FriendFactoryFinal.dir/build
+.PHONY : FriendFactoryFinal/fast
+
+#=============================================================================
+# Target rules for targets named FriendsOfTemplateClasses
+
+# Build rule for target.
+FriendsOfTemplateClasses: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FriendsOfTemplateClasses
+.PHONY : FriendsOfTemplateClasses
+
+# fast build rule for target.
+FriendsOfTemplateClasses/fast:
+	$(MAKE) -f CMakeFiles/FriendsOfTemplateClasses.dir/build.make CMakeFiles/FriendsOfTemplateClasses.dir/build
+.PHONY : FriendsOfTemplateClasses/fast
+
+#=============================================================================
+# Target rules for targets named FriendsVersusMemberFunction
+
+# Build rule for target.
+FriendsVersusMemberFunction: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FriendsVersusMemberFunction
+.PHONY : FriendsVersusMemberFunction
+
+# fast build rule for target.
+FriendsVersusMemberFunction/fast:
+	$(MAKE) -f CMakeFiles/FriendsVersusMemberFunction.dir/build.make CMakeFiles/FriendsVersusMemberFunction.dir/build
+.PHONY : FriendsVersusMemberFunction/fast
+
+#=============================================================================
+# Target rules for targets named GenericScopeGuard
+
+# Build rule for target.
+GenericScopeGuard: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GenericScopeGuard
+.PHONY : GenericScopeGuard
+
+# fast build rule for target.
+GenericScopeGuard/fast:
+	$(MAKE) -f CMakeFiles/GenericScopeGuard.dir/build.make CMakeFiles/GenericScopeGuard.dir/build
+.PHONY : GenericScopeGuard/fast
+
+#=============================================================================
 # Target rules for targets named MethodChainingInClassHierarchies2
 
 # Build rule for target.
@@ -135,6 +187,19 @@ GeneralMethodChaining: cmake_check_build_system
 GeneralMethodChaining/fast:
 	$(MAKE) -f CMakeFiles/GeneralMethodChaining.dir/build.make CMakeFiles/GeneralMethodChaining.dir/build
 .PHONY : GeneralMethodChaining/fast
+
+#=============================================================================
+# Target rules for targets named GeneratingFriendsOnDemand
+
+# Build rule for target.
+GeneratingFriendsOnDemand: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GeneratingFriendsOnDemand
+.PHONY : GeneratingFriendsOnDemand
+
+# fast build rule for target.
+GeneratingFriendsOnDemand/fast:
+	$(MAKE) -f CMakeFiles/GeneratingFriendsOnDemand.dir/build.make CMakeFiles/GeneratingFriendsOnDemand.dir/build
+.PHONY : GeneratingFriendsOnDemand/fast
 
 #=============================================================================
 # Target rules for targets named MethodChainingAndNamedArguments
@@ -280,6 +345,19 @@ TheUltimateSFINAE/fast:
 .PHONY : TheUltimateSFINAE/fast
 
 #=============================================================================
+# Target rules for targets named HowToGrantFriendShip
+
+# Build rule for target.
+HowToGrantFriendShip: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HowToGrantFriendShip
+.PHONY : HowToGrantFriendShip
+
+# fast build rule for target.
+HowToGrantFriendShip/fast:
+	$(MAKE) -f CMakeFiles/HowToGrantFriendShip.dir/build.make CMakeFiles/HowToGrantFriendShip.dir/build
+.PHONY : HowToGrantFriendShip/fast
+
+#=============================================================================
 # Target rules for targets named AdvancedSFINAE2
 
 # Build rule for target.
@@ -395,6 +473,19 @@ TypeErasureinCpp: cmake_check_build_system
 TypeErasureinCpp/fast:
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/build
 .PHONY : TypeErasureinCpp/fast
+
+#=============================================================================
+# Target rules for targets named ExceptionDrivernScopedGuard
+
+# Build rule for target.
+ExceptionDrivernScopedGuard: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ExceptionDrivernScopedGuard
+.PHONY : ExceptionDrivernScopedGuard
+
+# fast build rule for target.
+ExceptionDrivernScopedGuard/fast:
+	$(MAKE) -f CMakeFiles/ExceptionDrivernScopedGuard.dir/build.make CMakeFiles/ExceptionDrivernScopedGuard.dir/build
+.PHONY : ExceptionDrivernScopedGuard/fast
 
 #=============================================================================
 # Target rules for targets named AdvancedSFINAErevisited2
@@ -849,6 +940,141 @@ ExpandingTheInterface.cpp.s:
 	$(MAKE) -f CMakeFiles/ExpandingTheInterface.dir/build.make CMakeFiles/ExpandingTheInterface.dir/ExpandingTheInterface.cpp.s
 .PHONY : ExpandingTheInterface.cpp.s
 
+FriendFactory/FriendFactoryFinal.o: FriendFactory/FriendFactoryFinal.cpp.o
+
+.PHONY : FriendFactory/FriendFactoryFinal.o
+
+# target to build an object file
+FriendFactory/FriendFactoryFinal.cpp.o:
+	$(MAKE) -f CMakeFiles/FriendFactoryFinal.dir/build.make CMakeFiles/FriendFactoryFinal.dir/FriendFactory/FriendFactoryFinal.cpp.o
+.PHONY : FriendFactory/FriendFactoryFinal.cpp.o
+
+FriendFactory/FriendFactoryFinal.i: FriendFactory/FriendFactoryFinal.cpp.i
+
+.PHONY : FriendFactory/FriendFactoryFinal.i
+
+# target to preprocess a source file
+FriendFactory/FriendFactoryFinal.cpp.i:
+	$(MAKE) -f CMakeFiles/FriendFactoryFinal.dir/build.make CMakeFiles/FriendFactoryFinal.dir/FriendFactory/FriendFactoryFinal.cpp.i
+.PHONY : FriendFactory/FriendFactoryFinal.cpp.i
+
+FriendFactory/FriendFactoryFinal.s: FriendFactory/FriendFactoryFinal.cpp.s
+
+.PHONY : FriendFactory/FriendFactoryFinal.s
+
+# target to generate assembly for a file
+FriendFactory/FriendFactoryFinal.cpp.s:
+	$(MAKE) -f CMakeFiles/FriendFactoryFinal.dir/build.make CMakeFiles/FriendFactoryFinal.dir/FriendFactory/FriendFactoryFinal.cpp.s
+.PHONY : FriendFactory/FriendFactoryFinal.cpp.s
+
+FriendFactory/FriendsOfTemplateClasses.o: FriendFactory/FriendsOfTemplateClasses.cpp.o
+
+.PHONY : FriendFactory/FriendsOfTemplateClasses.o
+
+# target to build an object file
+FriendFactory/FriendsOfTemplateClasses.cpp.o:
+	$(MAKE) -f CMakeFiles/FriendsOfTemplateClasses.dir/build.make CMakeFiles/FriendsOfTemplateClasses.dir/FriendFactory/FriendsOfTemplateClasses.cpp.o
+.PHONY : FriendFactory/FriendsOfTemplateClasses.cpp.o
+
+FriendFactory/FriendsOfTemplateClasses.i: FriendFactory/FriendsOfTemplateClasses.cpp.i
+
+.PHONY : FriendFactory/FriendsOfTemplateClasses.i
+
+# target to preprocess a source file
+FriendFactory/FriendsOfTemplateClasses.cpp.i:
+	$(MAKE) -f CMakeFiles/FriendsOfTemplateClasses.dir/build.make CMakeFiles/FriendsOfTemplateClasses.dir/FriendFactory/FriendsOfTemplateClasses.cpp.i
+.PHONY : FriendFactory/FriendsOfTemplateClasses.cpp.i
+
+FriendFactory/FriendsOfTemplateClasses.s: FriendFactory/FriendsOfTemplateClasses.cpp.s
+
+.PHONY : FriendFactory/FriendsOfTemplateClasses.s
+
+# target to generate assembly for a file
+FriendFactory/FriendsOfTemplateClasses.cpp.s:
+	$(MAKE) -f CMakeFiles/FriendsOfTemplateClasses.dir/build.make CMakeFiles/FriendsOfTemplateClasses.dir/FriendFactory/FriendsOfTemplateClasses.cpp.s
+.PHONY : FriendFactory/FriendsOfTemplateClasses.cpp.s
+
+FriendFactory/FriendsVersusMemberFunction.o: FriendFactory/FriendsVersusMemberFunction.cpp.o
+
+.PHONY : FriendFactory/FriendsVersusMemberFunction.o
+
+# target to build an object file
+FriendFactory/FriendsVersusMemberFunction.cpp.o:
+	$(MAKE) -f CMakeFiles/FriendsVersusMemberFunction.dir/build.make CMakeFiles/FriendsVersusMemberFunction.dir/FriendFactory/FriendsVersusMemberFunction.cpp.o
+.PHONY : FriendFactory/FriendsVersusMemberFunction.cpp.o
+
+FriendFactory/FriendsVersusMemberFunction.i: FriendFactory/FriendsVersusMemberFunction.cpp.i
+
+.PHONY : FriendFactory/FriendsVersusMemberFunction.i
+
+# target to preprocess a source file
+FriendFactory/FriendsVersusMemberFunction.cpp.i:
+	$(MAKE) -f CMakeFiles/FriendsVersusMemberFunction.dir/build.make CMakeFiles/FriendsVersusMemberFunction.dir/FriendFactory/FriendsVersusMemberFunction.cpp.i
+.PHONY : FriendFactory/FriendsVersusMemberFunction.cpp.i
+
+FriendFactory/FriendsVersusMemberFunction.s: FriendFactory/FriendsVersusMemberFunction.cpp.s
+
+.PHONY : FriendFactory/FriendsVersusMemberFunction.s
+
+# target to generate assembly for a file
+FriendFactory/FriendsVersusMemberFunction.cpp.s:
+	$(MAKE) -f CMakeFiles/FriendsVersusMemberFunction.dir/build.make CMakeFiles/FriendsVersusMemberFunction.dir/FriendFactory/FriendsVersusMemberFunction.cpp.s
+.PHONY : FriendFactory/FriendsVersusMemberFunction.cpp.s
+
+FriendFactory/GeneratingFriendsOnDemand.o: FriendFactory/GeneratingFriendsOnDemand.cpp.o
+
+.PHONY : FriendFactory/GeneratingFriendsOnDemand.o
+
+# target to build an object file
+FriendFactory/GeneratingFriendsOnDemand.cpp.o:
+	$(MAKE) -f CMakeFiles/GeneratingFriendsOnDemand.dir/build.make CMakeFiles/GeneratingFriendsOnDemand.dir/FriendFactory/GeneratingFriendsOnDemand.cpp.o
+.PHONY : FriendFactory/GeneratingFriendsOnDemand.cpp.o
+
+FriendFactory/GeneratingFriendsOnDemand.i: FriendFactory/GeneratingFriendsOnDemand.cpp.i
+
+.PHONY : FriendFactory/GeneratingFriendsOnDemand.i
+
+# target to preprocess a source file
+FriendFactory/GeneratingFriendsOnDemand.cpp.i:
+	$(MAKE) -f CMakeFiles/GeneratingFriendsOnDemand.dir/build.make CMakeFiles/GeneratingFriendsOnDemand.dir/FriendFactory/GeneratingFriendsOnDemand.cpp.i
+.PHONY : FriendFactory/GeneratingFriendsOnDemand.cpp.i
+
+FriendFactory/GeneratingFriendsOnDemand.s: FriendFactory/GeneratingFriendsOnDemand.cpp.s
+
+.PHONY : FriendFactory/GeneratingFriendsOnDemand.s
+
+# target to generate assembly for a file
+FriendFactory/GeneratingFriendsOnDemand.cpp.s:
+	$(MAKE) -f CMakeFiles/GeneratingFriendsOnDemand.dir/build.make CMakeFiles/GeneratingFriendsOnDemand.dir/FriendFactory/GeneratingFriendsOnDemand.cpp.s
+.PHONY : FriendFactory/GeneratingFriendsOnDemand.cpp.s
+
+FriendFactory/HowToGrantFriendShip.o: FriendFactory/HowToGrantFriendShip.cpp.o
+
+.PHONY : FriendFactory/HowToGrantFriendShip.o
+
+# target to build an object file
+FriendFactory/HowToGrantFriendShip.cpp.o:
+	$(MAKE) -f CMakeFiles/HowToGrantFriendShip.dir/build.make CMakeFiles/HowToGrantFriendShip.dir/FriendFactory/HowToGrantFriendShip.cpp.o
+.PHONY : FriendFactory/HowToGrantFriendShip.cpp.o
+
+FriendFactory/HowToGrantFriendShip.i: FriendFactory/HowToGrantFriendShip.cpp.i
+
+.PHONY : FriendFactory/HowToGrantFriendShip.i
+
+# target to preprocess a source file
+FriendFactory/HowToGrantFriendShip.cpp.i:
+	$(MAKE) -f CMakeFiles/HowToGrantFriendShip.dir/build.make CMakeFiles/HowToGrantFriendShip.dir/FriendFactory/HowToGrantFriendShip.cpp.i
+.PHONY : FriendFactory/HowToGrantFriendShip.cpp.i
+
+FriendFactory/HowToGrantFriendShip.s: FriendFactory/HowToGrantFriendShip.cpp.s
+
+.PHONY : FriendFactory/HowToGrantFriendShip.s
+
+# target to generate assembly for a file
+FriendFactory/HowToGrantFriendShip.cpp.s:
+	$(MAKE) -f CMakeFiles/HowToGrantFriendShip.dir/build.make CMakeFiles/HowToGrantFriendShip.dir/FriendFactory/HowToGrantFriendShip.cpp.s
+.PHONY : FriendFactory/HowToGrantFriendShip.cpp.s
+
 GeneralMethodChaining.o: GeneralMethodChaining.cpp.o
 
 .PHONY : GeneralMethodChaining.o
@@ -1145,6 +1371,63 @@ SFINAE.s: SFINAE.cpp.s
 SFINAE.cpp.s:
 	$(MAKE) -f CMakeFiles/SFINAE.dir/build.make CMakeFiles/SFINAE.dir/SFINAE.cpp.s
 .PHONY : SFINAE.cpp.s
+
+ScopedGuard/ExceptionDrivernScopedGuard.o: ScopedGuard/ExceptionDrivernScopedGuard.cpp.o
+
+.PHONY : ScopedGuard/ExceptionDrivernScopedGuard.o
+
+# target to build an object file
+ScopedGuard/ExceptionDrivernScopedGuard.cpp.o:
+	$(MAKE) -f CMakeFiles/ExceptionDrivernScopedGuard.dir/build.make CMakeFiles/ExceptionDrivernScopedGuard.dir/ScopedGuard/ExceptionDrivernScopedGuard.cpp.o
+.PHONY : ScopedGuard/ExceptionDrivernScopedGuard.cpp.o
+
+ScopedGuard/ExceptionDrivernScopedGuard.i: ScopedGuard/ExceptionDrivernScopedGuard.cpp.i
+
+.PHONY : ScopedGuard/ExceptionDrivernScopedGuard.i
+
+# target to preprocess a source file
+ScopedGuard/ExceptionDrivernScopedGuard.cpp.i:
+	$(MAKE) -f CMakeFiles/ExceptionDrivernScopedGuard.dir/build.make CMakeFiles/ExceptionDrivernScopedGuard.dir/ScopedGuard/ExceptionDrivernScopedGuard.cpp.i
+.PHONY : ScopedGuard/ExceptionDrivernScopedGuard.cpp.i
+
+ScopedGuard/ExceptionDrivernScopedGuard.s: ScopedGuard/ExceptionDrivernScopedGuard.cpp.s
+
+.PHONY : ScopedGuard/ExceptionDrivernScopedGuard.s
+
+# target to generate assembly for a file
+ScopedGuard/ExceptionDrivernScopedGuard.cpp.s:
+	$(MAKE) -f CMakeFiles/ExceptionDrivernScopedGuard.dir/build.make CMakeFiles/ExceptionDrivernScopedGuard.dir/ScopedGuard/ExceptionDrivernScopedGuard.cpp.s
+.PHONY : ScopedGuard/ExceptionDrivernScopedGuard.cpp.s
+
+ScopedGuard/GenericScopeGuard.o: ScopedGuard/GenericScopeGuard.cpp.o
+
+.PHONY : ScopedGuard/GenericScopeGuard.o
+
+# target to build an object file
+ScopedGuard/GenericScopeGuard.cpp.o:
+	$(MAKE) -f CMakeFiles/GenericScopeGuard.dir/build.make CMakeFiles/GenericScopeGuard.dir/ScopedGuard/GenericScopeGuard.cpp.o
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/ScopedGuard/GenericScopeGuard.cpp.o
+.PHONY : ScopedGuard/GenericScopeGuard.cpp.o
+
+ScopedGuard/GenericScopeGuard.i: ScopedGuard/GenericScopeGuard.cpp.i
+
+.PHONY : ScopedGuard/GenericScopeGuard.i
+
+# target to preprocess a source file
+ScopedGuard/GenericScopeGuard.cpp.i:
+	$(MAKE) -f CMakeFiles/GenericScopeGuard.dir/build.make CMakeFiles/GenericScopeGuard.dir/ScopedGuard/GenericScopeGuard.cpp.i
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/ScopedGuard/GenericScopeGuard.cpp.i
+.PHONY : ScopedGuard/GenericScopeGuard.cpp.i
+
+ScopedGuard/GenericScopeGuard.s: ScopedGuard/GenericScopeGuard.cpp.s
+
+.PHONY : ScopedGuard/GenericScopeGuard.s
+
+# target to generate assembly for a file
+ScopedGuard/GenericScopeGuard.cpp.s:
+	$(MAKE) -f CMakeFiles/GenericScopeGuard.dir/build.make CMakeFiles/GenericScopeGuard.dir/ScopedGuard/GenericScopeGuard.cpp.s
+	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/ScopedGuard/GenericScopeGuard.cpp.s
+.PHONY : ScopedGuard/GenericScopeGuard.cpp.s
 
 ScopedGuard/RAII.o: ScopedGuard/RAII.cpp.o
 
@@ -1504,8 +1787,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... FriendFactoryFinal"
+	@echo "... FriendsOfTemplateClasses"
+	@echo "... FriendsVersusMemberFunction"
+	@echo "... GenericScopeGuard"
 	@echo "... MethodChainingInClassHierarchies2"
 	@echo "... GeneralMethodChaining"
+	@echo "... GeneratingFriendsOnDemand"
 	@echo "... MethodChainingAndNamedArguments"
 	@echo "... SFINAE"
 	@echo "... MethodChaining"
@@ -1517,6 +1805,7 @@ help:
 	@echo "... SmallVector"
 	@echo "... MethodChainingInClassHierarchies"
 	@echo "... TheUltimateSFINAE"
+	@echo "... HowToGrantFriendShip"
 	@echo "... AdvancedSFINAE2"
 	@echo "... BasicSFINAE"
 	@echo "... AdvancedSFINAE"
@@ -1527,6 +1816,7 @@ help:
 	@echo "... EffectOfLocalbufferOptimization"
 	@echo "... TheOverheadOfTypeErasure"
 	@echo "... TypeErasureinCpp"
+	@echo "... ExceptionDrivernScopedGuard"
 	@echo "... AdvancedSFINAErevisited2"
 	@echo "... CarefulImplementationOfRAIIobject"
 	@echo "... PerformanceOfTheNamedArgumentsIdiom"
@@ -1572,6 +1862,21 @@ help:
 	@echo "... ExpandingTheInterface.o"
 	@echo "... ExpandingTheInterface.i"
 	@echo "... ExpandingTheInterface.s"
+	@echo "... FriendFactory/FriendFactoryFinal.o"
+	@echo "... FriendFactory/FriendFactoryFinal.i"
+	@echo "... FriendFactory/FriendFactoryFinal.s"
+	@echo "... FriendFactory/FriendsOfTemplateClasses.o"
+	@echo "... FriendFactory/FriendsOfTemplateClasses.i"
+	@echo "... FriendFactory/FriendsOfTemplateClasses.s"
+	@echo "... FriendFactory/FriendsVersusMemberFunction.o"
+	@echo "... FriendFactory/FriendsVersusMemberFunction.i"
+	@echo "... FriendFactory/FriendsVersusMemberFunction.s"
+	@echo "... FriendFactory/GeneratingFriendsOnDemand.o"
+	@echo "... FriendFactory/GeneratingFriendsOnDemand.i"
+	@echo "... FriendFactory/GeneratingFriendsOnDemand.s"
+	@echo "... FriendFactory/HowToGrantFriendShip.o"
+	@echo "... FriendFactory/HowToGrantFriendShip.i"
+	@echo "... FriendFactory/HowToGrantFriendShip.s"
 	@echo "... GeneralMethodChaining.o"
 	@echo "... GeneralMethodChaining.i"
 	@echo "... GeneralMethodChaining.s"
@@ -1605,6 +1910,12 @@ help:
 	@echo "... SFINAE.o"
 	@echo "... SFINAE.i"
 	@echo "... SFINAE.s"
+	@echo "... ScopedGuard/ExceptionDrivernScopedGuard.o"
+	@echo "... ScopedGuard/ExceptionDrivernScopedGuard.i"
+	@echo "... ScopedGuard/ExceptionDrivernScopedGuard.s"
+	@echo "... ScopedGuard/GenericScopeGuard.o"
+	@echo "... ScopedGuard/GenericScopeGuard.i"
+	@echo "... ScopedGuard/GenericScopeGuard.s"
 	@echo "... ScopedGuard/RAII.o"
 	@echo "... ScopedGuard/RAII.i"
 	@echo "... ScopedGuard/RAII.s"

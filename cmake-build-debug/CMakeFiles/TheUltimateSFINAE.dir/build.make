@@ -60,15 +60,15 @@ include CMakeFiles/TheUltimateSFINAE.dir/flags.make
 CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.o: CMakeFiles/TheUltimateSFINAE.dir/flags.make
 CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.o: ../TheUltimateSFINAE.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.o -c /Users/wualex/Documents/DesignPattern/TheUltimateSFINAE.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.o -c /Users/wualex/Documents/DesignPattern/TheUltimateSFINAE.cpp
 
 CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/TheUltimateSFINAE.cpp > CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/TheUltimateSFINAE.cpp > CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.i
 
 CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/TheUltimateSFINAE.cpp -o CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/TheUltimateSFINAE.cpp -o CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.s
 
 # Object files for target TheUltimateSFINAE
 TheUltimateSFINAE_OBJECTS = \

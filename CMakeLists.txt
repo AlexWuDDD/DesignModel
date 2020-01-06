@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.15)
 project(DesignPattern)
 
+# include_directories(SYSTEM "/foo/bar")
+
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAG -g -O4 -Wall -Wextra -Werror -pedantic)
 
@@ -75,5 +77,13 @@ target_link_libraries(SmallVector benchmark)
 add_executable(Type_erasedAndCallableObjects Type_erasedAndCallableObjects.cpp)
 target_link_libraries(Type_erasedAndCallableObjects benchmark)
 
-add_executable(RAII ScopedGuard/RAII.cpp)
+add_executable(RAII ScopedGuard/RAII.cpp ScopedGuard/GenericScopeGuard.cpp )
 add_executable(ScopedGuardBasics ScopedGuard/ScopedGuardBasics.cpp)
+add_executable(GenericScopeGuard ScopedGuard/GenericScopeGuard.cpp )
+add_executable(ExceptionDrivernScopedGuard ScopedGuard/ExceptionDrivernScopedGuard.cpp)
+
+add_executable(HowToGrantFriendShip FriendFactory/HowToGrantFriendShip.cpp)
+add_executable(FriendsVersusMemberFunction FriendFactory/FriendsVersusMemberFunction.cpp)
+add_executable(FriendsOfTemplateClasses FriendFactory/FriendsOfTemplateClasses.cpp)
+add_executable(GeneratingFriendsOnDemand FriendFactory/GeneratingFriendsOnDemand.cpp)
+add_executable(FriendFactoryFinal FriendFactory/FriendFactoryFinal.cpp)

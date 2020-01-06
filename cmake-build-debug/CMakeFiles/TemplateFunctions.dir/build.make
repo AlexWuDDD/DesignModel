@@ -60,15 +60,15 @@ include CMakeFiles/TemplateFunctions.dir/flags.make
 CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.o: CMakeFiles/TemplateFunctions.dir/flags.make
 CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.o: ../TemplateFunctions.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.o -c /Users/wualex/Documents/DesignPattern/TemplateFunctions.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.o -c /Users/wualex/Documents/DesignPattern/TemplateFunctions.cpp
 
 CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/TemplateFunctions.cpp > CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/TemplateFunctions.cpp > CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.i
 
 CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/TemplateFunctions.cpp -o CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/TemplateFunctions.cpp -o CMakeFiles/TemplateFunctions.dir/TemplateFunctions.cpp.s
 
 # Object files for target TemplateFunctions
 TemplateFunctions_OBJECTS = \

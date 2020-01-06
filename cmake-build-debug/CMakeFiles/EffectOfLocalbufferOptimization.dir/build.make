@@ -60,28 +60,28 @@ include CMakeFiles/EffectOfLocalbufferOptimization.dir/flags.make
 CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.o: CMakeFiles/EffectOfLocalbufferOptimization.dir/flags.make
 CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.o: ../EffectOfLocalbufferOptimization.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.o -c /Users/wualex/Documents/DesignPattern/EffectOfLocalbufferOptimization.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.o -c /Users/wualex/Documents/DesignPattern/EffectOfLocalbufferOptimization.cpp
 
 CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/EffectOfLocalbufferOptimization.cpp > CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/EffectOfLocalbufferOptimization.cpp > CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.i
 
 CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/EffectOfLocalbufferOptimization.cpp -o CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/EffectOfLocalbufferOptimization.cpp -o CMakeFiles/EffectOfLocalbufferOptimization.dir/EffectOfLocalbufferOptimization.cpp.s
 
 CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.o: CMakeFiles/EffectOfLocalbufferOptimization.dir/flags.make
 CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.o: ../TheMainIdea.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.o -c /Users/wualex/Documents/DesignPattern/TheMainIdea.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.o -c /Users/wualex/Documents/DesignPattern/TheMainIdea.cpp
 
 CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/TheMainIdea.cpp > CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/TheMainIdea.cpp > CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.i
 
 CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/TheMainIdea.cpp -o CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/TheMainIdea.cpp -o CMakeFiles/EffectOfLocalbufferOptimization.dir/TheMainIdea.cpp.s
 
 # Object files for target EffectOfLocalbufferOptimization
 EffectOfLocalbufferOptimization_OBJECTS = \

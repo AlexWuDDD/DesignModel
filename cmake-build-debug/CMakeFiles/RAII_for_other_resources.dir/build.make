@@ -60,15 +60,15 @@ include CMakeFiles/RAII_for_other_resources.dir/flags.make
 CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.o: CMakeFiles/RAII_for_other_resources.dir/flags.make
 CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.o: ../RAII_for_other_resources.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.o -c /Users/wualex/Documents/DesignPattern/RAII_for_other_resources.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.o -c /Users/wualex/Documents/DesignPattern/RAII_for_other_resources.cpp
 
 CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/RAII_for_other_resources.cpp > CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/RAII_for_other_resources.cpp > CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.i
 
 CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/RAII_for_other_resources.cpp -o CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/RAII_for_other_resources.cpp -o CMakeFiles/RAII_for_other_resources.dir/RAII_for_other_resources.cpp.s
 
 # Object files for target RAII_for_other_resources
 RAII_for_other_resources_OBJECTS = \

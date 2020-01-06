@@ -1,6 +1,11 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FriendFactoryFinal.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FriendsOfTemplateClasses.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FriendsVersusMemberFunction.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/GenericScopeGuard.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/GeneralMethodChaining.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/GeneratingFriendsOnDemand.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MethodChainingAndNamedArguments.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MethodChaining.dir
@@ -12,6 +17,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SmallVector.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/HowToGrantFriendShip.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/BasicSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE.dir
@@ -22,6 +28,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/EffectOfLocalbufferOptimization.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheOverheadOfTypeErasure.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ExceptionDrivernScopedGuard.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CarefulImplementationOfRAIIobject.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir

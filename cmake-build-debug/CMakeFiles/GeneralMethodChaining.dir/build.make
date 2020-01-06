@@ -60,15 +60,15 @@ include CMakeFiles/GeneralMethodChaining.dir/flags.make
 CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.o: CMakeFiles/GeneralMethodChaining.dir/flags.make
 CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.o: ../GeneralMethodChaining.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.o -c /Users/wualex/Documents/DesignPattern/GeneralMethodChaining.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.o -c /Users/wualex/Documents/DesignPattern/GeneralMethodChaining.cpp
 
 CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/GeneralMethodChaining.cpp > CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/GeneralMethodChaining.cpp > CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.i
 
 CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/GeneralMethodChaining.cpp -o CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/GeneralMethodChaining.cpp -o CMakeFiles/GeneralMethodChaining.dir/GeneralMethodChaining.cpp.s
 
 # Object files for target GeneralMethodChaining
 GeneralMethodChaining_OBJECTS = \

@@ -60,15 +60,15 @@ include CMakeFiles/MethodChaining.dir/flags.make
 CMakeFiles/MethodChaining.dir/MethodChaining.cpp.o: CMakeFiles/MethodChaining.dir/flags.make
 CMakeFiles/MethodChaining.dir/MethodChaining.cpp.o: ../MethodChaining.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MethodChaining.dir/MethodChaining.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MethodChaining.dir/MethodChaining.cpp.o -c /Users/wualex/Documents/DesignPattern/MethodChaining.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MethodChaining.dir/MethodChaining.cpp.o -c /Users/wualex/Documents/DesignPattern/MethodChaining.cpp
 
 CMakeFiles/MethodChaining.dir/MethodChaining.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MethodChaining.dir/MethodChaining.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/MethodChaining.cpp > CMakeFiles/MethodChaining.dir/MethodChaining.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/MethodChaining.cpp > CMakeFiles/MethodChaining.dir/MethodChaining.cpp.i
 
 CMakeFiles/MethodChaining.dir/MethodChaining.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MethodChaining.dir/MethodChaining.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/MethodChaining.cpp -o CMakeFiles/MethodChaining.dir/MethodChaining.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/MethodChaining.cpp -o CMakeFiles/MethodChaining.dir/MethodChaining.cpp.s
 
 # Object files for target MethodChaining
 MethodChaining_OBJECTS = \

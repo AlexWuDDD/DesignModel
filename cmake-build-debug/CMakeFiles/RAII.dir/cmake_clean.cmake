@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/RAII.dir/ScopedGuard/GenericScopeGuard.cpp.o"
   "CMakeFiles/RAII.dir/ScopedGuard/RAII.cpp.o"
   "RAII"
   "RAII.pdb"

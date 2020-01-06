@@ -60,15 +60,15 @@ include CMakeFiles/MethodChainingInClassHierarchies.dir/flags.make
 CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.o: CMakeFiles/MethodChainingInClassHierarchies.dir/flags.make
 CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.o: ../MethodChainingInClassHierarchies.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.o -c /Users/wualex/Documents/DesignPattern/MethodChainingInClassHierarchies.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.o -c /Users/wualex/Documents/DesignPattern/MethodChainingInClassHierarchies.cpp
 
 CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/MethodChainingInClassHierarchies.cpp > CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/MethodChainingInClassHierarchies.cpp > CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.i
 
 CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/MethodChainingInClassHierarchies.cpp -o CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/MethodChainingInClassHierarchies.cpp -o CMakeFiles/MethodChainingInClassHierarchies.dir/MethodChainingInClassHierarchies.cpp.s
 
 # Object files for target MethodChainingInClassHierarchies
 MethodChainingInClassHierarchies_OBJECTS = \

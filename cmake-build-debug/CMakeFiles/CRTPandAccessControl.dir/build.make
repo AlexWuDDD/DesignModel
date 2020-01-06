@@ -60,15 +60,15 @@ include CMakeFiles/CRTPandAccessControl.dir/flags.make
 CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.o: CMakeFiles/CRTPandAccessControl.dir/flags.make
 CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.o: ../CRTPandAccessControl.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.o -c /Users/wualex/Documents/DesignPattern/CRTPandAccessControl.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.o -c /Users/wualex/Documents/DesignPattern/CRTPandAccessControl.cpp
 
 CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/CRTPandAccessControl.cpp > CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/CRTPandAccessControl.cpp > CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.i
 
 CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/CRTPandAccessControl.cpp -o CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/CRTPandAccessControl.cpp -o CMakeFiles/CRTPandAccessControl.dir/CRTPandAccessControl.cpp.s
 
 # Object files for target CRTPandAccessControl
 CRTPandAccessControl_OBJECTS = \

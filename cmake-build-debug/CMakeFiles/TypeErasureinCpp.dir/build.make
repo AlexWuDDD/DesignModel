@@ -60,15 +60,15 @@ include CMakeFiles/TypeErasureinCpp.dir/flags.make
 CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.o: CMakeFiles/TypeErasureinCpp.dir/flags.make
 CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.o: ../TypeErasureinCpp.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.o -c /Users/wualex/Documents/DesignPattern/TypeErasureinCpp.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.o -c /Users/wualex/Documents/DesignPattern/TypeErasureinCpp.cpp
 
 CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/TypeErasureinCpp.cpp > CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/TypeErasureinCpp.cpp > CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.i
 
 CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/TypeErasureinCpp.cpp -o CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/TypeErasureinCpp.cpp -o CMakeFiles/TypeErasureinCpp.dir/TypeErasureinCpp.cpp.s
 
 # Object files for target TypeErasureinCpp
 TypeErasureinCpp_OBJECTS = \

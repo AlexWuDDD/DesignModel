@@ -60,15 +60,15 @@ include CMakeFiles/Releasing_early.dir/flags.make
 CMakeFiles/Releasing_early.dir/Releasing_early.cpp.o: CMakeFiles/Releasing_early.dir/flags.make
 CMakeFiles/Releasing_early.dir/Releasing_early.cpp.o: ../Releasing_early.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Releasing_early.dir/Releasing_early.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Releasing_early.dir/Releasing_early.cpp.o -c /Users/wualex/Documents/DesignPattern/Releasing_early.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Releasing_early.dir/Releasing_early.cpp.o -c /Users/wualex/Documents/DesignPattern/Releasing_early.cpp
 
 CMakeFiles/Releasing_early.dir/Releasing_early.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Releasing_early.dir/Releasing_early.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/Releasing_early.cpp > CMakeFiles/Releasing_early.dir/Releasing_early.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/Releasing_early.cpp > CMakeFiles/Releasing_early.dir/Releasing_early.cpp.i
 
 CMakeFiles/Releasing_early.dir/Releasing_early.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Releasing_early.dir/Releasing_early.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/Releasing_early.cpp -o CMakeFiles/Releasing_early.dir/Releasing_early.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/Releasing_early.cpp -o CMakeFiles/Releasing_early.dir/Releasing_early.cpp.s
 
 # Object files for target Releasing_early
 Releasing_early_OBJECTS = \

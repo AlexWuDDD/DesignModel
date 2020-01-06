@@ -52,8 +52,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/FriendFactoryFinal.dir/DependInfo.cmake"
+  "CMakeFiles/FriendsOfTemplateClasses.dir/DependInfo.cmake"
+  "CMakeFiles/FriendsVersusMemberFunction.dir/DependInfo.cmake"
+  "CMakeFiles/GenericScopeGuard.dir/DependInfo.cmake"
   "CMakeFiles/MethodChainingInClassHierarchies2.dir/DependInfo.cmake"
   "CMakeFiles/GeneralMethodChaining.dir/DependInfo.cmake"
+  "CMakeFiles/GeneratingFriendsOnDemand.dir/DependInfo.cmake"
   "CMakeFiles/MethodChainingAndNamedArguments.dir/DependInfo.cmake"
   "CMakeFiles/SFINAE.dir/DependInfo.cmake"
   "CMakeFiles/MethodChaining.dir/DependInfo.cmake"
@@ -65,6 +70,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/SmallVector.dir/DependInfo.cmake"
   "CMakeFiles/MethodChainingInClassHierarchies.dir/DependInfo.cmake"
   "CMakeFiles/TheUltimateSFINAE.dir/DependInfo.cmake"
+  "CMakeFiles/HowToGrantFriendShip.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAE2.dir/DependInfo.cmake"
   "CMakeFiles/BasicSFINAE.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAE.dir/DependInfo.cmake"
@@ -74,6 +80,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/EffectOfLocalbufferOptimization.dir/DependInfo.cmake"
   "CMakeFiles/TheOverheadOfTypeErasure.dir/DependInfo.cmake"
   "CMakeFiles/TypeErasureinCpp.dir/DependInfo.cmake"
+  "CMakeFiles/ExceptionDrivernScopedGuard.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAErevisited2.dir/DependInfo.cmake"
   "CMakeFiles/CarefulImplementationOfRAIIobject.dir/DependInfo.cmake"
   "CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/DependInfo.cmake"

@@ -60,15 +60,15 @@ include CMakeFiles/SFINAE.dir/flags.make
 CMakeFiles/SFINAE.dir/SFINAE.cpp.o: CMakeFiles/SFINAE.dir/flags.make
 CMakeFiles/SFINAE.dir/SFINAE.cpp.o: ../SFINAE.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SFINAE.dir/SFINAE.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFINAE.dir/SFINAE.cpp.o -c /Users/wualex/Documents/DesignPattern/SFINAE.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SFINAE.dir/SFINAE.cpp.o -c /Users/wualex/Documents/DesignPattern/SFINAE.cpp
 
 CMakeFiles/SFINAE.dir/SFINAE.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SFINAE.dir/SFINAE.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/SFINAE.cpp > CMakeFiles/SFINAE.dir/SFINAE.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/SFINAE.cpp > CMakeFiles/SFINAE.dir/SFINAE.cpp.i
 
 CMakeFiles/SFINAE.dir/SFINAE.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SFINAE.dir/SFINAE.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/SFINAE.cpp -o CMakeFiles/SFINAE.dir/SFINAE.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/SFINAE.cpp -o CMakeFiles/SFINAE.dir/SFINAE.cpp.s
 
 # Object files for target SFINAE
 SFINAE_OBJECTS = \

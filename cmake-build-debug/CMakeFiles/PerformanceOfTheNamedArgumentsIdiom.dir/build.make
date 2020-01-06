@@ -60,15 +60,15 @@ include CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/flags.make
 CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.o: CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/flags.make
 CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.o: ../PerformanceOfTheNamedArgumentsIdiom.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.o -c /Users/wualex/Documents/DesignPattern/PerformanceOfTheNamedArgumentsIdiom.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.o -c /Users/wualex/Documents/DesignPattern/PerformanceOfTheNamedArgumentsIdiom.cpp
 
 CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/PerformanceOfTheNamedArgumentsIdiom.cpp > CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/PerformanceOfTheNamedArgumentsIdiom.cpp > CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.i
 
 CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/PerformanceOfTheNamedArgumentsIdiom.cpp -o CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/PerformanceOfTheNamedArgumentsIdiom.cpp -o CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.s
 
 # Object files for target PerformanceOfTheNamedArgumentsIdiom
 PerformanceOfTheNamedArgumentsIdiom_OBJECTS = \

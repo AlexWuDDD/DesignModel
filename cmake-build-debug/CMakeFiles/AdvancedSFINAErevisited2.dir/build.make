@@ -60,15 +60,15 @@ include CMakeFiles/AdvancedSFINAErevisited2.dir/flags.make
 CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.o: CMakeFiles/AdvancedSFINAErevisited2.dir/flags.make
 CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.o: ../AdvancedSFINAErevisited2.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.o -c /Users/wualex/Documents/DesignPattern/AdvancedSFINAErevisited2.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.o -c /Users/wualex/Documents/DesignPattern/AdvancedSFINAErevisited2.cpp
 
 CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/AdvancedSFINAErevisited2.cpp > CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/AdvancedSFINAErevisited2.cpp > CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.i
 
 CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/AdvancedSFINAErevisited2.cpp -o CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/AdvancedSFINAErevisited2.cpp -o CMakeFiles/AdvancedSFINAErevisited2.dir/AdvancedSFINAErevisited2.cpp.s
 
 # Object files for target AdvancedSFINAErevisited2
 AdvancedSFINAErevisited2_OBJECTS = \

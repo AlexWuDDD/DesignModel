@@ -60,15 +60,15 @@ include CMakeFiles/Type_erasedAndCallableObjects.dir/flags.make
 CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.o: CMakeFiles/Type_erasedAndCallableObjects.dir/flags.make
 CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.o: ../Type_erasedAndCallableObjects.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.o -c /Users/wualex/Documents/DesignPattern/Type_erasedAndCallableObjects.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.o -c /Users/wualex/Documents/DesignPattern/Type_erasedAndCallableObjects.cpp
 
 CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/Type_erasedAndCallableObjects.cpp > CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/Type_erasedAndCallableObjects.cpp > CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.i
 
 CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/Type_erasedAndCallableObjects.cpp -o CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/Type_erasedAndCallableObjects.cpp -o CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.s
 
 # Object files for target Type_erasedAndCallableObjects
 Type_erasedAndCallableObjects_OBJECTS = \

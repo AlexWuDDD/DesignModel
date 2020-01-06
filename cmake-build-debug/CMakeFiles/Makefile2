@@ -53,8 +53,13 @@ CMAKE_BINARY_DIR = /Users/wualex/Documents/DesignPattern/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/FriendFactoryFinal.dir/all
+all: CMakeFiles/FriendsOfTemplateClasses.dir/all
+all: CMakeFiles/FriendsVersusMemberFunction.dir/all
+all: CMakeFiles/GenericScopeGuard.dir/all
 all: CMakeFiles/MethodChainingInClassHierarchies2.dir/all
 all: CMakeFiles/GeneralMethodChaining.dir/all
+all: CMakeFiles/GeneratingFriendsOnDemand.dir/all
 all: CMakeFiles/MethodChainingAndNamedArguments.dir/all
 all: CMakeFiles/SFINAE.dir/all
 all: CMakeFiles/MethodChaining.dir/all
@@ -66,6 +71,7 @@ all: CMakeFiles/WhatIsWringWithAVirtualFunction.dir/all
 all: CMakeFiles/SmallVector.dir/all
 all: CMakeFiles/MethodChainingInClassHierarchies.dir/all
 all: CMakeFiles/TheUltimateSFINAE.dir/all
+all: CMakeFiles/HowToGrantFriendShip.dir/all
 all: CMakeFiles/AdvancedSFINAE2.dir/all
 all: CMakeFiles/BasicSFINAE.dir/all
 all: CMakeFiles/AdvancedSFINAE.dir/all
@@ -75,6 +81,7 @@ all: CMakeFiles/Type_erasedAndCallableObjects.dir/all
 all: CMakeFiles/EffectOfLocalbufferOptimization.dir/all
 all: CMakeFiles/TheOverheadOfTypeErasure.dir/all
 all: CMakeFiles/TypeErasureinCpp.dir/all
+all: CMakeFiles/ExceptionDrivernScopedGuard.dir/all
 all: CMakeFiles/AdvancedSFINAErevisited2.dir/all
 all: CMakeFiles/CarefulImplementationOfRAIIobject.dir/all
 all: CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/all
@@ -91,8 +98,13 @@ all: CMakeFiles/Releasing_early.dir/all
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/FriendFactoryFinal.dir/clean
+clean: CMakeFiles/FriendsOfTemplateClasses.dir/clean
+clean: CMakeFiles/FriendsVersusMemberFunction.dir/clean
+clean: CMakeFiles/GenericScopeGuard.dir/clean
 clean: CMakeFiles/MethodChainingInClassHierarchies2.dir/clean
 clean: CMakeFiles/GeneralMethodChaining.dir/clean
+clean: CMakeFiles/GeneratingFriendsOnDemand.dir/clean
 clean: CMakeFiles/MethodChainingAndNamedArguments.dir/clean
 clean: CMakeFiles/SFINAE.dir/clean
 clean: CMakeFiles/MethodChaining.dir/clean
@@ -104,6 +116,7 @@ clean: CMakeFiles/WhatIsWringWithAVirtualFunction.dir/clean
 clean: CMakeFiles/SmallVector.dir/clean
 clean: CMakeFiles/MethodChainingInClassHierarchies.dir/clean
 clean: CMakeFiles/TheUltimateSFINAE.dir/clean
+clean: CMakeFiles/HowToGrantFriendShip.dir/clean
 clean: CMakeFiles/AdvancedSFINAE2.dir/clean
 clean: CMakeFiles/BasicSFINAE.dir/clean
 clean: CMakeFiles/AdvancedSFINAE.dir/clean
@@ -113,6 +126,7 @@ clean: CMakeFiles/Type_erasedAndCallableObjects.dir/clean
 clean: CMakeFiles/EffectOfLocalbufferOptimization.dir/clean
 clean: CMakeFiles/TheOverheadOfTypeErasure.dir/clean
 clean: CMakeFiles/TypeErasureinCpp.dir/clean
+clean: CMakeFiles/ExceptionDrivernScopedGuard.dir/clean
 clean: CMakeFiles/AdvancedSFINAErevisited2.dir/clean
 clean: CMakeFiles/CarefulImplementationOfRAIIobject.dir/clean
 clean: CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/clean
@@ -134,13 +148,121 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/FriendFactoryFinal.dir
+
+# All Build rule for target.
+CMakeFiles/FriendFactoryFinal.dir/all:
+	$(MAKE) -f CMakeFiles/FriendFactoryFinal.dir/build.make CMakeFiles/FriendFactoryFinal.dir/depend
+	$(MAKE) -f CMakeFiles/FriendFactoryFinal.dir/build.make CMakeFiles/FriendFactoryFinal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target FriendFactoryFinal"
+.PHONY : CMakeFiles/FriendFactoryFinal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FriendFactoryFinal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FriendFactoryFinal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FriendFactoryFinal.dir/rule
+
+# Convenience name for target.
+FriendFactoryFinal: CMakeFiles/FriendFactoryFinal.dir/rule
+
+.PHONY : FriendFactoryFinal
+
+# clean rule for target.
+CMakeFiles/FriendFactoryFinal.dir/clean:
+	$(MAKE) -f CMakeFiles/FriendFactoryFinal.dir/build.make CMakeFiles/FriendFactoryFinal.dir/clean
+.PHONY : CMakeFiles/FriendFactoryFinal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FriendsOfTemplateClasses.dir
+
+# All Build rule for target.
+CMakeFiles/FriendsOfTemplateClasses.dir/all:
+	$(MAKE) -f CMakeFiles/FriendsOfTemplateClasses.dir/build.make CMakeFiles/FriendsOfTemplateClasses.dir/depend
+	$(MAKE) -f CMakeFiles/FriendsOfTemplateClasses.dir/build.make CMakeFiles/FriendsOfTemplateClasses.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target FriendsOfTemplateClasses"
+.PHONY : CMakeFiles/FriendsOfTemplateClasses.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FriendsOfTemplateClasses.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FriendsOfTemplateClasses.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FriendsOfTemplateClasses.dir/rule
+
+# Convenience name for target.
+FriendsOfTemplateClasses: CMakeFiles/FriendsOfTemplateClasses.dir/rule
+
+.PHONY : FriendsOfTemplateClasses
+
+# clean rule for target.
+CMakeFiles/FriendsOfTemplateClasses.dir/clean:
+	$(MAKE) -f CMakeFiles/FriendsOfTemplateClasses.dir/build.make CMakeFiles/FriendsOfTemplateClasses.dir/clean
+.PHONY : CMakeFiles/FriendsOfTemplateClasses.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FriendsVersusMemberFunction.dir
+
+# All Build rule for target.
+CMakeFiles/FriendsVersusMemberFunction.dir/all:
+	$(MAKE) -f CMakeFiles/FriendsVersusMemberFunction.dir/build.make CMakeFiles/FriendsVersusMemberFunction.dir/depend
+	$(MAKE) -f CMakeFiles/FriendsVersusMemberFunction.dir/build.make CMakeFiles/FriendsVersusMemberFunction.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target FriendsVersusMemberFunction"
+.PHONY : CMakeFiles/FriendsVersusMemberFunction.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FriendsVersusMemberFunction.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/FriendsVersusMemberFunction.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FriendsVersusMemberFunction.dir/rule
+
+# Convenience name for target.
+FriendsVersusMemberFunction: CMakeFiles/FriendsVersusMemberFunction.dir/rule
+
+.PHONY : FriendsVersusMemberFunction
+
+# clean rule for target.
+CMakeFiles/FriendsVersusMemberFunction.dir/clean:
+	$(MAKE) -f CMakeFiles/FriendsVersusMemberFunction.dir/build.make CMakeFiles/FriendsVersusMemberFunction.dir/clean
+.PHONY : CMakeFiles/FriendsVersusMemberFunction.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/GenericScopeGuard.dir
+
+# All Build rule for target.
+CMakeFiles/GenericScopeGuard.dir/all:
+	$(MAKE) -f CMakeFiles/GenericScopeGuard.dir/build.make CMakeFiles/GenericScopeGuard.dir/depend
+	$(MAKE) -f CMakeFiles/GenericScopeGuard.dir/build.make CMakeFiles/GenericScopeGuard.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target GenericScopeGuard"
+.PHONY : CMakeFiles/GenericScopeGuard.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GenericScopeGuard.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GenericScopeGuard.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/GenericScopeGuard.dir/rule
+
+# Convenience name for target.
+GenericScopeGuard: CMakeFiles/GenericScopeGuard.dir/rule
+
+.PHONY : GenericScopeGuard
+
+# clean rule for target.
+CMakeFiles/GenericScopeGuard.dir/clean:
+	$(MAKE) -f CMakeFiles/GenericScopeGuard.dir/build.make CMakeFiles/GenericScopeGuard.dir/clean
+.PHONY : CMakeFiles/GenericScopeGuard.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/MethodChainingInClassHierarchies2.dir
 
 # All Build rule for target.
 CMakeFiles/MethodChainingInClassHierarchies2.dir/all:
 	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies2.dir/build.make CMakeFiles/MethodChainingInClassHierarchies2.dir/depend
 	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies2.dir/build.make CMakeFiles/MethodChainingInClassHierarchies2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target MethodChainingInClassHierarchies2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target MethodChainingInClassHierarchies2"
 .PHONY : CMakeFiles/MethodChainingInClassHierarchies2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -167,7 +289,7 @@ CMakeFiles/MethodChainingInClassHierarchies2.dir/clean:
 CMakeFiles/GeneralMethodChaining.dir/all:
 	$(MAKE) -f CMakeFiles/GeneralMethodChaining.dir/build.make CMakeFiles/GeneralMethodChaining.dir/depend
 	$(MAKE) -f CMakeFiles/GeneralMethodChaining.dir/build.make CMakeFiles/GeneralMethodChaining.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target GeneralMethodChaining"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target GeneralMethodChaining"
 .PHONY : CMakeFiles/GeneralMethodChaining.dir/all
 
 # Build rule for subdir invocation for target.
@@ -188,13 +310,40 @@ CMakeFiles/GeneralMethodChaining.dir/clean:
 .PHONY : CMakeFiles/GeneralMethodChaining.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/GeneratingFriendsOnDemand.dir
+
+# All Build rule for target.
+CMakeFiles/GeneratingFriendsOnDemand.dir/all:
+	$(MAKE) -f CMakeFiles/GeneratingFriendsOnDemand.dir/build.make CMakeFiles/GeneratingFriendsOnDemand.dir/depend
+	$(MAKE) -f CMakeFiles/GeneratingFriendsOnDemand.dir/build.make CMakeFiles/GeneratingFriendsOnDemand.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target GeneratingFriendsOnDemand"
+.PHONY : CMakeFiles/GeneratingFriendsOnDemand.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/GeneratingFriendsOnDemand.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/GeneratingFriendsOnDemand.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/GeneratingFriendsOnDemand.dir/rule
+
+# Convenience name for target.
+GeneratingFriendsOnDemand: CMakeFiles/GeneratingFriendsOnDemand.dir/rule
+
+.PHONY : GeneratingFriendsOnDemand
+
+# clean rule for target.
+CMakeFiles/GeneratingFriendsOnDemand.dir/clean:
+	$(MAKE) -f CMakeFiles/GeneratingFriendsOnDemand.dir/build.make CMakeFiles/GeneratingFriendsOnDemand.dir/clean
+.PHONY : CMakeFiles/GeneratingFriendsOnDemand.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/MethodChainingAndNamedArguments.dir
 
 # All Build rule for target.
 CMakeFiles/MethodChainingAndNamedArguments.dir/all:
 	$(MAKE) -f CMakeFiles/MethodChainingAndNamedArguments.dir/build.make CMakeFiles/MethodChainingAndNamedArguments.dir/depend
 	$(MAKE) -f CMakeFiles/MethodChainingAndNamedArguments.dir/build.make CMakeFiles/MethodChainingAndNamedArguments.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target MethodChainingAndNamedArguments"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target MethodChainingAndNamedArguments"
 .PHONY : CMakeFiles/MethodChainingAndNamedArguments.dir/all
 
 # Build rule for subdir invocation for target.
@@ -221,7 +370,7 @@ CMakeFiles/MethodChainingAndNamedArguments.dir/clean:
 CMakeFiles/SFINAE.dir/all:
 	$(MAKE) -f CMakeFiles/SFINAE.dir/build.make CMakeFiles/SFINAE.dir/depend
 	$(MAKE) -f CMakeFiles/SFINAE.dir/build.make CMakeFiles/SFINAE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target SFINAE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target SFINAE"
 .PHONY : CMakeFiles/SFINAE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -248,7 +397,7 @@ CMakeFiles/SFINAE.dir/clean:
 CMakeFiles/MethodChaining.dir/all:
 	$(MAKE) -f CMakeFiles/MethodChaining.dir/build.make CMakeFiles/MethodChaining.dir/depend
 	$(MAKE) -f CMakeFiles/MethodChaining.dir/build.make CMakeFiles/MethodChaining.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target MethodChaining"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target MethodChaining"
 .PHONY : CMakeFiles/MethodChaining.dir/all
 
 # Build rule for subdir invocation for target.
@@ -275,7 +424,7 @@ CMakeFiles/MethodChaining.dir/clean:
 CMakeFiles/IntroducingCRTP.dir/all:
 	$(MAKE) -f CMakeFiles/IntroducingCRTP.dir/build.make CMakeFiles/IntroducingCRTP.dir/depend
 	$(MAKE) -f CMakeFiles/IntroducingCRTP.dir/build.make CMakeFiles/IntroducingCRTP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target IntroducingCRTP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target IntroducingCRTP"
 .PHONY : CMakeFiles/IntroducingCRTP.dir/all
 
 # Build rule for subdir invocation for target.
@@ -383,7 +532,7 @@ CMakeFiles/CompileTimePolymorphism.dir/clean:
 CMakeFiles/WhatIsWringWithAVirtualFunction.dir/all:
 	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/depend
 	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=68,69 "Built target WhatIsWringWithAVirtualFunction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target WhatIsWringWithAVirtualFunction"
 .PHONY : CMakeFiles/WhatIsWringWithAVirtualFunction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -410,7 +559,7 @@ CMakeFiles/WhatIsWringWithAVirtualFunction.dir/clean:
 CMakeFiles/SmallVector.dir/all:
 	$(MAKE) -f CMakeFiles/SmallVector.dir/build.make CMakeFiles/SmallVector.dir/depend
 	$(MAKE) -f CMakeFiles/SmallVector.dir/build.make CMakeFiles/SmallVector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target SmallVector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target SmallVector"
 .PHONY : CMakeFiles/SmallVector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -437,7 +586,7 @@ CMakeFiles/SmallVector.dir/clean:
 CMakeFiles/MethodChainingInClassHierarchies.dir/all:
 	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies.dir/build.make CMakeFiles/MethodChainingInClassHierarchies.dir/depend
 	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies.dir/build.make CMakeFiles/MethodChainingInClassHierarchies.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target MethodChainingInClassHierarchies"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target MethodChainingInClassHierarchies"
 .PHONY : CMakeFiles/MethodChainingInClassHierarchies.dir/all
 
 # Build rule for subdir invocation for target.
@@ -464,7 +613,7 @@ CMakeFiles/MethodChainingInClassHierarchies.dir/clean:
 CMakeFiles/TheUltimateSFINAE.dir/all:
 	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/depend
 	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target TheUltimateSFINAE"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target TheUltimateSFINAE"
 .PHONY : CMakeFiles/TheUltimateSFINAE.dir/all
 
 # Build rule for subdir invocation for target.
@@ -483,6 +632,33 @@ TheUltimateSFINAE: CMakeFiles/TheUltimateSFINAE.dir/rule
 CMakeFiles/TheUltimateSFINAE.dir/clean:
 	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/clean
 .PHONY : CMakeFiles/TheUltimateSFINAE.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/HowToGrantFriendShip.dir
+
+# All Build rule for target.
+CMakeFiles/HowToGrantFriendShip.dir/all:
+	$(MAKE) -f CMakeFiles/HowToGrantFriendShip.dir/build.make CMakeFiles/HowToGrantFriendShip.dir/depend
+	$(MAKE) -f CMakeFiles/HowToGrantFriendShip.dir/build.make CMakeFiles/HowToGrantFriendShip.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target HowToGrantFriendShip"
+.PHONY : CMakeFiles/HowToGrantFriendShip.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/HowToGrantFriendShip.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HowToGrantFriendShip.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/HowToGrantFriendShip.dir/rule
+
+# Convenience name for target.
+HowToGrantFriendShip: CMakeFiles/HowToGrantFriendShip.dir/rule
+
+.PHONY : HowToGrantFriendShip
+
+# clean rule for target.
+CMakeFiles/HowToGrantFriendShip.dir/clean:
+	$(MAKE) -f CMakeFiles/HowToGrantFriendShip.dir/build.make CMakeFiles/HowToGrantFriendShip.dir/clean
+.PHONY : CMakeFiles/HowToGrantFriendShip.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/AdvancedSFINAE2.dir
@@ -572,7 +748,7 @@ CMakeFiles/AdvancedSFINAE.dir/clean:
 CMakeFiles/ExpandingTheInterface.dir/all:
 	$(MAKE) -f CMakeFiles/ExpandingTheInterface.dir/build.make CMakeFiles/ExpandingTheInterface.dir/depend
 	$(MAKE) -f CMakeFiles/ExpandingTheInterface.dir/build.make CMakeFiles/ExpandingTheInterface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target ExpandingTheInterface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target ExpandingTheInterface"
 .PHONY : CMakeFiles/ExpandingTheInterface.dir/all
 
 # Build rule for subdir invocation for target.
@@ -626,7 +802,7 @@ CMakeFiles/AdvancedSFINAErevisited.dir/clean:
 CMakeFiles/Type_erasedAndCallableObjects.dir/all:
 	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/depend
 	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=66,67 "Built target Type_erasedAndCallableObjects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target Type_erasedAndCallableObjects"
 .PHONY : CMakeFiles/Type_erasedAndCallableObjects.dir/all
 
 # Build rule for subdir invocation for target.
@@ -680,7 +856,7 @@ CMakeFiles/EffectOfLocalbufferOptimization.dir/clean:
 CMakeFiles/TheOverheadOfTypeErasure.dir/all:
 	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/depend
 	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target TheOverheadOfTypeErasure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target TheOverheadOfTypeErasure"
 .PHONY : CMakeFiles/TheOverheadOfTypeErasure.dir/all
 
 # Build rule for subdir invocation for target.
@@ -707,7 +883,7 @@ CMakeFiles/TheOverheadOfTypeErasure.dir/clean:
 CMakeFiles/TypeErasureinCpp.dir/all:
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/depend
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target TypeErasureinCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target TypeErasureinCpp"
 .PHONY : CMakeFiles/TypeErasureinCpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -726,6 +902,33 @@ TypeErasureinCpp: CMakeFiles/TypeErasureinCpp.dir/rule
 CMakeFiles/TypeErasureinCpp.dir/clean:
 	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/clean
 .PHONY : CMakeFiles/TypeErasureinCpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ExceptionDrivernScopedGuard.dir
+
+# All Build rule for target.
+CMakeFiles/ExceptionDrivernScopedGuard.dir/all:
+	$(MAKE) -f CMakeFiles/ExceptionDrivernScopedGuard.dir/build.make CMakeFiles/ExceptionDrivernScopedGuard.dir/depend
+	$(MAKE) -f CMakeFiles/ExceptionDrivernScopedGuard.dir/build.make CMakeFiles/ExceptionDrivernScopedGuard.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target ExceptionDrivernScopedGuard"
+.PHONY : CMakeFiles/ExceptionDrivernScopedGuard.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ExceptionDrivernScopedGuard.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ExceptionDrivernScopedGuard.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ExceptionDrivernScopedGuard.dir/rule
+
+# Convenience name for target.
+ExceptionDrivernScopedGuard: CMakeFiles/ExceptionDrivernScopedGuard.dir/rule
+
+.PHONY : ExceptionDrivernScopedGuard
+
+# clean rule for target.
+CMakeFiles/ExceptionDrivernScopedGuard.dir/clean:
+	$(MAKE) -f CMakeFiles/ExceptionDrivernScopedGuard.dir/build.make CMakeFiles/ExceptionDrivernScopedGuard.dir/clean
+.PHONY : CMakeFiles/ExceptionDrivernScopedGuard.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/AdvancedSFINAErevisited2.dir
@@ -788,7 +991,7 @@ CMakeFiles/CarefulImplementationOfRAIIobject.dir/clean:
 CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/all:
 	$(MAKE) -f CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build.make CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/depend
 	$(MAKE) -f CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build.make CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target PerformanceOfTheNamedArgumentsIdiom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target PerformanceOfTheNamedArgumentsIdiom"
 .PHONY : CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/all
 
 # Build rule for subdir invocation for target.
@@ -815,7 +1018,7 @@ CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/clean:
 CMakeFiles/RAII_in_a_nutshell.dir/all:
 	$(MAKE) -f CMakeFiles/RAII_in_a_nutshell.dir/build.make CMakeFiles/RAII_in_a_nutshell.dir/depend
 	$(MAKE) -f CMakeFiles/RAII_in_a_nutshell.dir/build.make CMakeFiles/RAII_in_a_nutshell.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=44,45 "Built target RAII_in_a_nutshell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target RAII_in_a_nutshell"
 .PHONY : CMakeFiles/RAII_in_a_nutshell.dir/all
 
 # Build rule for subdir invocation for target.
@@ -842,7 +1045,7 @@ CMakeFiles/RAII_in_a_nutshell.dir/clean:
 CMakeFiles/ScopedGuardBasics.dir/all:
 	$(MAKE) -f CMakeFiles/ScopedGuardBasics.dir/build.make CMakeFiles/ScopedGuardBasics.dir/depend
 	$(MAKE) -f CMakeFiles/ScopedGuardBasics.dir/build.make CMakeFiles/ScopedGuardBasics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=50,51 "Built target ScopedGuardBasics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target ScopedGuardBasics"
 .PHONY : CMakeFiles/ScopedGuardBasics.dir/all
 
 # Build rule for subdir invocation for target.
@@ -869,7 +1072,7 @@ CMakeFiles/ScopedGuardBasics.dir/clean:
 CMakeFiles/TemplateFunctions.dir/all:
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/depend
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target TemplateFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target TemplateFunctions"
 .PHONY : CMakeFiles/TemplateFunctions.dir/all
 
 # Build rule for subdir invocation for target.
@@ -896,7 +1099,7 @@ CMakeFiles/TemplateFunctions.dir/clean:
 CMakeFiles/TheCostOfMemoryAllocations.dir/all:
 	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/depend
 	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target TheCostOfMemoryAllocations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target TheCostOfMemoryAllocations"
 .PHONY : CMakeFiles/TheCostOfMemoryAllocations.dir/all
 
 # Build rule for subdir invocation for target.
@@ -923,7 +1126,7 @@ CMakeFiles/TheCostOfMemoryAllocations.dir/clean:
 CMakeFiles/TypeErasureByExample.dir/all:
 	$(MAKE) -f CMakeFiles/TypeErasureByExample.dir/build.make CMakeFiles/TypeErasureByExample.dir/depend
 	$(MAKE) -f CMakeFiles/TypeErasureByExample.dir/build.make CMakeFiles/TypeErasureByExample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target TypeErasureByExample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target TypeErasureByExample"
 .PHONY : CMakeFiles/TypeErasureByExample.dir/all
 
 # Build rule for subdir invocation for target.
@@ -950,7 +1153,7 @@ CMakeFiles/TypeErasureByExample.dir/clean:
 CMakeFiles/RAII_for_other_resources.dir/all:
 	$(MAKE) -f CMakeFiles/RAII_for_other_resources.dir/build.make CMakeFiles/RAII_for_other_resources.dir/depend
 	$(MAKE) -f CMakeFiles/RAII_for_other_resources.dir/build.make CMakeFiles/RAII_for_other_resources.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target RAII_for_other_resources"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target RAII_for_other_resources"
 .PHONY : CMakeFiles/RAII_for_other_resources.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1004,12 +1207,12 @@ CMakeFiles/CountingResources.dir/clean:
 CMakeFiles/RAII.dir/all:
 	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/depend
 	$(MAKE) -f CMakeFiles/RAII.dir/build.make CMakeFiles/RAII.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target RAII"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=54,55,56 "Built target RAII"
 .PHONY : CMakeFiles/RAII.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RAII.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RAII.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/RAII.dir/rule
@@ -1031,7 +1234,7 @@ CMakeFiles/RAII.dir/clean:
 CMakeFiles/Releasing_early.dir/all:
 	$(MAKE) -f CMakeFiles/Releasing_early.dir/build.make CMakeFiles/Releasing_early.dir/depend
 	$(MAKE) -f CMakeFiles/Releasing_early.dir/build.make CMakeFiles/Releasing_early.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=46,47 "Built target Releasing_early"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target Releasing_early"
 .PHONY : CMakeFiles/Releasing_early.dir/all
 
 # Build rule for subdir invocation for target.

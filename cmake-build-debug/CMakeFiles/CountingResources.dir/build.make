@@ -60,15 +60,15 @@ include CMakeFiles/CountingResources.dir/flags.make
 CMakeFiles/CountingResources.dir/CountingResources.cpp.o: CMakeFiles/CountingResources.dir/flags.make
 CMakeFiles/CountingResources.dir/CountingResources.cpp.o: ../CountingResources.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CountingResources.dir/CountingResources.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CountingResources.dir/CountingResources.cpp.o -c /Users/wualex/Documents/DesignPattern/CountingResources.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CountingResources.dir/CountingResources.cpp.o -c /Users/wualex/Documents/DesignPattern/CountingResources.cpp
 
 CMakeFiles/CountingResources.dir/CountingResources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CountingResources.dir/CountingResources.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/CountingResources.cpp > CMakeFiles/CountingResources.dir/CountingResources.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/CountingResources.cpp > CMakeFiles/CountingResources.dir/CountingResources.cpp.i
 
 CMakeFiles/CountingResources.dir/CountingResources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CountingResources.dir/CountingResources.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/CountingResources.cpp -o CMakeFiles/CountingResources.dir/CountingResources.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/CountingResources.cpp -o CMakeFiles/CountingResources.dir/CountingResources.cpp.s
 
 # Object files for target CountingResources
 CountingResources_OBJECTS = \

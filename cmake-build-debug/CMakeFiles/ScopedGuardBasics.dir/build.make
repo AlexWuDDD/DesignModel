@@ -60,15 +60,15 @@ include CMakeFiles/ScopedGuardBasics.dir/flags.make
 CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.o: CMakeFiles/ScopedGuardBasics.dir/flags.make
 CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.o: ../ScopedGuard/ScopedGuardBasics.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.o -c /Users/wualex/Documents/DesignPattern/ScopedGuard/ScopedGuardBasics.cpp
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.o -c /Users/wualex/Documents/DesignPattern/ScopedGuard/ScopedGuardBasics.cpp
 
 CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/ScopedGuard/ScopedGuardBasics.cpp > CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wualex/Documents/DesignPattern/ScopedGuard/ScopedGuardBasics.cpp > CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.i
 
 CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/ScopedGuard/ScopedGuardBasics.cpp -o CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wualex/Documents/DesignPattern/ScopedGuard/ScopedGuardBasics.cpp -o CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.s
 
 # Object files for target ScopedGuardBasics
 ScopedGuardBasics_OBJECTS = \

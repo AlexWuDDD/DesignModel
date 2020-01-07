@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CRTPFactoryWithLessCopyPatse
+
+# Build rule for target.
+CRTPFactoryWithLessCopyPatse: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CRTPFactoryWithLessCopyPatse
+.PHONY : CRTPFactoryWithLessCopyPatse
+
+# fast build rule for target.
+CRTPFactoryWithLessCopyPatse/fast:
+	$(MAKE) -f CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/build.make CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/build
+.PHONY : CRTPFactoryWithLessCopyPatse/fast
+
+#=============================================================================
+# Target rules for targets named PolymorphicCopy
+
+# Build rule for target.
+PolymorphicCopy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PolymorphicCopy
+.PHONY : PolymorphicCopy
+
+# fast build rule for target.
+PolymorphicCopy/fast:
+	$(MAKE) -f CMakeFiles/PolymorphicCopy.dir/build.make CMakeFiles/PolymorphicCopy.dir/build
+.PHONY : PolymorphicCopy/fast
+
+#=============================================================================
 # Target rules for targets named FriendFactoryFinal
 
 # Build rule for target.
@@ -122,6 +148,58 @@ FriendFactoryFinal: cmake_check_build_system
 FriendFactoryFinal/fast:
 	$(MAKE) -f CMakeFiles/FriendFactoryFinal.dir/build.make CMakeFiles/FriendFactoryFinal.dir/build
 .PHONY : FriendFactoryFinal/fast
+
+#=============================================================================
+# Target rules for targets named ArgumentsForFactoryMethods
+
+# Build rule for target.
+ArgumentsForFactoryMethods: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ArgumentsForFactoryMethods
+.PHONY : ArgumentsForFactoryMethods
+
+# fast build rule for target.
+ArgumentsForFactoryMethods/fast:
+	$(MAKE) -f CMakeFiles/ArgumentsForFactoryMethods.dir/build.make CMakeFiles/ArgumentsForFactoryMethods.dir/build
+.PHONY : ArgumentsForFactoryMethods/fast
+
+#=============================================================================
+# Target rules for targets named WhendoesAnObjectgetItstype
+
+# Build rule for target.
+WhendoesAnObjectgetItstype: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WhendoesAnObjectgetItstype
+.PHONY : WhendoesAnObjectgetItstype
+
+# fast build rule for target.
+WhendoesAnObjectgetItstype/fast:
+	$(MAKE) -f CMakeFiles/WhendoesAnObjectgetItstype.dir/build.make CMakeFiles/WhendoesAnObjectgetItstype.dir/build
+.PHONY : WhendoesAnObjectgetItstype/fast
+
+#=============================================================================
+# Target rules for targets named TypeErasureByExample
+
+# Build rule for target.
+TypeErasureByExample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TypeErasureByExample
+.PHONY : TypeErasureByExample
+
+# fast build rule for target.
+TypeErasureByExample/fast:
+	$(MAKE) -f CMakeFiles/TypeErasureByExample.dir/build.make CMakeFiles/TypeErasureByExample.dir/build
+.PHONY : TypeErasureByExample/fast
+
+#=============================================================================
+# Target rules for targets named TypeErasureinCpp
+
+# Build rule for target.
+TypeErasureinCpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TypeErasureinCpp
+.PHONY : TypeErasureinCpp
+
+# fast build rule for target.
+TypeErasureinCpp/fast:
+	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/build
+.PHONY : TypeErasureinCpp/fast
 
 #=============================================================================
 # Target rules for targets named FriendsOfTemplateClasses
@@ -148,6 +226,19 @@ FriendsVersusMemberFunction: cmake_check_build_system
 FriendsVersusMemberFunction/fast:
 	$(MAKE) -f CMakeFiles/FriendsVersusMemberFunction.dir/build.make CMakeFiles/FriendsVersusMemberFunction.dir/build
 .PHONY : FriendsVersusMemberFunction/fast
+
+#=============================================================================
+# Target rules for targets named PolymorphicFactory
+
+# Build rule for target.
+PolymorphicFactory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PolymorphicFactory
+.PHONY : PolymorphicFactory
+
+# fast build rule for target.
+PolymorphicFactory/fast:
+	$(MAKE) -f CMakeFiles/PolymorphicFactory.dir/build.make CMakeFiles/PolymorphicFactory.dir/build
+.PHONY : PolymorphicFactory/fast
 
 #=============================================================================
 # Target rules for targets named GenericScopeGuard
@@ -228,6 +319,32 @@ SFINAE/fast:
 .PHONY : SFINAE/fast
 
 #=============================================================================
+# Target rules for targets named TheBasicOfTheFactoryMethod
+
+# Build rule for target.
+TheBasicOfTheFactoryMethod: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TheBasicOfTheFactoryMethod
+.PHONY : TheBasicOfTheFactoryMethod
+
+# fast build rule for target.
+TheBasicOfTheFactoryMethod/fast:
+	$(MAKE) -f CMakeFiles/TheBasicOfTheFactoryMethod.dir/build.make CMakeFiles/TheBasicOfTheFactoryMethod.dir/build
+.PHONY : TheBasicOfTheFactoryMethod/fast
+
+#=============================================================================
+# Target rules for targets named BasicSFINAE
+
+# Build rule for target.
+BasicSFINAE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BasicSFINAE
+.PHONY : BasicSFINAE
+
+# fast build rule for target.
+BasicSFINAE/fast:
+	$(MAKE) -f CMakeFiles/BasicSFINAE.dir/build.make CMakeFiles/BasicSFINAE.dir/build
+.PHONY : BasicSFINAE/fast
+
+#=============================================================================
 # Target rules for targets named MethodChaining
 
 # Build rule for target.
@@ -252,6 +369,19 @@ IntroducingCRTP: cmake_check_build_system
 IntroducingCRTP/fast:
 	$(MAKE) -f CMakeFiles/IntroducingCRTP.dir/build.make CMakeFiles/IntroducingCRTP.dir/build
 .PHONY : IntroducingCRTP/fast
+
+#=============================================================================
+# Target rules for targets named TheOverheadOfTypeErasure
+
+# Build rule for target.
+TheOverheadOfTypeErasure: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TheOverheadOfTypeErasure
+.PHONY : TheOverheadOfTypeErasure
+
+# fast build rule for target.
+TheOverheadOfTypeErasure/fast:
+	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/build
+.PHONY : TheOverheadOfTypeErasure/fast
 
 #=============================================================================
 # Target rules for targets named CRTPandAccessControl
@@ -291,6 +421,19 @@ CompileTimePolymorphism: cmake_check_build_system
 CompileTimePolymorphism/fast:
 	$(MAKE) -f CMakeFiles/CompileTimePolymorphism.dir/build.make CMakeFiles/CompileTimePolymorphism.dir/build
 .PHONY : CompileTimePolymorphism/fast
+
+#=============================================================================
+# Target rules for targets named DynamicTypeRegistry
+
+# Build rule for target.
+DynamicTypeRegistry: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DynamicTypeRegistry
+.PHONY : DynamicTypeRegistry
+
+# fast build rule for target.
+DynamicTypeRegistry/fast:
+	$(MAKE) -f CMakeFiles/DynamicTypeRegistry.dir/build.make CMakeFiles/DynamicTypeRegistry.dir/build
+.PHONY : DynamicTypeRegistry/fast
 
 #=============================================================================
 # Target rules for targets named WhatIsWringWithAVirtualFunction
@@ -371,19 +514,6 @@ AdvancedSFINAE2/fast:
 .PHONY : AdvancedSFINAE2/fast
 
 #=============================================================================
-# Target rules for targets named BasicSFINAE
-
-# Build rule for target.
-BasicSFINAE: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BasicSFINAE
-.PHONY : BasicSFINAE
-
-# fast build rule for target.
-BasicSFINAE/fast:
-	$(MAKE) -f CMakeFiles/BasicSFINAE.dir/build.make CMakeFiles/BasicSFINAE.dir/build
-.PHONY : BasicSFINAE/fast
-
-#=============================================================================
 # Target rules for targets named AdvancedSFINAE
 
 # Build rule for target.
@@ -395,6 +525,19 @@ AdvancedSFINAE: cmake_check_build_system
 AdvancedSFINAE/fast:
 	$(MAKE) -f CMakeFiles/AdvancedSFINAE.dir/build.make CMakeFiles/AdvancedSFINAE.dir/build
 .PHONY : AdvancedSFINAE/fast
+
+#=============================================================================
+# Target rules for targets named CRTPFactoryAndReturnTypes
+
+# Build rule for target.
+CRTPFactoryAndReturnTypes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CRTPFactoryAndReturnTypes
+.PHONY : CRTPFactoryAndReturnTypes
+
+# fast build rule for target.
+CRTPFactoryAndReturnTypes/fast:
+	$(MAKE) -f CMakeFiles/CRTPFactoryAndReturnTypes.dir/build.make CMakeFiles/CRTPFactoryAndReturnTypes.dir/build
+.PHONY : CRTPFactoryAndReturnTypes/fast
 
 #=============================================================================
 # Target rules for targets named ExpandingTheInterface
@@ -436,6 +579,19 @@ Type_erasedAndCallableObjects/fast:
 .PHONY : Type_erasedAndCallableObjects/fast
 
 #=============================================================================
+# Target rules for targets named ScopedGuardBasics
+
+# Build rule for target.
+ScopedGuardBasics: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ScopedGuardBasics
+.PHONY : ScopedGuardBasics
+
+# fast build rule for target.
+ScopedGuardBasics/fast:
+	$(MAKE) -f CMakeFiles/ScopedGuardBasics.dir/build.make CMakeFiles/ScopedGuardBasics.dir/build
+.PHONY : ScopedGuardBasics/fast
+
+#=============================================================================
 # Target rules for targets named EffectOfLocalbufferOptimization
 
 # Build rule for target.
@@ -449,30 +605,17 @@ EffectOfLocalbufferOptimization/fast:
 .PHONY : EffectOfLocalbufferOptimization/fast
 
 #=============================================================================
-# Target rules for targets named TheOverheadOfTypeErasure
+# Target rules for targets named TheCostOfMemoryAllocations
 
 # Build rule for target.
-TheOverheadOfTypeErasure: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TheOverheadOfTypeErasure
-.PHONY : TheOverheadOfTypeErasure
+TheCostOfMemoryAllocations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TheCostOfMemoryAllocations
+.PHONY : TheCostOfMemoryAllocations
 
 # fast build rule for target.
-TheOverheadOfTypeErasure/fast:
-	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/build
-.PHONY : TheOverheadOfTypeErasure/fast
-
-#=============================================================================
-# Target rules for targets named TypeErasureinCpp
-
-# Build rule for target.
-TypeErasureinCpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TypeErasureinCpp
-.PHONY : TypeErasureinCpp
-
-# fast build rule for target.
-TypeErasureinCpp/fast:
-	$(MAKE) -f CMakeFiles/TypeErasureinCpp.dir/build.make CMakeFiles/TypeErasureinCpp.dir/build
-.PHONY : TypeErasureinCpp/fast
+TheCostOfMemoryAllocations/fast:
+	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/build
+.PHONY : TheCostOfMemoryAllocations/fast
 
 #=============================================================================
 # Target rules for targets named ExceptionDrivernScopedGuard
@@ -540,17 +683,17 @@ RAII_in_a_nutshell/fast:
 .PHONY : RAII_in_a_nutshell/fast
 
 #=============================================================================
-# Target rules for targets named ScopedGuardBasics
+# Target rules for targets named WhendoesAnObjectgetItstype2
 
 # Build rule for target.
-ScopedGuardBasics: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ScopedGuardBasics
-.PHONY : ScopedGuardBasics
+WhendoesAnObjectgetItstype2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WhendoesAnObjectgetItstype2
+.PHONY : WhendoesAnObjectgetItstype2
 
 # fast build rule for target.
-ScopedGuardBasics/fast:
-	$(MAKE) -f CMakeFiles/ScopedGuardBasics.dir/build.make CMakeFiles/ScopedGuardBasics.dir/build
-.PHONY : ScopedGuardBasics/fast
+WhendoesAnObjectgetItstype2/fast:
+	$(MAKE) -f CMakeFiles/WhendoesAnObjectgetItstype2.dir/build.make CMakeFiles/WhendoesAnObjectgetItstype2.dir/build
+.PHONY : WhendoesAnObjectgetItstype2/fast
 
 #=============================================================================
 # Target rules for targets named TemplateFunctions
@@ -564,32 +707,6 @@ TemplateFunctions: cmake_check_build_system
 TemplateFunctions/fast:
 	$(MAKE) -f CMakeFiles/TemplateFunctions.dir/build.make CMakeFiles/TemplateFunctions.dir/build
 .PHONY : TemplateFunctions/fast
-
-#=============================================================================
-# Target rules for targets named TheCostOfMemoryAllocations
-
-# Build rule for target.
-TheCostOfMemoryAllocations: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TheCostOfMemoryAllocations
-.PHONY : TheCostOfMemoryAllocations
-
-# fast build rule for target.
-TheCostOfMemoryAllocations/fast:
-	$(MAKE) -f CMakeFiles/TheCostOfMemoryAllocations.dir/build.make CMakeFiles/TheCostOfMemoryAllocations.dir/build
-.PHONY : TheCostOfMemoryAllocations/fast
-
-#=============================================================================
-# Target rules for targets named TypeErasureByExample
-
-# Build rule for target.
-TypeErasureByExample: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TypeErasureByExample
-.PHONY : TypeErasureByExample
-
-# fast build rule for target.
-TypeErasureByExample/fast:
-	$(MAKE) -f CMakeFiles/TypeErasureByExample.dir/build.make CMakeFiles/TypeErasureByExample.dir/build
-.PHONY : TypeErasureByExample/fast
 
 #=============================================================================
 # Target rules for targets named RAII_for_other_resources
@@ -1726,6 +1843,249 @@ Type_erasedAndCallableObjects.cpp.s:
 	$(MAKE) -f CMakeFiles/Type_erasedAndCallableObjects.dir/build.make CMakeFiles/Type_erasedAndCallableObjects.dir/Type_erasedAndCallableObjects.cpp.s
 .PHONY : Type_erasedAndCallableObjects.cpp.s
 
+VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.o: VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.o
+
+.PHONY : VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.o
+
+# target to build an object file
+VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.o:
+	$(MAKE) -f CMakeFiles/ArgumentsForFactoryMethods.dir/build.make CMakeFiles/ArgumentsForFactoryMethods.dir/VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.o
+.PHONY : VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.o
+
+VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.i: VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.i
+
+.PHONY : VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.i
+
+# target to preprocess a source file
+VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.i:
+	$(MAKE) -f CMakeFiles/ArgumentsForFactoryMethods.dir/build.make CMakeFiles/ArgumentsForFactoryMethods.dir/VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.i
+.PHONY : VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.i
+
+VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.s: VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.s
+
+.PHONY : VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.s
+
+# target to generate assembly for a file
+VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.s:
+	$(MAKE) -f CMakeFiles/ArgumentsForFactoryMethods.dir/build.make CMakeFiles/ArgumentsForFactoryMethods.dir/VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.s
+.PHONY : VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.cpp.s
+
+VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.o: VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.o
+
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.o
+
+# target to build an object file
+VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.o:
+	$(MAKE) -f CMakeFiles/CRTPFactoryAndReturnTypes.dir/build.make CMakeFiles/CRTPFactoryAndReturnTypes.dir/VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.o
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.o
+
+VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.i: VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.i
+
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.i
+
+# target to preprocess a source file
+VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.i:
+	$(MAKE) -f CMakeFiles/CRTPFactoryAndReturnTypes.dir/build.make CMakeFiles/CRTPFactoryAndReturnTypes.dir/VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.i
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.i
+
+VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.s: VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.s
+
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.s
+
+# target to generate assembly for a file
+VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.s:
+	$(MAKE) -f CMakeFiles/CRTPFactoryAndReturnTypes.dir/build.make CMakeFiles/CRTPFactoryAndReturnTypes.dir/VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.s
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.s
+
+VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.o: VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.o
+
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.o
+
+# target to build an object file
+VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.o:
+	$(MAKE) -f CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/build.make CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.o
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.o
+
+VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.i: VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.i
+
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.i
+
+# target to preprocess a source file
+VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.i:
+	$(MAKE) -f CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/build.make CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.i
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.i
+
+VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.s: VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.s
+
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.s
+
+# target to generate assembly for a file
+VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.s:
+	$(MAKE) -f CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/build.make CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.s
+.PHONY : VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.cpp.s
+
+VirtualConstructorsAndFactories/DynamicTypeRegistry.o: VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.o
+
+.PHONY : VirtualConstructorsAndFactories/DynamicTypeRegistry.o
+
+# target to build an object file
+VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.o:
+	$(MAKE) -f CMakeFiles/DynamicTypeRegistry.dir/build.make CMakeFiles/DynamicTypeRegistry.dir/VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.o
+.PHONY : VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.o
+
+VirtualConstructorsAndFactories/DynamicTypeRegistry.i: VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.i
+
+.PHONY : VirtualConstructorsAndFactories/DynamicTypeRegistry.i
+
+# target to preprocess a source file
+VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.i:
+	$(MAKE) -f CMakeFiles/DynamicTypeRegistry.dir/build.make CMakeFiles/DynamicTypeRegistry.dir/VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.i
+.PHONY : VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.i
+
+VirtualConstructorsAndFactories/DynamicTypeRegistry.s: VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.s
+
+.PHONY : VirtualConstructorsAndFactories/DynamicTypeRegistry.s
+
+# target to generate assembly for a file
+VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.s:
+	$(MAKE) -f CMakeFiles/DynamicTypeRegistry.dir/build.make CMakeFiles/DynamicTypeRegistry.dir/VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.s
+.PHONY : VirtualConstructorsAndFactories/DynamicTypeRegistry.cpp.s
+
+VirtualConstructorsAndFactories/PolymorphicCopy.o: VirtualConstructorsAndFactories/PolymorphicCopy.cpp.o
+
+.PHONY : VirtualConstructorsAndFactories/PolymorphicCopy.o
+
+# target to build an object file
+VirtualConstructorsAndFactories/PolymorphicCopy.cpp.o:
+	$(MAKE) -f CMakeFiles/PolymorphicCopy.dir/build.make CMakeFiles/PolymorphicCopy.dir/VirtualConstructorsAndFactories/PolymorphicCopy.cpp.o
+.PHONY : VirtualConstructorsAndFactories/PolymorphicCopy.cpp.o
+
+VirtualConstructorsAndFactories/PolymorphicCopy.i: VirtualConstructorsAndFactories/PolymorphicCopy.cpp.i
+
+.PHONY : VirtualConstructorsAndFactories/PolymorphicCopy.i
+
+# target to preprocess a source file
+VirtualConstructorsAndFactories/PolymorphicCopy.cpp.i:
+	$(MAKE) -f CMakeFiles/PolymorphicCopy.dir/build.make CMakeFiles/PolymorphicCopy.dir/VirtualConstructorsAndFactories/PolymorphicCopy.cpp.i
+.PHONY : VirtualConstructorsAndFactories/PolymorphicCopy.cpp.i
+
+VirtualConstructorsAndFactories/PolymorphicCopy.s: VirtualConstructorsAndFactories/PolymorphicCopy.cpp.s
+
+.PHONY : VirtualConstructorsAndFactories/PolymorphicCopy.s
+
+# target to generate assembly for a file
+VirtualConstructorsAndFactories/PolymorphicCopy.cpp.s:
+	$(MAKE) -f CMakeFiles/PolymorphicCopy.dir/build.make CMakeFiles/PolymorphicCopy.dir/VirtualConstructorsAndFactories/PolymorphicCopy.cpp.s
+.PHONY : VirtualConstructorsAndFactories/PolymorphicCopy.cpp.s
+
+VirtualConstructorsAndFactories/PolymorphicFactory.o: VirtualConstructorsAndFactories/PolymorphicFactory.cpp.o
+
+.PHONY : VirtualConstructorsAndFactories/PolymorphicFactory.o
+
+# target to build an object file
+VirtualConstructorsAndFactories/PolymorphicFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/PolymorphicFactory.dir/build.make CMakeFiles/PolymorphicFactory.dir/VirtualConstructorsAndFactories/PolymorphicFactory.cpp.o
+.PHONY : VirtualConstructorsAndFactories/PolymorphicFactory.cpp.o
+
+VirtualConstructorsAndFactories/PolymorphicFactory.i: VirtualConstructorsAndFactories/PolymorphicFactory.cpp.i
+
+.PHONY : VirtualConstructorsAndFactories/PolymorphicFactory.i
+
+# target to preprocess a source file
+VirtualConstructorsAndFactories/PolymorphicFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/PolymorphicFactory.dir/build.make CMakeFiles/PolymorphicFactory.dir/VirtualConstructorsAndFactories/PolymorphicFactory.cpp.i
+.PHONY : VirtualConstructorsAndFactories/PolymorphicFactory.cpp.i
+
+VirtualConstructorsAndFactories/PolymorphicFactory.s: VirtualConstructorsAndFactories/PolymorphicFactory.cpp.s
+
+.PHONY : VirtualConstructorsAndFactories/PolymorphicFactory.s
+
+# target to generate assembly for a file
+VirtualConstructorsAndFactories/PolymorphicFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/PolymorphicFactory.dir/build.make CMakeFiles/PolymorphicFactory.dir/VirtualConstructorsAndFactories/PolymorphicFactory.cpp.s
+.PHONY : VirtualConstructorsAndFactories/PolymorphicFactory.cpp.s
+
+VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.o: VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.o
+
+.PHONY : VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.o
+
+# target to build an object file
+VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.o:
+	$(MAKE) -f CMakeFiles/TheBasicOfTheFactoryMethod.dir/build.make CMakeFiles/TheBasicOfTheFactoryMethod.dir/VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.o
+.PHONY : VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.o
+
+VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.i: VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.i
+
+.PHONY : VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.i
+
+# target to preprocess a source file
+VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.i:
+	$(MAKE) -f CMakeFiles/TheBasicOfTheFactoryMethod.dir/build.make CMakeFiles/TheBasicOfTheFactoryMethod.dir/VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.i
+.PHONY : VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.i
+
+VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.s: VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.s
+
+.PHONY : VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.s
+
+# target to generate assembly for a file
+VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.s:
+	$(MAKE) -f CMakeFiles/TheBasicOfTheFactoryMethod.dir/build.make CMakeFiles/TheBasicOfTheFactoryMethod.dir/VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.s
+.PHONY : VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.cpp.s
+
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.o: VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.o
+
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.o
+
+# target to build an object file
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.o:
+	$(MAKE) -f CMakeFiles/WhendoesAnObjectgetItstype.dir/build.make CMakeFiles/WhendoesAnObjectgetItstype.dir/VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.o
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.o
+
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.i: VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.i
+
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.i
+
+# target to preprocess a source file
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.i:
+	$(MAKE) -f CMakeFiles/WhendoesAnObjectgetItstype.dir/build.make CMakeFiles/WhendoesAnObjectgetItstype.dir/VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.i
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.i
+
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.s: VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.s
+
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.s
+
+# target to generate assembly for a file
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.s:
+	$(MAKE) -f CMakeFiles/WhendoesAnObjectgetItstype.dir/build.make CMakeFiles/WhendoesAnObjectgetItstype.dir/VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.s
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.s
+
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.o: VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.o
+
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.o
+
+# target to build an object file
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.o:
+	$(MAKE) -f CMakeFiles/WhendoesAnObjectgetItstype2.dir/build.make CMakeFiles/WhendoesAnObjectgetItstype2.dir/VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.o
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.o
+
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.i: VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.i
+
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.i
+
+# target to preprocess a source file
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.i:
+	$(MAKE) -f CMakeFiles/WhendoesAnObjectgetItstype2.dir/build.make CMakeFiles/WhendoesAnObjectgetItstype2.dir/VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.i
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.i
+
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.s: VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.s
+
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.s
+
+# target to generate assembly for a file
+VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.s:
+	$(MAKE) -f CMakeFiles/WhendoesAnObjectgetItstype2.dir/build.make CMakeFiles/WhendoesAnObjectgetItstype2.dir/VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.s
+.PHONY : VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.s
+
 WhatIsWringWithAVirtualFunction.o: WhatIsWringWithAVirtualFunction.cpp.o
 
 .PHONY : WhatIsWringWithAVirtualFunction.o
@@ -1787,44 +2147,53 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... CRTPFactoryWithLessCopyPatse"
+	@echo "... PolymorphicCopy"
 	@echo "... FriendFactoryFinal"
+	@echo "... ArgumentsForFactoryMethods"
+	@echo "... WhendoesAnObjectgetItstype"
+	@echo "... TypeErasureByExample"
+	@echo "... TypeErasureinCpp"
 	@echo "... FriendsOfTemplateClasses"
 	@echo "... FriendsVersusMemberFunction"
+	@echo "... PolymorphicFactory"
 	@echo "... GenericScopeGuard"
 	@echo "... MethodChainingInClassHierarchies2"
 	@echo "... GeneralMethodChaining"
 	@echo "... GeneratingFriendsOnDemand"
 	@echo "... MethodChainingAndNamedArguments"
 	@echo "... SFINAE"
+	@echo "... TheBasicOfTheFactoryMethod"
+	@echo "... BasicSFINAE"
 	@echo "... MethodChaining"
 	@echo "... IntroducingCRTP"
+	@echo "... TheOverheadOfTypeErasure"
 	@echo "... CRTPandAccessControl"
 	@echo "... DesignPattern"
 	@echo "... CompileTimePolymorphism"
+	@echo "... DynamicTypeRegistry"
 	@echo "... WhatIsWringWithAVirtualFunction"
 	@echo "... SmallVector"
 	@echo "... MethodChainingInClassHierarchies"
 	@echo "... TheUltimateSFINAE"
 	@echo "... HowToGrantFriendShip"
 	@echo "... AdvancedSFINAE2"
-	@echo "... BasicSFINAE"
 	@echo "... AdvancedSFINAE"
+	@echo "... CRTPFactoryAndReturnTypes"
 	@echo "... ExpandingTheInterface"
-	@echo "... edit_cache"
 	@echo "... AdvancedSFINAErevisited"
 	@echo "... Type_erasedAndCallableObjects"
+	@echo "... ScopedGuardBasics"
 	@echo "... EffectOfLocalbufferOptimization"
-	@echo "... TheOverheadOfTypeErasure"
-	@echo "... TypeErasureinCpp"
+	@echo "... TheCostOfMemoryAllocations"
 	@echo "... ExceptionDrivernScopedGuard"
 	@echo "... AdvancedSFINAErevisited2"
 	@echo "... CarefulImplementationOfRAIIobject"
 	@echo "... PerformanceOfTheNamedArgumentsIdiom"
 	@echo "... RAII_in_a_nutshell"
-	@echo "... ScopedGuardBasics"
+	@echo "... WhendoesAnObjectgetItstype2"
 	@echo "... TemplateFunctions"
-	@echo "... TheCostOfMemoryAllocations"
-	@echo "... TypeErasureByExample"
 	@echo "... RAII_for_other_resources"
 	@echo "... CountingResources"
 	@echo "... RAII"
@@ -1949,6 +2318,33 @@ help:
 	@echo "... Type_erasedAndCallableObjects.o"
 	@echo "... Type_erasedAndCallableObjects.i"
 	@echo "... Type_erasedAndCallableObjects.s"
+	@echo "... VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.o"
+	@echo "... VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.i"
+	@echo "... VirtualConstructorsAndFactories/ArgumentsForFactoryMethods.s"
+	@echo "... VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.o"
+	@echo "... VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.i"
+	@echo "... VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.s"
+	@echo "... VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.o"
+	@echo "... VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.i"
+	@echo "... VirtualConstructorsAndFactories/CRTPFactoryWithLessCopyPatse.s"
+	@echo "... VirtualConstructorsAndFactories/DynamicTypeRegistry.o"
+	@echo "... VirtualConstructorsAndFactories/DynamicTypeRegistry.i"
+	@echo "... VirtualConstructorsAndFactories/DynamicTypeRegistry.s"
+	@echo "... VirtualConstructorsAndFactories/PolymorphicCopy.o"
+	@echo "... VirtualConstructorsAndFactories/PolymorphicCopy.i"
+	@echo "... VirtualConstructorsAndFactories/PolymorphicCopy.s"
+	@echo "... VirtualConstructorsAndFactories/PolymorphicFactory.o"
+	@echo "... VirtualConstructorsAndFactories/PolymorphicFactory.i"
+	@echo "... VirtualConstructorsAndFactories/PolymorphicFactory.s"
+	@echo "... VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.o"
+	@echo "... VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.i"
+	@echo "... VirtualConstructorsAndFactories/TheBasicOfTheFactoryMethod.s"
+	@echo "... VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.o"
+	@echo "... VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.i"
+	@echo "... VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.s"
+	@echo "... VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.o"
+	@echo "... VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.i"
+	@echo "... VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.s"
 	@echo "... WhatIsWringWithAVirtualFunction.o"
 	@echo "... WhatIsWringWithAVirtualFunction.i"
 	@echo "... WhatIsWringWithAVirtualFunction.s"

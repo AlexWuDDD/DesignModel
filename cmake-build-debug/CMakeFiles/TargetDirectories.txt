@@ -1,5 +1,8 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheNVIidiom.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PreAndPostConditionsAndActions.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheTemplateMethod.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CRTPFactoryWithLessCopyPatse.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PolymorphicCopy.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FriendFactoryFinal.dir
@@ -13,6 +16,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/GenericScopeGuard.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/GeneralMethodChaining.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/VirtualFunctionsAndAccess.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/GeneratingFriendsOnDemand.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MethodChainingAndNamedArguments.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SFINAE.dir
@@ -43,6 +47,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CarefulImplementationOfRAIIobject.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ApplicationsOfTheTemplateMethod.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/RAII_in_a_nutshell.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/WhendoesAnObjectgetItstype2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TemplateFunctions.dir

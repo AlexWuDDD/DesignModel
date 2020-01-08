@@ -52,6 +52,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/TheNVIidiom.dir/DependInfo.cmake"
+  "CMakeFiles/PreAndPostConditionsAndActions.dir/DependInfo.cmake"
+  "CMakeFiles/TheTemplateMethod.dir/DependInfo.cmake"
   "CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/DependInfo.cmake"
   "CMakeFiles/PolymorphicCopy.dir/DependInfo.cmake"
   "CMakeFiles/FriendFactoryFinal.dir/DependInfo.cmake"
@@ -65,6 +68,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/GenericScopeGuard.dir/DependInfo.cmake"
   "CMakeFiles/MethodChainingInClassHierarchies2.dir/DependInfo.cmake"
   "CMakeFiles/GeneralMethodChaining.dir/DependInfo.cmake"
+  "CMakeFiles/VirtualFunctionsAndAccess.dir/DependInfo.cmake"
   "CMakeFiles/GeneratingFriendsOnDemand.dir/DependInfo.cmake"
   "CMakeFiles/MethodChainingAndNamedArguments.dir/DependInfo.cmake"
   "CMakeFiles/SFINAE.dir/DependInfo.cmake"
@@ -95,6 +99,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/AdvancedSFINAErevisited2.dir/DependInfo.cmake"
   "CMakeFiles/CarefulImplementationOfRAIIobject.dir/DependInfo.cmake"
   "CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/DependInfo.cmake"
+  "CMakeFiles/ApplicationsOfTheTemplateMethod.dir/DependInfo.cmake"
   "CMakeFiles/RAII_in_a_nutshell.dir/DependInfo.cmake"
   "CMakeFiles/WhendoesAnObjectgetItstype2.dir/DependInfo.cmake"
   "CMakeFiles/TemplateFunctions.dir/DependInfo.cmake"

@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named TheNVIidiom
+
+# Build rule for target.
+TheNVIidiom: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TheNVIidiom
+.PHONY : TheNVIidiom
+
+# fast build rule for target.
+TheNVIidiom/fast:
+	$(MAKE) -f CMakeFiles/TheNVIidiom.dir/build.make CMakeFiles/TheNVIidiom.dir/build
+.PHONY : TheNVIidiom/fast
+
+#=============================================================================
+# Target rules for targets named PreAndPostConditionsAndActions
+
+# Build rule for target.
+PreAndPostConditionsAndActions: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PreAndPostConditionsAndActions
+.PHONY : PreAndPostConditionsAndActions
+
+# fast build rule for target.
+PreAndPostConditionsAndActions/fast:
+	$(MAKE) -f CMakeFiles/PreAndPostConditionsAndActions.dir/build.make CMakeFiles/PreAndPostConditionsAndActions.dir/build
+.PHONY : PreAndPostConditionsAndActions/fast
+
+#=============================================================================
+# Target rules for targets named TheTemplateMethod
+
+# Build rule for target.
+TheTemplateMethod: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TheTemplateMethod
+.PHONY : TheTemplateMethod
+
+# fast build rule for target.
+TheTemplateMethod/fast:
+	$(MAKE) -f CMakeFiles/TheTemplateMethod.dir/build.make CMakeFiles/TheTemplateMethod.dir/build
+.PHONY : TheTemplateMethod/fast
+
+#=============================================================================
 # Target rules for targets named CRTPFactoryWithLessCopyPatse
 
 # Build rule for target.
@@ -278,6 +317,19 @@ GeneralMethodChaining: cmake_check_build_system
 GeneralMethodChaining/fast:
 	$(MAKE) -f CMakeFiles/GeneralMethodChaining.dir/build.make CMakeFiles/GeneralMethodChaining.dir/build
 .PHONY : GeneralMethodChaining/fast
+
+#=============================================================================
+# Target rules for targets named VirtualFunctionsAndAccess
+
+# Build rule for target.
+VirtualFunctionsAndAccess: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VirtualFunctionsAndAccess
+.PHONY : VirtualFunctionsAndAccess
+
+# fast build rule for target.
+VirtualFunctionsAndAccess/fast:
+	$(MAKE) -f CMakeFiles/VirtualFunctionsAndAccess.dir/build.make CMakeFiles/VirtualFunctionsAndAccess.dir/build
+.PHONY : VirtualFunctionsAndAccess/fast
 
 #=============================================================================
 # Target rules for targets named GeneratingFriendsOnDemand
@@ -668,6 +720,19 @@ PerformanceOfTheNamedArgumentsIdiom: cmake_check_build_system
 PerformanceOfTheNamedArgumentsIdiom/fast:
 	$(MAKE) -f CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build.make CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build
 .PHONY : PerformanceOfTheNamedArgumentsIdiom/fast
+
+#=============================================================================
+# Target rules for targets named ApplicationsOfTheTemplateMethod
+
+# Build rule for target.
+ApplicationsOfTheTemplateMethod: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ApplicationsOfTheTemplateMethod
+.PHONY : ApplicationsOfTheTemplateMethod
+
+# fast build rule for target.
+ApplicationsOfTheTemplateMethod/fast:
+	$(MAKE) -f CMakeFiles/ApplicationsOfTheTemplateMethod.dir/build.make CMakeFiles/ApplicationsOfTheTemplateMethod.dir/build
+.PHONY : ApplicationsOfTheTemplateMethod/fast
 
 #=============================================================================
 # Target rules for targets named RAII_in_a_nutshell
@@ -1735,6 +1800,141 @@ TheOverheadOfTypeErasure.cpp.s:
 	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/TheOverheadOfTypeErasure.cpp.s
 .PHONY : TheOverheadOfTypeErasure.cpp.s
 
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.o: TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.o
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.o
+
+# target to build an object file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.o:
+	$(MAKE) -f CMakeFiles/ApplicationsOfTheTemplateMethod.dir/build.make CMakeFiles/ApplicationsOfTheTemplateMethod.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.o
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.o
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.i: TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.i
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.i
+
+# target to preprocess a source file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.i:
+	$(MAKE) -f CMakeFiles/ApplicationsOfTheTemplateMethod.dir/build.make CMakeFiles/ApplicationsOfTheTemplateMethod.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.i
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.i
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.s: TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.s
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.s
+
+# target to generate assembly for a file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.s:
+	$(MAKE) -f CMakeFiles/ApplicationsOfTheTemplateMethod.dir/build.make CMakeFiles/ApplicationsOfTheTemplateMethod.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.s
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.s
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.o: TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.o
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.o
+
+# target to build an object file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.o:
+	$(MAKE) -f CMakeFiles/PreAndPostConditionsAndActions.dir/build.make CMakeFiles/PreAndPostConditionsAndActions.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.o
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.o
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.i: TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.i
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.i
+
+# target to preprocess a source file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.i:
+	$(MAKE) -f CMakeFiles/PreAndPostConditionsAndActions.dir/build.make CMakeFiles/PreAndPostConditionsAndActions.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.i
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.i
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.s: TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.s
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.s
+
+# target to generate assembly for a file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.s:
+	$(MAKE) -f CMakeFiles/PreAndPostConditionsAndActions.dir/build.make CMakeFiles/PreAndPostConditionsAndActions.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.s
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.s
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.o: TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.o
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.o
+
+# target to build an object file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.o:
+	$(MAKE) -f CMakeFiles/TheNVIidiom.dir/build.make CMakeFiles/TheNVIidiom.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.o
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.o
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.i: TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.i
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.i
+
+# target to preprocess a source file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.i:
+	$(MAKE) -f CMakeFiles/TheNVIidiom.dir/build.make CMakeFiles/TheNVIidiom.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.i
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.i
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.s: TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.s
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.s
+
+# target to generate assembly for a file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.s:
+	$(MAKE) -f CMakeFiles/TheNVIidiom.dir/build.make CMakeFiles/TheNVIidiom.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.s
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.s
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.o: TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.o
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.o
+
+# target to build an object file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.o:
+	$(MAKE) -f CMakeFiles/TheTemplateMethod.dir/build.make CMakeFiles/TheTemplateMethod.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.o
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.o
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.i: TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.i
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.i
+
+# target to preprocess a source file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.i:
+	$(MAKE) -f CMakeFiles/TheTemplateMethod.dir/build.make CMakeFiles/TheTemplateMethod.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.i
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.i
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.s: TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.s
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.s
+
+# target to generate assembly for a file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.s:
+	$(MAKE) -f CMakeFiles/TheTemplateMethod.dir/build.make CMakeFiles/TheTemplateMethod.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.s
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.cpp.s
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.o: TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.o
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.o
+
+# target to build an object file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.o:
+	$(MAKE) -f CMakeFiles/VirtualFunctionsAndAccess.dir/build.make CMakeFiles/VirtualFunctionsAndAccess.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.o
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.o
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.i: TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.i
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.i
+
+# target to preprocess a source file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.i:
+	$(MAKE) -f CMakeFiles/VirtualFunctionsAndAccess.dir/build.make CMakeFiles/VirtualFunctionsAndAccess.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.i
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.i
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.s: TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.s
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.s
+
+# target to generate assembly for a file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.s:
+	$(MAKE) -f CMakeFiles/VirtualFunctionsAndAccess.dir/build.make CMakeFiles/VirtualFunctionsAndAccess.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.s
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.s
+
 TheUltimateSFINAE.o: TheUltimateSFINAE.cpp.o
 
 .PHONY : TheUltimateSFINAE.o
@@ -2148,6 +2348,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... TheNVIidiom"
+	@echo "... PreAndPostConditionsAndActions"
+	@echo "... TheTemplateMethod"
 	@echo "... CRTPFactoryWithLessCopyPatse"
 	@echo "... PolymorphicCopy"
 	@echo "... FriendFactoryFinal"
@@ -2161,6 +2364,7 @@ help:
 	@echo "... GenericScopeGuard"
 	@echo "... MethodChainingInClassHierarchies2"
 	@echo "... GeneralMethodChaining"
+	@echo "... VirtualFunctionsAndAccess"
 	@echo "... GeneratingFriendsOnDemand"
 	@echo "... MethodChainingAndNamedArguments"
 	@echo "... SFINAE"
@@ -2191,6 +2395,7 @@ help:
 	@echo "... AdvancedSFINAErevisited2"
 	@echo "... CarefulImplementationOfRAIIobject"
 	@echo "... PerformanceOfTheNamedArgumentsIdiom"
+	@echo "... ApplicationsOfTheTemplateMethod"
 	@echo "... RAII_in_a_nutshell"
 	@echo "... WhendoesAnObjectgetItstype2"
 	@echo "... TemplateFunctions"
@@ -2306,6 +2511,21 @@ help:
 	@echo "... TheOverheadOfTypeErasure.o"
 	@echo "... TheOverheadOfTypeErasure.i"
 	@echo "... TheOverheadOfTypeErasure.s"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.o"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.i"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.s"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.o"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.i"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.s"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.o"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.i"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.s"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.o"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.i"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/TheTemplateMethod.s"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.o"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.i"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.s"
 	@echo "... TheUltimateSFINAE.o"
 	@echo "... TheUltimateSFINAE.i"
 	@echo "... TheUltimateSFINAE.s"

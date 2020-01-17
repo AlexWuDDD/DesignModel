@@ -1,5 +1,14 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FoundationsOfPolicyBasedDesign.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/LeakySingleton.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SingletonIpm1.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MeyersSingleton.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/StaticSingleton.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/WhatIsASingleton.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SingletonIpm1_p1.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/Composability.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ANoteAboutDestructors.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheNVIidiom.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PreAndPostConditionsAndActions.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheTemplateMethod.dir
@@ -53,5 +62,6 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TemplateFunctions.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/RAII_for_other_resources.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CountingResources.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MeyersSingleton_p1.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/RAII.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/Releasing_early.dir

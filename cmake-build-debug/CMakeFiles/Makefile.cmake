@@ -52,6 +52,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/FoundationsOfPolicyBasedDesign.dir/DependInfo.cmake"
+  "CMakeFiles/LeakySingleton.dir/DependInfo.cmake"
+  "CMakeFiles/SingletonIpm1.dir/DependInfo.cmake"
+  "CMakeFiles/MeyersSingleton.dir/DependInfo.cmake"
+  "CMakeFiles/StaticSingleton.dir/DependInfo.cmake"
+  "CMakeFiles/WhatIsASingleton.dir/DependInfo.cmake"
+  "CMakeFiles/SingletonIpm1_p1.dir/DependInfo.cmake"
+  "CMakeFiles/Composability.dir/DependInfo.cmake"
+  "CMakeFiles/ANoteAboutDestructors.dir/DependInfo.cmake"
   "CMakeFiles/TheNVIidiom.dir/DependInfo.cmake"
   "CMakeFiles/PreAndPostConditionsAndActions.dir/DependInfo.cmake"
   "CMakeFiles/TheTemplateMethod.dir/DependInfo.cmake"
@@ -105,6 +114,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TemplateFunctions.dir/DependInfo.cmake"
   "CMakeFiles/RAII_for_other_resources.dir/DependInfo.cmake"
   "CMakeFiles/CountingResources.dir/DependInfo.cmake"
+  "CMakeFiles/MeyersSingleton_p1.dir/DependInfo.cmake"
   "CMakeFiles/RAII.dir/DependInfo.cmake"
   "CMakeFiles/Releasing_early.dir/DependInfo.cmake"
   )

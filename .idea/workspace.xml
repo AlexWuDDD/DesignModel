@@ -5,17 +5,23 @@
       <config projectName="DesignPattern" targetName="ExpandingTheInterface" />
       <config projectName="DesignPattern" targetName="FriendsOfTemplateClasses" />
       <config projectName="DesignPattern" targetName="CarefulImplementationOfRAIIobject" />
+      <config projectName="DesignPattern" targetName="Composability" />
       <config projectName="DesignPattern" targetName="PolymorphicCopy" />
       <config projectName="DesignPattern" targetName="HowToGrantFriendShip" />
+      <config projectName="DesignPattern" targetName="MeyersSingleton" />
       <config projectName="DesignPattern" targetName="BasicSFINAE" />
       <config projectName="DesignPattern" targetName="RAII_for_other_resources" />
       <config projectName="DesignPattern" targetName="ArgumentsForFactoryMethods" />
       <config projectName="DesignPattern" targetName="WhendoesAnObjectgetItstype2" />
+      <config projectName="DesignPattern" targetName="FoundationsOfPolicyBasedDesign" />
+      <config projectName="DesignPattern" targetName="LeakySingleton" />
       <config projectName="DesignPattern" targetName="RAII" />
       <config projectName="DesignPattern" targetName="CountingResources" />
       <config projectName="DesignPattern" targetName="ApplicationsOfTheTemplateMethod" />
       <config projectName="DesignPattern" targetName="DesignPattern" />
       <config projectName="DesignPattern" targetName="TheOverheadOfTypeErasure" />
+      <config projectName="DesignPattern" targetName="WhatIsASingleton" />
+      <config projectName="DesignPattern" targetName="StaticSingleton" />
       <config projectName="DesignPattern" targetName="MethodChainingAndNamedArguments" />
       <config projectName="DesignPattern" targetName="SFINAE" />
       <config projectName="DesignPattern" targetName="PolymorphicFactory" />
@@ -36,8 +42,9 @@
       <config projectName="DesignPattern" targetName="TheCostOfMemoryAllocations" />
       <config projectName="DesignPattern" targetName="DynamicTypeRegistry" />
       <config projectName="DesignPattern" targetName="TheNVIidiom" />
-      <config projectName="DesignPattern" targetName="IntroducingCRTP" />
       <config projectName="DesignPattern" targetName="CRTPFactoryAndReturnTypes" />
+      <config projectName="DesignPattern" targetName="IntroducingCRTP" />
+      <config projectName="DesignPattern" targetName="SingletonIpm1" />
       <config projectName="DesignPattern" targetName="Releasing_early" />
       <config projectName="DesignPattern" targetName="Type_erasedAndCallableObjects" />
       <config projectName="DesignPattern" targetName="WhendoesAnObjectgetItstype" />
@@ -47,11 +54,14 @@
       <config projectName="DesignPattern" targetName="AdvancedSFINAErevisited2" />
       <config projectName="DesignPattern" targetName="CompileTimePolymorphism" />
       <config projectName="DesignPattern" targetName="CRTPFactoryWithLessCopyPatse" />
+      <config projectName="DesignPattern" targetName="MeyersSingleton_p1" />
+      <config projectName="DesignPattern" targetName="SingletonIpm1_p1" />
       <config projectName="DesignPattern" targetName="TheTemplateMethod" />
       <config projectName="DesignPattern" targetName="AdvancedSFINAErevisited" />
       <config projectName="DesignPattern" targetName="EffectOfLocalbufferOptimization" />
       <config projectName="DesignPattern" targetName="MethodChainingInClassHierarchies" />
       <config projectName="DesignPattern" targetName="PreAndPostConditionsAndActions" />
+      <config projectName="DesignPattern" targetName="ANoteAboutDestructors" />
       <config projectName="DesignPattern" targetName="AdvancedSFINAE2" />
       <config projectName="DesignPattern" targetName="ScopedGuardBasics" />
       <config projectName="DesignPattern" targetName="TypeErasureinCpp" />
@@ -68,20 +78,34 @@
     <list default="true" id="7456cd16-bad3-4734-9781-2baea0f39b21" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAE.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAE2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAE2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ApplicationsOfTheTemplateMethod.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ApplicationsOfTheTemplateMethod.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ArgumentsForFactoryMethods.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ArgumentsForFactoryMethods.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BasicSFINAE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/BasicSFINAE.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRTPFactoryAndReturnTypes.dir/VirtualConstructorsAndFactories/CRTPFactoryAndReturnTypes.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRTPFactoryAndReturnTypes.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRTPFactoryAndReturnTypes.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRTPFactoryWithLessCopyPatse.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRTPandAccessControl.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CRTPandAccessControl.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CarefulImplementationOfRAIIobject.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CarefulImplementationOfRAIIobject.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimePolymorphism.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CompileTimePolymorphism.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CountingResources.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CountingResources.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DesignPattern.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DesignPattern.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DynamicTypeRegistry.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DynamicTypeRegistry.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EffectOfLocalbufferOptimization.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EffectOfLocalbufferOptimization.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExceptionDrivernScopedGuard.dir/ScopedGuard/ExceptionDrivernScopedGuard.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExceptionDrivernScopedGuard.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExceptionDrivernScopedGuard.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExpandingTheInterface.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExpandingTheInterface.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FriendFactoryFinal.dir/FriendFactory/FriendFactoryFinal.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FriendFactoryFinal.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FriendFactoryFinal.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FriendsOfTemplateClasses.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FriendsOfTemplateClasses.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FriendsVersusMemberFunction.dir/FriendFactory/FriendsVersusMemberFunction.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FriendsVersusMemberFunction.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/FriendsVersusMemberFunction.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeneralMethodChaining.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeneralMethodChaining.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeneratingFriendsOnDemand.dir/FriendFactory/GeneratingFriendsOnDemand.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeneratingFriendsOnDemand.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GeneratingFriendsOnDemand.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GenericScopeGuard.dir/ScopedGuard/GenericScopeGuard.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GenericScopeGuard.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GenericScopeGuard.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HowToGrantFriendShip.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HowToGrantFriendShip.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/IntroducingCRTP.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/IntroducingCRTP.dir/progress.make" afterDir="false" />
@@ -92,8 +116,10 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies2.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PolymorphicCopy.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PolymorphicCopy.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PolymorphicFactory.dir/VirtualConstructorsAndFactories/PolymorphicFactory.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PolymorphicFactory.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PolymorphicFactory.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII.dir/ScopedGuard/GenericScopeGuard.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII.dir/ScopedGuard/RAII.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_for_other_resources.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_for_other_resources.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_in_a_nutshell.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/RAII_in_a_nutshell.dir/progress.make" afterDir="false" />
@@ -105,13 +131,43 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TemplateFunctions.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TemplateFunctions.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheBasicOfTheFactoryMethod.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheBasicOfTheFactoryMethod.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheCostOfMemoryAllocations.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheCostOfMemoryAllocations.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheNVIidiom.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/TheNVIidiom.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheNVIidiom.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheNVIidiom.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheOverheadOfTypeErasure.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheOverheadOfTypeErasure.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheTemplateMethod.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheTemplateMethod.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureByExample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureByExample.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Type_erasedAndCallableObjects.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Type_erasedAndCallableObjects.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualFunctionsAndAccess.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/VirtualFunctionsAndAccess.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualFunctionsAndAccess.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/VirtualFunctionsAndAccess.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatIsWringWithAVirtualFunction.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhatIsWringWithAVirtualFunction.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhendoesAnObjectgetItstype.dir/VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/WhendoesAnObjectgetItstype2.dir/VirtualConstructorsAndFactories/WhendoesAnObjectgetItstype2.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CRTPFactoryAndReturnTypes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/DesignPattern.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/DesignPattern.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/EffectOfLocalbufferOptimization" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ExceptionDrivernScopedGuard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FriendFactoryFinal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/FriendsVersusMemberFunction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GeneratingFriendsOnDemand" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GenericScopeGuard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/IntroducingCRTP" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MethodChaining" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MethodChainingAndNamedArguments" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MethodChainingInClassHierarchies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MethodChainingInClassHierarchies2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PerformanceOfTheNamedArgumentsIdiom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PolymorphicCopy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PolymorphicFactory" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ScopedGuardBasics" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SmallVector" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TheCostOfMemoryAllocations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TheNVIidiom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Type_erasedAndCallableObjects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/VirtualFunctionsAndAccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WhendoesAnObjectgetItstype" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/WhendoesAnObjectgetItstype2" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +207,7 @@
       <recent name="$PROJECT_DIR$/cmake-build-debug" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.TheNVIidiom">
+  <component name="RunManager" selected="CMake Application.FoundationsOfPolicyBasedDesign">
     <configuration name="All in RAII_for_other_resources.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="RAII_for_other_resources" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="RAII_for_other_resources" TEST_PATTERN="all-tests(file://$PROJECT_DIR$/RAII_for_other_resources.cpp)" TEST_MODE="PATTERN">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -180,6 +236,11 @@
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ANoteAboutDestructors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="ANoteAboutDestructors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="ANoteAboutDestructors">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="AdvancedSFINAE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="AdvancedSFINAE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="AdvancedSFINAE">
@@ -242,6 +303,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Composability" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="Composability" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="Composability">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountingResources" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="CountingResources" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="CountingResources">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -268,6 +334,11 @@
       </method>
     </configuration>
     <configuration name="ExpandingTheInterface" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="ExpandingTheInterface" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="ExpandingTheInterface">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoundationsOfPolicyBasedDesign" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="FoundationsOfPolicyBasedDesign" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="FoundationsOfPolicyBasedDesign">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -312,6 +383,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LeakySingleton" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="LeakySingleton" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="LeakySingleton">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MethodChaining" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="MethodChaining" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="MethodChaining">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -328,6 +404,16 @@
       </method>
     </configuration>
     <configuration name="MethodChainingInClassHierarchies2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="MethodChainingInClassHierarchies2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="MethodChainingInClassHierarchies2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeyersSingleton" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="MeyersSingleton" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="MeyersSingleton">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeyersSingleton_p1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="MeyersSingleton_p1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="MeyersSingleton_p1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -382,7 +468,22 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingletonIpm1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="SingletonIpm1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="SingletonIpm1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonIpm1_p1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="SingletonIpm1_p1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="SingletonIpm1_p1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SmallVector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="SmallVector" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="SmallVector">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticSingleton" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="StaticSingleton" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="StaticSingleton">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -442,6 +543,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhatIsASingleton" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="WhatIsASingleton" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="WhatIsASingleton">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WhatIsWringWithAVirtualFunction" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DesignPattern" TARGET_NAME="WhatIsWringWithAVirtualFunction" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DesignPattern" RUN_TARGET_NAME="WhatIsWringWithAVirtualFunction">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -461,6 +567,7 @@
       <item itemvalue="CMake Application.AdvancedSFINAE2" />
       <item itemvalue="CMake Application.AdvancedSFINAE" />
       <item itemvalue="CMake Application.AdvancedSFINAErevisited2" />
+      <item itemvalue="CMake Application.ANoteAboutDestructors" />
       <item itemvalue="CMake Application.ApplicationsOfTheTemplateMethod" />
       <item itemvalue="CMake Application.ArgumentsForFactoryMethods" />
       <item itemvalue="CMake Application.AdvancedSFINAErevisited" />
@@ -470,12 +577,14 @@
       <item itemvalue="CMake Application.CRTPFactoryWithLessCopyPatse" />
       <item itemvalue="CMake Application.CarefulImplementationOfRAIIobject" />
       <item itemvalue="CMake Application.CompileTimePolymorphism" />
+      <item itemvalue="CMake Application.Composability" />
       <item itemvalue="CMake Application.CountingResources" />
       <item itemvalue="CMake Application.DesignPattern" />
       <item itemvalue="CMake Application.DynamicTypeRegistry" />
       <item itemvalue="CMake Application.EffectOfLocalbufferOptimization" />
       <item itemvalue="CMake Application.ExceptionDrivernScopedGuard" />
       <item itemvalue="CMake Application.ExpandingTheInterface" />
+      <item itemvalue="CMake Application.FoundationsOfPolicyBasedDesign" />
       <item itemvalue="CMake Application.FriendFactoryFinal" />
       <item itemvalue="CMake Application.FriendsOfTemplateClasses" />
       <item itemvalue="CMake Application.FriendsVersusMemberFunction" />
@@ -484,8 +593,11 @@
       <item itemvalue="CMake Application.GenericScopeGuard" />
       <item itemvalue="CMake Application.HowToGrantFriendShip" />
       <item itemvalue="CMake Application.IntroducingCRTP" />
+      <item itemvalue="CMake Application.LeakySingleton" />
       <item itemvalue="CMake Application.MethodChainingAndNamedArguments" />
       <item itemvalue="CMake Application.MethodChainingInClassHierarchies2" />
+      <item itemvalue="CMake Application.MeyersSingleton" />
+      <item itemvalue="CMake Application.MeyersSingleton_p1" />
       <item itemvalue="CMake Application.MethodChainingInClassHierarchies" />
       <item itemvalue="CMake Application.MethodChaining" />
       <item itemvalue="CMake Application.PerformanceOfTheNamedArgumentsIdiom" />
@@ -497,8 +609,11 @@
       <item itemvalue="CMake Application.RAII_in_a_nutshell" />
       <item itemvalue="CMake Application.Releasing_early" />
       <item itemvalue="CMake Application.SFINAE" />
+      <item itemvalue="CMake Application.SingletonIpm1" />
+      <item itemvalue="CMake Application.SingletonIpm1_p1" />
       <item itemvalue="CMake Application.ScopedGuardBasics" />
       <item itemvalue="CMake Application.SmallVector" />
+      <item itemvalue="CMake Application.StaticSingleton" />
       <item itemvalue="CMake Application.TemplateFunctions" />
       <item itemvalue="CMake Application.TheBasicOfTheFactoryMethod" />
       <item itemvalue="CMake Application.TheCostOfMemoryAllocations" />
@@ -509,6 +624,7 @@
       <item itemvalue="CMake Application.TypeErasureByExample" />
       <item itemvalue="CMake Application.TypeErasureinCpp" />
       <item itemvalue="CMake Application.VirtualFunctionsAndAccess" />
+      <item itemvalue="CMake Application.WhatIsASingleton" />
       <item itemvalue="CMake Application.Type_erasedAndCallableObjects" />
       <item itemvalue="CMake Application.WhatIsWringWithAVirtualFunction" />
       <item itemvalue="CMake Application.WhendoesAnObjectgetItstype" />
@@ -574,7 +690,9 @@
       <workItem from="1578292064432" duration="356000" />
       <workItem from="1578292461144" duration="7065000" />
       <workItem from="1578316937826" duration="8145000" />
-      <workItem from="1578442357817" duration="3986000" />
+      <workItem from="1578442357817" duration="4126000" />
+      <workItem from="1578921474412" duration="4543000" />
+      <workItem from="1579221953535" duration="7267000" />
     </task>
     <servers />
   </component>
@@ -598,22 +716,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="922" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577409027292" />
-    <state width="841" height="285" key="GridCell.Tab.0.bottom" timestamp="1578446777941">
+    <state width="850" height="285" key="GridCell.Tab.0.bottom" timestamp="1579230333388">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="841" height="285" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1578446777941" />
-    <state width="841" height="285" key="GridCell.Tab.0.center" timestamp="1578446777940">
+    <state width="850" height="285" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579230333388" />
+    <state width="850" height="285" key="GridCell.Tab.0.center" timestamp="1579230333386">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="841" height="285" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1578446777940" />
-    <state width="841" height="285" key="GridCell.Tab.0.left" timestamp="1578446777940">
+    <state width="850" height="285" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579230333386" />
+    <state width="850" height="285" key="GridCell.Tab.0.left" timestamp="1579230333385">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="841" height="285" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1578446777940" />
-    <state width="841" height="285" key="GridCell.Tab.0.right" timestamp="1578446777941">
+    <state width="850" height="285" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579230333385" />
+    <state width="850" height="285" key="GridCell.Tab.0.right" timestamp="1579230333387">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="841" height="285" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1578446777941" />
+    <state width="850" height="285" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579230333387" />
     <state x="371" y="183" key="SettingsEditor" timestamp="1578292005110">
       <screen x="38" y="23" width="1642" height="1027" />
     </state>

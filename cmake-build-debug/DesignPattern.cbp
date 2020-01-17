@@ -37,6 +37,384 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="FoundationsOfPolicyBasedDesign">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/FoundationsOfPolicyBasedDesign" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 FoundationsOfPolicyBasedDesign"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FoundationsOfPolicyBasedDesign/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/FoundationsOfPolicyBasedDesign" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 FoundationsOfPolicyBasedDesign/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeakySingleton">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/LeakySingleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeakySingleton"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeakySingleton/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/LeakySingleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeakySingleton/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SingletonIpm1">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/SingletonIpm1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingletonIpm1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SingletonIpm1/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/SingletonIpm1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingletonIpm1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MeyersSingleton">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/MeyersSingleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 MeyersSingleton"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MeyersSingleton/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/MeyersSingleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 MeyersSingleton/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StaticSingleton">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/StaticSingleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaticSingleton"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StaticSingleton/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/StaticSingleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 StaticSingleton/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WhatIsASingleton">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/WhatIsASingleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 WhatIsASingleton"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WhatIsASingleton/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/WhatIsASingleton" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 WhatIsASingleton/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SingletonIpm1_p1">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/SingletonIpm1_p1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingletonIpm1_p1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SingletonIpm1_p1/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/SingletonIpm1_p1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 SingletonIpm1_p1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Composability">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/Composability" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 Composability"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Composability/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/Composability" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 Composability/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ANoteAboutDestructors">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/ANoteAboutDestructors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 ANoteAboutDestructors"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ANoteAboutDestructors/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/ANoteAboutDestructors" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 ANoteAboutDestructors/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="TheNVIidiom">
 				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/TheNVIidiom" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
@@ -2263,6 +2641,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="MeyersSingleton_p1">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/MeyersSingleton_p1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 MeyersSingleton_p1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MeyersSingleton_p1/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/MeyersSingleton_p1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 MeyersSingleton_p1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="RAII">
 				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/RAII" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
@@ -2417,6 +2837,9 @@
 		<Unit filename="/Users/wualex/Documents/DesignPattern/PerformanceOfTheNamedArgumentsIdiom.cpp">
 			<Option target="PerformanceOfTheNamedArgumentsIdiom"/>
 		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp">
+			<Option target="FoundationsOfPolicyBasedDesign"/>
+		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/RAII_for_other_resources.cpp">
 			<Option target="RAII_for_other_resources"/>
 		</Unit>
@@ -2442,6 +2865,33 @@
 		<Unit filename="/Users/wualex/Documents/DesignPattern/ScopedGuard/ScopedGuardBasics.cpp">
 			<Option target="ScopedGuardBasics"/>
 		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Singleton/LeakySingleton.cpp">
+			<Option target="LeakySingleton"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Singleton/MeyersSingleton.cpp">
+			<Option target="MeyersSingleton"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Singleton/MeyersSingleton_p1.cpp">
+			<Option target="MeyersSingleton_p1"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Singleton/SingletonIpm1.cpp">
+			<Option target="SingletonIpm1"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Singleton/SingletonIpm1.h">
+			<Option target="SingletonIpm1"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Singleton/SingletonIpm1_p1.cpp">
+			<Option target="SingletonIpm1_p1"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Singleton/SingletonIpm1_p1.h">
+			<Option target="SingletonIpm1_p1"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Singleton/StaticSingleton.cpp">
+			<Option target="StaticSingleton"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/Singleton/WhatIsASingleton.cpp">
+			<Option target="WhatIsASingleton"/>
+		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/SmallVector.cpp">
 			<Option target="SmallVector"/>
 		</Unit>
@@ -2457,8 +2907,14 @@
 		<Unit filename="/Users/wualex/Documents/DesignPattern/TheOverheadOfTypeErasure.cpp">
 			<Option target="TheOverheadOfTypeErasure"/>
 		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp">
+			<Option target="ANoteAboutDestructors"/>
+		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp">
 			<Option target="ApplicationsOfTheTemplateMethod"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp">
+			<Option target="Composability"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp">
 			<Option target="PreAndPostConditionsAndActions"/>

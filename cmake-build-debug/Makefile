@@ -111,6 +111,123 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named FoundationsOfPolicyBasedDesign
+
+# Build rule for target.
+FoundationsOfPolicyBasedDesign: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FoundationsOfPolicyBasedDesign
+.PHONY : FoundationsOfPolicyBasedDesign
+
+# fast build rule for target.
+FoundationsOfPolicyBasedDesign/fast:
+	$(MAKE) -f CMakeFiles/FoundationsOfPolicyBasedDesign.dir/build.make CMakeFiles/FoundationsOfPolicyBasedDesign.dir/build
+.PHONY : FoundationsOfPolicyBasedDesign/fast
+
+#=============================================================================
+# Target rules for targets named LeakySingleton
+
+# Build rule for target.
+LeakySingleton: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LeakySingleton
+.PHONY : LeakySingleton
+
+# fast build rule for target.
+LeakySingleton/fast:
+	$(MAKE) -f CMakeFiles/LeakySingleton.dir/build.make CMakeFiles/LeakySingleton.dir/build
+.PHONY : LeakySingleton/fast
+
+#=============================================================================
+# Target rules for targets named SingletonIpm1
+
+# Build rule for target.
+SingletonIpm1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SingletonIpm1
+.PHONY : SingletonIpm1
+
+# fast build rule for target.
+SingletonIpm1/fast:
+	$(MAKE) -f CMakeFiles/SingletonIpm1.dir/build.make CMakeFiles/SingletonIpm1.dir/build
+.PHONY : SingletonIpm1/fast
+
+#=============================================================================
+# Target rules for targets named MeyersSingleton
+
+# Build rule for target.
+MeyersSingleton: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MeyersSingleton
+.PHONY : MeyersSingleton
+
+# fast build rule for target.
+MeyersSingleton/fast:
+	$(MAKE) -f CMakeFiles/MeyersSingleton.dir/build.make CMakeFiles/MeyersSingleton.dir/build
+.PHONY : MeyersSingleton/fast
+
+#=============================================================================
+# Target rules for targets named StaticSingleton
+
+# Build rule for target.
+StaticSingleton: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 StaticSingleton
+.PHONY : StaticSingleton
+
+# fast build rule for target.
+StaticSingleton/fast:
+	$(MAKE) -f CMakeFiles/StaticSingleton.dir/build.make CMakeFiles/StaticSingleton.dir/build
+.PHONY : StaticSingleton/fast
+
+#=============================================================================
+# Target rules for targets named WhatIsASingleton
+
+# Build rule for target.
+WhatIsASingleton: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WhatIsASingleton
+.PHONY : WhatIsASingleton
+
+# fast build rule for target.
+WhatIsASingleton/fast:
+	$(MAKE) -f CMakeFiles/WhatIsASingleton.dir/build.make CMakeFiles/WhatIsASingleton.dir/build
+.PHONY : WhatIsASingleton/fast
+
+#=============================================================================
+# Target rules for targets named SingletonIpm1_p1
+
+# Build rule for target.
+SingletonIpm1_p1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SingletonIpm1_p1
+.PHONY : SingletonIpm1_p1
+
+# fast build rule for target.
+SingletonIpm1_p1/fast:
+	$(MAKE) -f CMakeFiles/SingletonIpm1_p1.dir/build.make CMakeFiles/SingletonIpm1_p1.dir/build
+.PHONY : SingletonIpm1_p1/fast
+
+#=============================================================================
+# Target rules for targets named Composability
+
+# Build rule for target.
+Composability: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Composability
+.PHONY : Composability
+
+# fast build rule for target.
+Composability/fast:
+	$(MAKE) -f CMakeFiles/Composability.dir/build.make CMakeFiles/Composability.dir/build
+.PHONY : Composability/fast
+
+#=============================================================================
+# Target rules for targets named ANoteAboutDestructors
+
+# Build rule for target.
+ANoteAboutDestructors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ANoteAboutDestructors
+.PHONY : ANoteAboutDestructors
+
+# fast build rule for target.
+ANoteAboutDestructors/fast:
+	$(MAKE) -f CMakeFiles/ANoteAboutDestructors.dir/build.make CMakeFiles/ANoteAboutDestructors.dir/build
+.PHONY : ANoteAboutDestructors/fast
+
+#=============================================================================
 # Target rules for targets named TheNVIidiom
 
 # Build rule for target.
@@ -800,6 +917,19 @@ CountingResources/fast:
 .PHONY : CountingResources/fast
 
 #=============================================================================
+# Target rules for targets named MeyersSingleton_p1
+
+# Build rule for target.
+MeyersSingleton_p1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MeyersSingleton_p1
+.PHONY : MeyersSingleton_p1
+
+# fast build rule for target.
+MeyersSingleton_p1/fast:
+	$(MAKE) -f CMakeFiles/MeyersSingleton_p1.dir/build.make CMakeFiles/MeyersSingleton_p1.dir/build
+.PHONY : MeyersSingleton_p1/fast
+
+#=============================================================================
 # Target rules for targets named RAII
 
 # Build rule for target.
@@ -1446,6 +1576,33 @@ PerformanceOfTheNamedArgumentsIdiom.cpp.s:
 	$(MAKE) -f CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/build.make CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/PerformanceOfTheNamedArgumentsIdiom.cpp.s
 .PHONY : PerformanceOfTheNamedArgumentsIdiom.cpp.s
 
+PolicyBasedDesign/FoundationsOfPolicyBasedDesign.o: PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.o
+
+.PHONY : PolicyBasedDesign/FoundationsOfPolicyBasedDesign.o
+
+# target to build an object file
+PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.o:
+	$(MAKE) -f CMakeFiles/FoundationsOfPolicyBasedDesign.dir/build.make CMakeFiles/FoundationsOfPolicyBasedDesign.dir/PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.o
+.PHONY : PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.o
+
+PolicyBasedDesign/FoundationsOfPolicyBasedDesign.i: PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.i
+
+.PHONY : PolicyBasedDesign/FoundationsOfPolicyBasedDesign.i
+
+# target to preprocess a source file
+PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.i:
+	$(MAKE) -f CMakeFiles/FoundationsOfPolicyBasedDesign.dir/build.make CMakeFiles/FoundationsOfPolicyBasedDesign.dir/PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.i
+.PHONY : PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.i
+
+PolicyBasedDesign/FoundationsOfPolicyBasedDesign.s: PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.s
+
+.PHONY : PolicyBasedDesign/FoundationsOfPolicyBasedDesign.s
+
+# target to generate assembly for a file
+PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.s:
+	$(MAKE) -f CMakeFiles/FoundationsOfPolicyBasedDesign.dir/build.make CMakeFiles/FoundationsOfPolicyBasedDesign.dir/PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.s
+.PHONY : PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.s
+
 RAII_for_other_resources.o: RAII_for_other_resources.cpp.o
 
 .PHONY : RAII_for_other_resources.o
@@ -1665,6 +1822,195 @@ ScopedGuard/ScopedGuardBasics.cpp.s:
 	$(MAKE) -f CMakeFiles/ScopedGuardBasics.dir/build.make CMakeFiles/ScopedGuardBasics.dir/ScopedGuard/ScopedGuardBasics.cpp.s
 .PHONY : ScopedGuard/ScopedGuardBasics.cpp.s
 
+Singleton/LeakySingleton.o: Singleton/LeakySingleton.cpp.o
+
+.PHONY : Singleton/LeakySingleton.o
+
+# target to build an object file
+Singleton/LeakySingleton.cpp.o:
+	$(MAKE) -f CMakeFiles/LeakySingleton.dir/build.make CMakeFiles/LeakySingleton.dir/Singleton/LeakySingleton.cpp.o
+.PHONY : Singleton/LeakySingleton.cpp.o
+
+Singleton/LeakySingleton.i: Singleton/LeakySingleton.cpp.i
+
+.PHONY : Singleton/LeakySingleton.i
+
+# target to preprocess a source file
+Singleton/LeakySingleton.cpp.i:
+	$(MAKE) -f CMakeFiles/LeakySingleton.dir/build.make CMakeFiles/LeakySingleton.dir/Singleton/LeakySingleton.cpp.i
+.PHONY : Singleton/LeakySingleton.cpp.i
+
+Singleton/LeakySingleton.s: Singleton/LeakySingleton.cpp.s
+
+.PHONY : Singleton/LeakySingleton.s
+
+# target to generate assembly for a file
+Singleton/LeakySingleton.cpp.s:
+	$(MAKE) -f CMakeFiles/LeakySingleton.dir/build.make CMakeFiles/LeakySingleton.dir/Singleton/LeakySingleton.cpp.s
+.PHONY : Singleton/LeakySingleton.cpp.s
+
+Singleton/MeyersSingleton.o: Singleton/MeyersSingleton.cpp.o
+
+.PHONY : Singleton/MeyersSingleton.o
+
+# target to build an object file
+Singleton/MeyersSingleton.cpp.o:
+	$(MAKE) -f CMakeFiles/MeyersSingleton.dir/build.make CMakeFiles/MeyersSingleton.dir/Singleton/MeyersSingleton.cpp.o
+.PHONY : Singleton/MeyersSingleton.cpp.o
+
+Singleton/MeyersSingleton.i: Singleton/MeyersSingleton.cpp.i
+
+.PHONY : Singleton/MeyersSingleton.i
+
+# target to preprocess a source file
+Singleton/MeyersSingleton.cpp.i:
+	$(MAKE) -f CMakeFiles/MeyersSingleton.dir/build.make CMakeFiles/MeyersSingleton.dir/Singleton/MeyersSingleton.cpp.i
+.PHONY : Singleton/MeyersSingleton.cpp.i
+
+Singleton/MeyersSingleton.s: Singleton/MeyersSingleton.cpp.s
+
+.PHONY : Singleton/MeyersSingleton.s
+
+# target to generate assembly for a file
+Singleton/MeyersSingleton.cpp.s:
+	$(MAKE) -f CMakeFiles/MeyersSingleton.dir/build.make CMakeFiles/MeyersSingleton.dir/Singleton/MeyersSingleton.cpp.s
+.PHONY : Singleton/MeyersSingleton.cpp.s
+
+Singleton/MeyersSingleton_p1.o: Singleton/MeyersSingleton_p1.cpp.o
+
+.PHONY : Singleton/MeyersSingleton_p1.o
+
+# target to build an object file
+Singleton/MeyersSingleton_p1.cpp.o:
+	$(MAKE) -f CMakeFiles/MeyersSingleton_p1.dir/build.make CMakeFiles/MeyersSingleton_p1.dir/Singleton/MeyersSingleton_p1.cpp.o
+.PHONY : Singleton/MeyersSingleton_p1.cpp.o
+
+Singleton/MeyersSingleton_p1.i: Singleton/MeyersSingleton_p1.cpp.i
+
+.PHONY : Singleton/MeyersSingleton_p1.i
+
+# target to preprocess a source file
+Singleton/MeyersSingleton_p1.cpp.i:
+	$(MAKE) -f CMakeFiles/MeyersSingleton_p1.dir/build.make CMakeFiles/MeyersSingleton_p1.dir/Singleton/MeyersSingleton_p1.cpp.i
+.PHONY : Singleton/MeyersSingleton_p1.cpp.i
+
+Singleton/MeyersSingleton_p1.s: Singleton/MeyersSingleton_p1.cpp.s
+
+.PHONY : Singleton/MeyersSingleton_p1.s
+
+# target to generate assembly for a file
+Singleton/MeyersSingleton_p1.cpp.s:
+	$(MAKE) -f CMakeFiles/MeyersSingleton_p1.dir/build.make CMakeFiles/MeyersSingleton_p1.dir/Singleton/MeyersSingleton_p1.cpp.s
+.PHONY : Singleton/MeyersSingleton_p1.cpp.s
+
+Singleton/SingletonIpm1.o: Singleton/SingletonIpm1.cpp.o
+
+.PHONY : Singleton/SingletonIpm1.o
+
+# target to build an object file
+Singleton/SingletonIpm1.cpp.o:
+	$(MAKE) -f CMakeFiles/SingletonIpm1.dir/build.make CMakeFiles/SingletonIpm1.dir/Singleton/SingletonIpm1.cpp.o
+.PHONY : Singleton/SingletonIpm1.cpp.o
+
+Singleton/SingletonIpm1.i: Singleton/SingletonIpm1.cpp.i
+
+.PHONY : Singleton/SingletonIpm1.i
+
+# target to preprocess a source file
+Singleton/SingletonIpm1.cpp.i:
+	$(MAKE) -f CMakeFiles/SingletonIpm1.dir/build.make CMakeFiles/SingletonIpm1.dir/Singleton/SingletonIpm1.cpp.i
+.PHONY : Singleton/SingletonIpm1.cpp.i
+
+Singleton/SingletonIpm1.s: Singleton/SingletonIpm1.cpp.s
+
+.PHONY : Singleton/SingletonIpm1.s
+
+# target to generate assembly for a file
+Singleton/SingletonIpm1.cpp.s:
+	$(MAKE) -f CMakeFiles/SingletonIpm1.dir/build.make CMakeFiles/SingletonIpm1.dir/Singleton/SingletonIpm1.cpp.s
+.PHONY : Singleton/SingletonIpm1.cpp.s
+
+Singleton/SingletonIpm1_p1.o: Singleton/SingletonIpm1_p1.cpp.o
+
+.PHONY : Singleton/SingletonIpm1_p1.o
+
+# target to build an object file
+Singleton/SingletonIpm1_p1.cpp.o:
+	$(MAKE) -f CMakeFiles/SingletonIpm1_p1.dir/build.make CMakeFiles/SingletonIpm1_p1.dir/Singleton/SingletonIpm1_p1.cpp.o
+.PHONY : Singleton/SingletonIpm1_p1.cpp.o
+
+Singleton/SingletonIpm1_p1.i: Singleton/SingletonIpm1_p1.cpp.i
+
+.PHONY : Singleton/SingletonIpm1_p1.i
+
+# target to preprocess a source file
+Singleton/SingletonIpm1_p1.cpp.i:
+	$(MAKE) -f CMakeFiles/SingletonIpm1_p1.dir/build.make CMakeFiles/SingletonIpm1_p1.dir/Singleton/SingletonIpm1_p1.cpp.i
+.PHONY : Singleton/SingletonIpm1_p1.cpp.i
+
+Singleton/SingletonIpm1_p1.s: Singleton/SingletonIpm1_p1.cpp.s
+
+.PHONY : Singleton/SingletonIpm1_p1.s
+
+# target to generate assembly for a file
+Singleton/SingletonIpm1_p1.cpp.s:
+	$(MAKE) -f CMakeFiles/SingletonIpm1_p1.dir/build.make CMakeFiles/SingletonIpm1_p1.dir/Singleton/SingletonIpm1_p1.cpp.s
+.PHONY : Singleton/SingletonIpm1_p1.cpp.s
+
+Singleton/StaticSingleton.o: Singleton/StaticSingleton.cpp.o
+
+.PHONY : Singleton/StaticSingleton.o
+
+# target to build an object file
+Singleton/StaticSingleton.cpp.o:
+	$(MAKE) -f CMakeFiles/StaticSingleton.dir/build.make CMakeFiles/StaticSingleton.dir/Singleton/StaticSingleton.cpp.o
+.PHONY : Singleton/StaticSingleton.cpp.o
+
+Singleton/StaticSingleton.i: Singleton/StaticSingleton.cpp.i
+
+.PHONY : Singleton/StaticSingleton.i
+
+# target to preprocess a source file
+Singleton/StaticSingleton.cpp.i:
+	$(MAKE) -f CMakeFiles/StaticSingleton.dir/build.make CMakeFiles/StaticSingleton.dir/Singleton/StaticSingleton.cpp.i
+.PHONY : Singleton/StaticSingleton.cpp.i
+
+Singleton/StaticSingleton.s: Singleton/StaticSingleton.cpp.s
+
+.PHONY : Singleton/StaticSingleton.s
+
+# target to generate assembly for a file
+Singleton/StaticSingleton.cpp.s:
+	$(MAKE) -f CMakeFiles/StaticSingleton.dir/build.make CMakeFiles/StaticSingleton.dir/Singleton/StaticSingleton.cpp.s
+.PHONY : Singleton/StaticSingleton.cpp.s
+
+Singleton/WhatIsASingleton.o: Singleton/WhatIsASingleton.cpp.o
+
+.PHONY : Singleton/WhatIsASingleton.o
+
+# target to build an object file
+Singleton/WhatIsASingleton.cpp.o:
+	$(MAKE) -f CMakeFiles/WhatIsASingleton.dir/build.make CMakeFiles/WhatIsASingleton.dir/Singleton/WhatIsASingleton.cpp.o
+.PHONY : Singleton/WhatIsASingleton.cpp.o
+
+Singleton/WhatIsASingleton.i: Singleton/WhatIsASingleton.cpp.i
+
+.PHONY : Singleton/WhatIsASingleton.i
+
+# target to preprocess a source file
+Singleton/WhatIsASingleton.cpp.i:
+	$(MAKE) -f CMakeFiles/WhatIsASingleton.dir/build.make CMakeFiles/WhatIsASingleton.dir/Singleton/WhatIsASingleton.cpp.i
+.PHONY : Singleton/WhatIsASingleton.cpp.i
+
+Singleton/WhatIsASingleton.s: Singleton/WhatIsASingleton.cpp.s
+
+.PHONY : Singleton/WhatIsASingleton.s
+
+# target to generate assembly for a file
+Singleton/WhatIsASingleton.cpp.s:
+	$(MAKE) -f CMakeFiles/WhatIsASingleton.dir/build.make CMakeFiles/WhatIsASingleton.dir/Singleton/WhatIsASingleton.cpp.s
+.PHONY : Singleton/WhatIsASingleton.cpp.s
+
 SmallVector.o: SmallVector.cpp.o
 
 .PHONY : SmallVector.o
@@ -1800,6 +2146,33 @@ TheOverheadOfTypeErasure.cpp.s:
 	$(MAKE) -f CMakeFiles/TheOverheadOfTypeErasure.dir/build.make CMakeFiles/TheOverheadOfTypeErasure.dir/TheOverheadOfTypeErasure.cpp.s
 .PHONY : TheOverheadOfTypeErasure.cpp.s
 
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.o: TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.o
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.o
+
+# target to build an object file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.o:
+	$(MAKE) -f CMakeFiles/ANoteAboutDestructors.dir/build.make CMakeFiles/ANoteAboutDestructors.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.o
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.o
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.i: TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.i
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.i
+
+# target to preprocess a source file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.i:
+	$(MAKE) -f CMakeFiles/ANoteAboutDestructors.dir/build.make CMakeFiles/ANoteAboutDestructors.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.i
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.i
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.s: TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.s
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.s
+
+# target to generate assembly for a file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.s:
+	$(MAKE) -f CMakeFiles/ANoteAboutDestructors.dir/build.make CMakeFiles/ANoteAboutDestructors.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.s
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.cpp.s
+
 TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.o: TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.o
 
 .PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.o
@@ -1826,6 +2199,33 @@ TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.s:
 TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.s:
 	$(MAKE) -f CMakeFiles/ApplicationsOfTheTemplateMethod.dir/build.make CMakeFiles/ApplicationsOfTheTemplateMethod.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.s
 .PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.cpp.s
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.o: TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.o
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.o
+
+# target to build an object file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.o:
+	$(MAKE) -f CMakeFiles/Composability.dir/build.make CMakeFiles/Composability.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.o
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.o
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.i: TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.i
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.i
+
+# target to preprocess a source file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.i:
+	$(MAKE) -f CMakeFiles/Composability.dir/build.make CMakeFiles/Composability.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.i
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.i
+
+TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.s: TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.s
+
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.s
+
+# target to generate assembly for a file
+TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.s:
+	$(MAKE) -f CMakeFiles/Composability.dir/build.make CMakeFiles/Composability.dir/TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.s
+.PHONY : TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.cpp.s
 
 TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.o: TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.cpp.o
 
@@ -2348,6 +2748,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... FoundationsOfPolicyBasedDesign"
+	@echo "... LeakySingleton"
+	@echo "... SingletonIpm1"
+	@echo "... MeyersSingleton"
+	@echo "... StaticSingleton"
+	@echo "... WhatIsASingleton"
+	@echo "... SingletonIpm1_p1"
+	@echo "... Composability"
+	@echo "... ANoteAboutDestructors"
 	@echo "... TheNVIidiom"
 	@echo "... PreAndPostConditionsAndActions"
 	@echo "... TheTemplateMethod"
@@ -2401,6 +2810,7 @@ help:
 	@echo "... TemplateFunctions"
 	@echo "... RAII_for_other_resources"
 	@echo "... CountingResources"
+	@echo "... MeyersSingleton_p1"
 	@echo "... RAII"
 	@echo "... Releasing_early"
 	@echo "... AdvancedSFINAE.o"
@@ -2472,6 +2882,9 @@ help:
 	@echo "... PerformanceOfTheNamedArgumentsIdiom.o"
 	@echo "... PerformanceOfTheNamedArgumentsIdiom.i"
 	@echo "... PerformanceOfTheNamedArgumentsIdiom.s"
+	@echo "... PolicyBasedDesign/FoundationsOfPolicyBasedDesign.o"
+	@echo "... PolicyBasedDesign/FoundationsOfPolicyBasedDesign.i"
+	@echo "... PolicyBasedDesign/FoundationsOfPolicyBasedDesign.s"
 	@echo "... RAII_for_other_resources.o"
 	@echo "... RAII_for_other_resources.i"
 	@echo "... RAII_for_other_resources.s"
@@ -2496,6 +2909,27 @@ help:
 	@echo "... ScopedGuard/ScopedGuardBasics.o"
 	@echo "... ScopedGuard/ScopedGuardBasics.i"
 	@echo "... ScopedGuard/ScopedGuardBasics.s"
+	@echo "... Singleton/LeakySingleton.o"
+	@echo "... Singleton/LeakySingleton.i"
+	@echo "... Singleton/LeakySingleton.s"
+	@echo "... Singleton/MeyersSingleton.o"
+	@echo "... Singleton/MeyersSingleton.i"
+	@echo "... Singleton/MeyersSingleton.s"
+	@echo "... Singleton/MeyersSingleton_p1.o"
+	@echo "... Singleton/MeyersSingleton_p1.i"
+	@echo "... Singleton/MeyersSingleton_p1.s"
+	@echo "... Singleton/SingletonIpm1.o"
+	@echo "... Singleton/SingletonIpm1.i"
+	@echo "... Singleton/SingletonIpm1.s"
+	@echo "... Singleton/SingletonIpm1_p1.o"
+	@echo "... Singleton/SingletonIpm1_p1.i"
+	@echo "... Singleton/SingletonIpm1_p1.s"
+	@echo "... Singleton/StaticSingleton.o"
+	@echo "... Singleton/StaticSingleton.i"
+	@echo "... Singleton/StaticSingleton.s"
+	@echo "... Singleton/WhatIsASingleton.o"
+	@echo "... Singleton/WhatIsASingleton.i"
+	@echo "... Singleton/WhatIsASingleton.s"
 	@echo "... SmallVector.o"
 	@echo "... SmallVector.i"
 	@echo "... SmallVector.s"
@@ -2511,9 +2945,15 @@ help:
 	@echo "... TheOverheadOfTypeErasure.o"
 	@echo "... TheOverheadOfTypeErasure.i"
 	@echo "... TheOverheadOfTypeErasure.s"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.o"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.i"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/ANoteAboutDestructors.s"
 	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.o"
 	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.i"
 	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/ApplicationsOfTheTemplateMethod.s"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.o"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.i"
+	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/Composability.s"
 	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.o"
 	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.i"
 	@echo "... TheTemplateMethodPatternAndTheNonVirtualIdiom/PreAndPostConditionsAndActions.s"

@@ -121,3 +121,6 @@ add_executable(LeakySingleton Singleton/LeakySingleton.cpp)
 target_link_libraries(LeakySingleton benchmark)
 
 add_executable(FoundationsOfPolicyBasedDesign PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp)
+add_executable(UseOfPolicyObjects PolicyBasedDesign/UseOfPolicyObjects.cpp)
+add_executable(UseOfPolicyObjects2 PolicyBasedDesign/UseOfPolicyObjects2.cpp)
+add_executable(PoliciesForConstructors PolicyBasedDesign/PoliciesForConstructors.cpp)

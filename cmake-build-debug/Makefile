@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PoliciesForConstructors
+
+# Build rule for target.
+PoliciesForConstructors: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PoliciesForConstructors
+.PHONY : PoliciesForConstructors
+
+# fast build rule for target.
+PoliciesForConstructors/fast:
+	$(MAKE) -f CMakeFiles/PoliciesForConstructors.dir/build.make CMakeFiles/PoliciesForConstructors.dir/build
+.PHONY : PoliciesForConstructors/fast
+
+#=============================================================================
 # Target rules for targets named FoundationsOfPolicyBasedDesign
 
 # Build rule for target.
@@ -631,6 +644,19 @@ SmallVector/fast:
 .PHONY : SmallVector/fast
 
 #=============================================================================
+# Target rules for targets named UseOfPolicyObjects
+
+# Build rule for target.
+UseOfPolicyObjects: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UseOfPolicyObjects
+.PHONY : UseOfPolicyObjects
+
+# fast build rule for target.
+UseOfPolicyObjects/fast:
+	$(MAKE) -f CMakeFiles/UseOfPolicyObjects.dir/build.make CMakeFiles/UseOfPolicyObjects.dir/build
+.PHONY : UseOfPolicyObjects/fast
+
+#=============================================================================
 # Target rules for targets named MethodChainingInClassHierarchies
 
 # Build rule for target.
@@ -642,6 +668,19 @@ MethodChainingInClassHierarchies: cmake_check_build_system
 MethodChainingInClassHierarchies/fast:
 	$(MAKE) -f CMakeFiles/MethodChainingInClassHierarchies.dir/build.make CMakeFiles/MethodChainingInClassHierarchies.dir/build
 .PHONY : MethodChainingInClassHierarchies/fast
+
+#=============================================================================
+# Target rules for targets named UseOfPolicyObjects2
+
+# Build rule for target.
+UseOfPolicyObjects2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UseOfPolicyObjects2
+.PHONY : UseOfPolicyObjects2
+
+# fast build rule for target.
+UseOfPolicyObjects2/fast:
+	$(MAKE) -f CMakeFiles/UseOfPolicyObjects2.dir/build.make CMakeFiles/UseOfPolicyObjects2.dir/build
+.PHONY : UseOfPolicyObjects2/fast
 
 #=============================================================================
 # Target rules for targets named TheUltimateSFINAE
@@ -1602,6 +1641,87 @@ PolicyBasedDesign/FoundationsOfPolicyBasedDesign.s: PolicyBasedDesign/Foundation
 PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.s:
 	$(MAKE) -f CMakeFiles/FoundationsOfPolicyBasedDesign.dir/build.make CMakeFiles/FoundationsOfPolicyBasedDesign.dir/PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.s
 .PHONY : PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp.s
+
+PolicyBasedDesign/PoliciesForConstructors.o: PolicyBasedDesign/PoliciesForConstructors.cpp.o
+
+.PHONY : PolicyBasedDesign/PoliciesForConstructors.o
+
+# target to build an object file
+PolicyBasedDesign/PoliciesForConstructors.cpp.o:
+	$(MAKE) -f CMakeFiles/PoliciesForConstructors.dir/build.make CMakeFiles/PoliciesForConstructors.dir/PolicyBasedDesign/PoliciesForConstructors.cpp.o
+.PHONY : PolicyBasedDesign/PoliciesForConstructors.cpp.o
+
+PolicyBasedDesign/PoliciesForConstructors.i: PolicyBasedDesign/PoliciesForConstructors.cpp.i
+
+.PHONY : PolicyBasedDesign/PoliciesForConstructors.i
+
+# target to preprocess a source file
+PolicyBasedDesign/PoliciesForConstructors.cpp.i:
+	$(MAKE) -f CMakeFiles/PoliciesForConstructors.dir/build.make CMakeFiles/PoliciesForConstructors.dir/PolicyBasedDesign/PoliciesForConstructors.cpp.i
+.PHONY : PolicyBasedDesign/PoliciesForConstructors.cpp.i
+
+PolicyBasedDesign/PoliciesForConstructors.s: PolicyBasedDesign/PoliciesForConstructors.cpp.s
+
+.PHONY : PolicyBasedDesign/PoliciesForConstructors.s
+
+# target to generate assembly for a file
+PolicyBasedDesign/PoliciesForConstructors.cpp.s:
+	$(MAKE) -f CMakeFiles/PoliciesForConstructors.dir/build.make CMakeFiles/PoliciesForConstructors.dir/PolicyBasedDesign/PoliciesForConstructors.cpp.s
+.PHONY : PolicyBasedDesign/PoliciesForConstructors.cpp.s
+
+PolicyBasedDesign/UseOfPolicyObjects.o: PolicyBasedDesign/UseOfPolicyObjects.cpp.o
+
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects.o
+
+# target to build an object file
+PolicyBasedDesign/UseOfPolicyObjects.cpp.o:
+	$(MAKE) -f CMakeFiles/UseOfPolicyObjects.dir/build.make CMakeFiles/UseOfPolicyObjects.dir/PolicyBasedDesign/UseOfPolicyObjects.cpp.o
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects.cpp.o
+
+PolicyBasedDesign/UseOfPolicyObjects.i: PolicyBasedDesign/UseOfPolicyObjects.cpp.i
+
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects.i
+
+# target to preprocess a source file
+PolicyBasedDesign/UseOfPolicyObjects.cpp.i:
+	$(MAKE) -f CMakeFiles/UseOfPolicyObjects.dir/build.make CMakeFiles/UseOfPolicyObjects.dir/PolicyBasedDesign/UseOfPolicyObjects.cpp.i
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects.cpp.i
+
+PolicyBasedDesign/UseOfPolicyObjects.s: PolicyBasedDesign/UseOfPolicyObjects.cpp.s
+
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects.s
+
+# target to generate assembly for a file
+PolicyBasedDesign/UseOfPolicyObjects.cpp.s:
+	$(MAKE) -f CMakeFiles/UseOfPolicyObjects.dir/build.make CMakeFiles/UseOfPolicyObjects.dir/PolicyBasedDesign/UseOfPolicyObjects.cpp.s
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects.cpp.s
+
+PolicyBasedDesign/UseOfPolicyObjects2.o: PolicyBasedDesign/UseOfPolicyObjects2.cpp.o
+
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects2.o
+
+# target to build an object file
+PolicyBasedDesign/UseOfPolicyObjects2.cpp.o:
+	$(MAKE) -f CMakeFiles/UseOfPolicyObjects2.dir/build.make CMakeFiles/UseOfPolicyObjects2.dir/PolicyBasedDesign/UseOfPolicyObjects2.cpp.o
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects2.cpp.o
+
+PolicyBasedDesign/UseOfPolicyObjects2.i: PolicyBasedDesign/UseOfPolicyObjects2.cpp.i
+
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects2.i
+
+# target to preprocess a source file
+PolicyBasedDesign/UseOfPolicyObjects2.cpp.i:
+	$(MAKE) -f CMakeFiles/UseOfPolicyObjects2.dir/build.make CMakeFiles/UseOfPolicyObjects2.dir/PolicyBasedDesign/UseOfPolicyObjects2.cpp.i
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects2.cpp.i
+
+PolicyBasedDesign/UseOfPolicyObjects2.s: PolicyBasedDesign/UseOfPolicyObjects2.cpp.s
+
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects2.s
+
+# target to generate assembly for a file
+PolicyBasedDesign/UseOfPolicyObjects2.cpp.s:
+	$(MAKE) -f CMakeFiles/UseOfPolicyObjects2.dir/build.make CMakeFiles/UseOfPolicyObjects2.dir/PolicyBasedDesign/UseOfPolicyObjects2.cpp.s
+.PHONY : PolicyBasedDesign/UseOfPolicyObjects2.cpp.s
 
 RAII_for_other_resources.o: RAII_for_other_resources.cpp.o
 
@@ -2748,6 +2868,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... PoliciesForConstructors"
 	@echo "... FoundationsOfPolicyBasedDesign"
 	@echo "... LeakySingleton"
 	@echo "... SingletonIpm1"
@@ -2788,7 +2909,9 @@ help:
 	@echo "... DynamicTypeRegistry"
 	@echo "... WhatIsWringWithAVirtualFunction"
 	@echo "... SmallVector"
+	@echo "... UseOfPolicyObjects"
 	@echo "... MethodChainingInClassHierarchies"
+	@echo "... UseOfPolicyObjects2"
 	@echo "... TheUltimateSFINAE"
 	@echo "... HowToGrantFriendShip"
 	@echo "... AdvancedSFINAE2"
@@ -2885,6 +3008,15 @@ help:
 	@echo "... PolicyBasedDesign/FoundationsOfPolicyBasedDesign.o"
 	@echo "... PolicyBasedDesign/FoundationsOfPolicyBasedDesign.i"
 	@echo "... PolicyBasedDesign/FoundationsOfPolicyBasedDesign.s"
+	@echo "... PolicyBasedDesign/PoliciesForConstructors.o"
+	@echo "... PolicyBasedDesign/PoliciesForConstructors.i"
+	@echo "... PolicyBasedDesign/PoliciesForConstructors.s"
+	@echo "... PolicyBasedDesign/UseOfPolicyObjects.o"
+	@echo "... PolicyBasedDesign/UseOfPolicyObjects.i"
+	@echo "... PolicyBasedDesign/UseOfPolicyObjects.s"
+	@echo "... PolicyBasedDesign/UseOfPolicyObjects2.o"
+	@echo "... PolicyBasedDesign/UseOfPolicyObjects2.i"
+	@echo "... PolicyBasedDesign/UseOfPolicyObjects2.s"
 	@echo "... RAII_for_other_resources.o"
 	@echo "... RAII_for_other_resources.i"
 	@echo "... RAII_for_other_resources.s"

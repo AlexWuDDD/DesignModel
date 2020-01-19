@@ -10,8 +10,9 @@ typedef void (*delete_int_t)(int*);
 void delete_int(int*p) {delete p;}
 template <typename T> void delete_T(T* p) {delete  p;}
 
-template <typename T>
+
 struct DeleteByOperator{
+    template <typename T>
     void operator()(T* p) const{
         delete p;
     }
@@ -37,10 +38,11 @@ private:
 };
 void* operator new(size_t s, SmallHeap* h) { return h->allocate(s); }
 
-template <typename T>
+
 struct DeleteSmallHeap {
     explicit DeleteSmallHeap(SmallHeap& heap)
             : heap_(heap) {}
+    template <typename T>
     void operator()(T* p) const {
         p->~T();
         heap_.deallocate(p);
@@ -64,7 +66,7 @@ public:
 };
 
 
-template <typename T, typename DeletionPolicy = DeleteByOperator<T>,
+template <typename T, typename DeletionPolicy = DeleteByOperator,
         template <typename> class ReleasePolicy = WithRelease>
 class SmartPtr{
 public:

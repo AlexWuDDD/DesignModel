@@ -7,4 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/wualex/Documents/DesignPattern/PolicyBasedDesign/FoundationsOfPolicyBasedDesign.cpp
+cstdlib
+-
+cassert
+-
+iostream
+-
 

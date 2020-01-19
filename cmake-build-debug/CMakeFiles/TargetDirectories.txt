@@ -1,5 +1,6 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PoliciesForConstructors.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FoundationsOfPolicyBasedDesign.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/LeakySingleton.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SingletonIpm1.dir
@@ -40,7 +41,9 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/DynamicTypeRegistry.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/WhatIsWringWithAVirtualFunction.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SmallVector.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/UseOfPolicyObjects.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/UseOfPolicyObjects2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/HowToGrantFriendShip.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE2.dir

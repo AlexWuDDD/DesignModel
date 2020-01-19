@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/PoliciesForConstructors.dir/DependInfo.cmake"
   "CMakeFiles/FoundationsOfPolicyBasedDesign.dir/DependInfo.cmake"
   "CMakeFiles/LeakySingleton.dir/DependInfo.cmake"
   "CMakeFiles/SingletonIpm1.dir/DependInfo.cmake"
@@ -92,7 +93,9 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/DynamicTypeRegistry.dir/DependInfo.cmake"
   "CMakeFiles/WhatIsWringWithAVirtualFunction.dir/DependInfo.cmake"
   "CMakeFiles/SmallVector.dir/DependInfo.cmake"
+  "CMakeFiles/UseOfPolicyObjects.dir/DependInfo.cmake"
   "CMakeFiles/MethodChainingInClassHierarchies.dir/DependInfo.cmake"
+  "CMakeFiles/UseOfPolicyObjects2.dir/DependInfo.cmake"
   "CMakeFiles/TheUltimateSFINAE.dir/DependInfo.cmake"
   "CMakeFiles/HowToGrantFriendShip.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAE2.dir/DependInfo.cmake"

@@ -99,6 +99,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TheUltimateSFINAE.dir/DependInfo.cmake"
   "CMakeFiles/HowToGrantFriendShip.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAE2.dir/DependInfo.cmake"
+  "CMakeFiles/PoliciesForConstructors2.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAE.dir/DependInfo.cmake"
   "CMakeFiles/CRTPFactoryAndReturnTypes.dir/DependInfo.cmake"
   "CMakeFiles/ExpandingTheInterface.dir/DependInfo.cmake"

@@ -722,6 +722,19 @@ AdvancedSFINAE2/fast:
 .PHONY : AdvancedSFINAE2/fast
 
 #=============================================================================
+# Target rules for targets named PoliciesForConstructors2
+
+# Build rule for target.
+PoliciesForConstructors2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PoliciesForConstructors2
+.PHONY : PoliciesForConstructors2
+
+# fast build rule for target.
+PoliciesForConstructors2/fast:
+	$(MAKE) -f CMakeFiles/PoliciesForConstructors2.dir/build.make CMakeFiles/PoliciesForConstructors2.dir/build
+.PHONY : PoliciesForConstructors2/fast
+
+#=============================================================================
 # Target rules for targets named AdvancedSFINAE
 
 # Build rule for target.
@@ -1668,6 +1681,33 @@ PolicyBasedDesign/PoliciesForConstructors.s: PolicyBasedDesign/PoliciesForConstr
 PolicyBasedDesign/PoliciesForConstructors.cpp.s:
 	$(MAKE) -f CMakeFiles/PoliciesForConstructors.dir/build.make CMakeFiles/PoliciesForConstructors.dir/PolicyBasedDesign/PoliciesForConstructors.cpp.s
 .PHONY : PolicyBasedDesign/PoliciesForConstructors.cpp.s
+
+PolicyBasedDesign/PoliciesForConstructors2.o: PolicyBasedDesign/PoliciesForConstructors2.cpp.o
+
+.PHONY : PolicyBasedDesign/PoliciesForConstructors2.o
+
+# target to build an object file
+PolicyBasedDesign/PoliciesForConstructors2.cpp.o:
+	$(MAKE) -f CMakeFiles/PoliciesForConstructors2.dir/build.make CMakeFiles/PoliciesForConstructors2.dir/PolicyBasedDesign/PoliciesForConstructors2.cpp.o
+.PHONY : PolicyBasedDesign/PoliciesForConstructors2.cpp.o
+
+PolicyBasedDesign/PoliciesForConstructors2.i: PolicyBasedDesign/PoliciesForConstructors2.cpp.i
+
+.PHONY : PolicyBasedDesign/PoliciesForConstructors2.i
+
+# target to preprocess a source file
+PolicyBasedDesign/PoliciesForConstructors2.cpp.i:
+	$(MAKE) -f CMakeFiles/PoliciesForConstructors2.dir/build.make CMakeFiles/PoliciesForConstructors2.dir/PolicyBasedDesign/PoliciesForConstructors2.cpp.i
+.PHONY : PolicyBasedDesign/PoliciesForConstructors2.cpp.i
+
+PolicyBasedDesign/PoliciesForConstructors2.s: PolicyBasedDesign/PoliciesForConstructors2.cpp.s
+
+.PHONY : PolicyBasedDesign/PoliciesForConstructors2.s
+
+# target to generate assembly for a file
+PolicyBasedDesign/PoliciesForConstructors2.cpp.s:
+	$(MAKE) -f CMakeFiles/PoliciesForConstructors2.dir/build.make CMakeFiles/PoliciesForConstructors2.dir/PolicyBasedDesign/PoliciesForConstructors2.cpp.s
+.PHONY : PolicyBasedDesign/PoliciesForConstructors2.cpp.s
 
 PolicyBasedDesign/UseOfPolicyObjects.o: PolicyBasedDesign/UseOfPolicyObjects.cpp.o
 
@@ -2915,6 +2955,7 @@ help:
 	@echo "... TheUltimateSFINAE"
 	@echo "... HowToGrantFriendShip"
 	@echo "... AdvancedSFINAE2"
+	@echo "... PoliciesForConstructors2"
 	@echo "... AdvancedSFINAE"
 	@echo "... CRTPFactoryAndReturnTypes"
 	@echo "... ExpandingTheInterface"
@@ -3011,6 +3052,9 @@ help:
 	@echo "... PolicyBasedDesign/PoliciesForConstructors.o"
 	@echo "... PolicyBasedDesign/PoliciesForConstructors.i"
 	@echo "... PolicyBasedDesign/PoliciesForConstructors.s"
+	@echo "... PolicyBasedDesign/PoliciesForConstructors2.o"
+	@echo "... PolicyBasedDesign/PoliciesForConstructors2.i"
+	@echo "... PolicyBasedDesign/PoliciesForConstructors2.s"
 	@echo "... PolicyBasedDesign/UseOfPolicyObjects.o"
 	@echo "... PolicyBasedDesign/UseOfPolicyObjects.i"
 	@echo "... PolicyBasedDesign/UseOfPolicyObjects.s"

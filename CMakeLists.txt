@@ -124,3 +124,4 @@ add_executable(FoundationsOfPolicyBasedDesign PolicyBasedDesign/FoundationsOfPol
 add_executable(UseOfPolicyObjects PolicyBasedDesign/UseOfPolicyObjects.cpp)
 add_executable(UseOfPolicyObjects2 PolicyBasedDesign/UseOfPolicyObjects2.cpp)
 add_executable(PoliciesForConstructors PolicyBasedDesign/PoliciesForConstructors.cpp)
+add_executable(PoliciesForConstructors2 PolicyBasedDesign/PoliciesForConstructors2.cpp)

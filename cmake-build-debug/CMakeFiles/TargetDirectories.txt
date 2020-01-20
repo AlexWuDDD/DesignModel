@@ -47,6 +47,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/HowToGrantFriendShip.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE2.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PoliciesForConstructors2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CRTPFactoryAndReturnTypes.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ExpandingTheInterface.dir

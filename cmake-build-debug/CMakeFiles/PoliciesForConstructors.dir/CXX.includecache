@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wualex/Documents/DesignPattern/PolicyBasedDesign/PoliciesForConstructors.cpp
+cstdlib
+-
+cassert
+-
+iostream
+-
+

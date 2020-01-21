@@ -1,11 +1,15 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/BasicDecoratorPattern.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/UsingPoliciesToControlThePublicInterface.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PoliciesForConstructors.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FoundationsOfPolicyBasedDesign.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/LeakySingleton.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SingletonIpm1.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MeyersSingleton.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/StaticSingleton.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/DecoratorsTheCppWay.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/WhatIsASingleton.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SingletonIpm1_p1.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/Composability.dir
@@ -53,6 +57,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ExpandingTheInterface.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/Type_erasedAndCallableObjects.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ComposableDecorators.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ScopedGuardBasics.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/EffectOfLocalbufferOptimization.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheCostOfMemoryAllocations.dir

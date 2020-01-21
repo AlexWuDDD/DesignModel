@@ -52,12 +52,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/DependInfo.cmake"
+  "CMakeFiles/BasicDecoratorPattern.dir/DependInfo.cmake"
+  "CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/DependInfo.cmake"
   "CMakeFiles/PoliciesForConstructors.dir/DependInfo.cmake"
   "CMakeFiles/FoundationsOfPolicyBasedDesign.dir/DependInfo.cmake"
   "CMakeFiles/LeakySingleton.dir/DependInfo.cmake"
   "CMakeFiles/SingletonIpm1.dir/DependInfo.cmake"
   "CMakeFiles/MeyersSingleton.dir/DependInfo.cmake"
   "CMakeFiles/StaticSingleton.dir/DependInfo.cmake"
+  "CMakeFiles/DecoratorsTheCppWay.dir/DependInfo.cmake"
   "CMakeFiles/WhatIsASingleton.dir/DependInfo.cmake"
   "CMakeFiles/SingletonIpm1_p1.dir/DependInfo.cmake"
   "CMakeFiles/Composability.dir/DependInfo.cmake"
@@ -105,6 +109,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ExpandingTheInterface.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAErevisited.dir/DependInfo.cmake"
   "CMakeFiles/Type_erasedAndCallableObjects.dir/DependInfo.cmake"
+  "CMakeFiles/ComposableDecorators.dir/DependInfo.cmake"
   "CMakeFiles/ScopedGuardBasics.dir/DependInfo.cmake"
   "CMakeFiles/EffectOfLocalbufferOptimization.dir/DependInfo.cmake"
   "CMakeFiles/TheCostOfMemoryAllocations.dir/DependInfo.cmake"

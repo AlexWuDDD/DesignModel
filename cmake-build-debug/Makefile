@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PolymorphicDecoratorsAndTheirLimitations
+
+# Build rule for target.
+PolymorphicDecoratorsAndTheirLimitations: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PolymorphicDecoratorsAndTheirLimitations
+.PHONY : PolymorphicDecoratorsAndTheirLimitations
+
+# fast build rule for target.
+PolymorphicDecoratorsAndTheirLimitations/fast:
+	$(MAKE) -f CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/build.make CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/build
+.PHONY : PolymorphicDecoratorsAndTheirLimitations/fast
+
+#=============================================================================
+# Target rules for targets named BasicDecoratorPattern
+
+# Build rule for target.
+BasicDecoratorPattern: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BasicDecoratorPattern
+.PHONY : BasicDecoratorPattern
+
+# fast build rule for target.
+BasicDecoratorPattern/fast:
+	$(MAKE) -f CMakeFiles/BasicDecoratorPattern.dir/build.make CMakeFiles/BasicDecoratorPattern.dir/build
+.PHONY : BasicDecoratorPattern/fast
+
+#=============================================================================
+# Target rules for targets named UsingPoliciesToControlThePublicInterface
+
+# Build rule for target.
+UsingPoliciesToControlThePublicInterface: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UsingPoliciesToControlThePublicInterface
+.PHONY : UsingPoliciesToControlThePublicInterface
+
+# fast build rule for target.
+UsingPoliciesToControlThePublicInterface/fast:
+	$(MAKE) -f CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/build.make CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/build
+.PHONY : UsingPoliciesToControlThePublicInterface/fast
+
+#=============================================================================
 # Target rules for targets named PoliciesForConstructors
 
 # Build rule for target.
@@ -187,6 +226,19 @@ StaticSingleton: cmake_check_build_system
 StaticSingleton/fast:
 	$(MAKE) -f CMakeFiles/StaticSingleton.dir/build.make CMakeFiles/StaticSingleton.dir/build
 .PHONY : StaticSingleton/fast
+
+#=============================================================================
+# Target rules for targets named DecoratorsTheCppWay
+
+# Build rule for target.
+DecoratorsTheCppWay: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 DecoratorsTheCppWay
+.PHONY : DecoratorsTheCppWay
+
+# fast build rule for target.
+DecoratorsTheCppWay/fast:
+	$(MAKE) -f CMakeFiles/DecoratorsTheCppWay.dir/build.make CMakeFiles/DecoratorsTheCppWay.dir/build
+.PHONY : DecoratorsTheCppWay/fast
 
 #=============================================================================
 # Target rules for targets named WhatIsASingleton
@@ -800,6 +852,19 @@ Type_erasedAndCallableObjects/fast:
 .PHONY : Type_erasedAndCallableObjects/fast
 
 #=============================================================================
+# Target rules for targets named ComposableDecorators
+
+# Build rule for target.
+ComposableDecorators: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ComposableDecorators
+.PHONY : ComposableDecorators
+
+# fast build rule for target.
+ComposableDecorators/fast:
+	$(MAKE) -f CMakeFiles/ComposableDecorators.dir/build.make CMakeFiles/ComposableDecorators.dir/build
+.PHONY : ComposableDecorators/fast
+
+#=============================================================================
 # Target rules for targets named ScopedGuardBasics
 
 # Build rule for target.
@@ -1006,6 +1071,114 @@ Releasing_early: cmake_check_build_system
 Releasing_early/fast:
 	$(MAKE) -f CMakeFiles/Releasing_early.dir/build.make CMakeFiles/Releasing_early.dir/build
 .PHONY : Releasing_early/fast
+
+AdaptersAndDecorators/BasicDecoratorPattern.o: AdaptersAndDecorators/BasicDecoratorPattern.cpp.o
+
+.PHONY : AdaptersAndDecorators/BasicDecoratorPattern.o
+
+# target to build an object file
+AdaptersAndDecorators/BasicDecoratorPattern.cpp.o:
+	$(MAKE) -f CMakeFiles/BasicDecoratorPattern.dir/build.make CMakeFiles/BasicDecoratorPattern.dir/AdaptersAndDecorators/BasicDecoratorPattern.cpp.o
+.PHONY : AdaptersAndDecorators/BasicDecoratorPattern.cpp.o
+
+AdaptersAndDecorators/BasicDecoratorPattern.i: AdaptersAndDecorators/BasicDecoratorPattern.cpp.i
+
+.PHONY : AdaptersAndDecorators/BasicDecoratorPattern.i
+
+# target to preprocess a source file
+AdaptersAndDecorators/BasicDecoratorPattern.cpp.i:
+	$(MAKE) -f CMakeFiles/BasicDecoratorPattern.dir/build.make CMakeFiles/BasicDecoratorPattern.dir/AdaptersAndDecorators/BasicDecoratorPattern.cpp.i
+.PHONY : AdaptersAndDecorators/BasicDecoratorPattern.cpp.i
+
+AdaptersAndDecorators/BasicDecoratorPattern.s: AdaptersAndDecorators/BasicDecoratorPattern.cpp.s
+
+.PHONY : AdaptersAndDecorators/BasicDecoratorPattern.s
+
+# target to generate assembly for a file
+AdaptersAndDecorators/BasicDecoratorPattern.cpp.s:
+	$(MAKE) -f CMakeFiles/BasicDecoratorPattern.dir/build.make CMakeFiles/BasicDecoratorPattern.dir/AdaptersAndDecorators/BasicDecoratorPattern.cpp.s
+.PHONY : AdaptersAndDecorators/BasicDecoratorPattern.cpp.s
+
+AdaptersAndDecorators/ComposableDecorators.o: AdaptersAndDecorators/ComposableDecorators.cpp.o
+
+.PHONY : AdaptersAndDecorators/ComposableDecorators.o
+
+# target to build an object file
+AdaptersAndDecorators/ComposableDecorators.cpp.o:
+	$(MAKE) -f CMakeFiles/ComposableDecorators.dir/build.make CMakeFiles/ComposableDecorators.dir/AdaptersAndDecorators/ComposableDecorators.cpp.o
+.PHONY : AdaptersAndDecorators/ComposableDecorators.cpp.o
+
+AdaptersAndDecorators/ComposableDecorators.i: AdaptersAndDecorators/ComposableDecorators.cpp.i
+
+.PHONY : AdaptersAndDecorators/ComposableDecorators.i
+
+# target to preprocess a source file
+AdaptersAndDecorators/ComposableDecorators.cpp.i:
+	$(MAKE) -f CMakeFiles/ComposableDecorators.dir/build.make CMakeFiles/ComposableDecorators.dir/AdaptersAndDecorators/ComposableDecorators.cpp.i
+.PHONY : AdaptersAndDecorators/ComposableDecorators.cpp.i
+
+AdaptersAndDecorators/ComposableDecorators.s: AdaptersAndDecorators/ComposableDecorators.cpp.s
+
+.PHONY : AdaptersAndDecorators/ComposableDecorators.s
+
+# target to generate assembly for a file
+AdaptersAndDecorators/ComposableDecorators.cpp.s:
+	$(MAKE) -f CMakeFiles/ComposableDecorators.dir/build.make CMakeFiles/ComposableDecorators.dir/AdaptersAndDecorators/ComposableDecorators.cpp.s
+.PHONY : AdaptersAndDecorators/ComposableDecorators.cpp.s
+
+AdaptersAndDecorators/DecoratorsTheCppWay.o: AdaptersAndDecorators/DecoratorsTheCppWay.cpp.o
+
+.PHONY : AdaptersAndDecorators/DecoratorsTheCppWay.o
+
+# target to build an object file
+AdaptersAndDecorators/DecoratorsTheCppWay.cpp.o:
+	$(MAKE) -f CMakeFiles/DecoratorsTheCppWay.dir/build.make CMakeFiles/DecoratorsTheCppWay.dir/AdaptersAndDecorators/DecoratorsTheCppWay.cpp.o
+.PHONY : AdaptersAndDecorators/DecoratorsTheCppWay.cpp.o
+
+AdaptersAndDecorators/DecoratorsTheCppWay.i: AdaptersAndDecorators/DecoratorsTheCppWay.cpp.i
+
+.PHONY : AdaptersAndDecorators/DecoratorsTheCppWay.i
+
+# target to preprocess a source file
+AdaptersAndDecorators/DecoratorsTheCppWay.cpp.i:
+	$(MAKE) -f CMakeFiles/DecoratorsTheCppWay.dir/build.make CMakeFiles/DecoratorsTheCppWay.dir/AdaptersAndDecorators/DecoratorsTheCppWay.cpp.i
+.PHONY : AdaptersAndDecorators/DecoratorsTheCppWay.cpp.i
+
+AdaptersAndDecorators/DecoratorsTheCppWay.s: AdaptersAndDecorators/DecoratorsTheCppWay.cpp.s
+
+.PHONY : AdaptersAndDecorators/DecoratorsTheCppWay.s
+
+# target to generate assembly for a file
+AdaptersAndDecorators/DecoratorsTheCppWay.cpp.s:
+	$(MAKE) -f CMakeFiles/DecoratorsTheCppWay.dir/build.make CMakeFiles/DecoratorsTheCppWay.dir/AdaptersAndDecorators/DecoratorsTheCppWay.cpp.s
+.PHONY : AdaptersAndDecorators/DecoratorsTheCppWay.cpp.s
+
+AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.o: AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.o
+
+.PHONY : AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.o
+
+# target to build an object file
+AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.o:
+	$(MAKE) -f CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/build.make CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.o
+.PHONY : AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.o
+
+AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.i: AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.i
+
+.PHONY : AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.i
+
+# target to preprocess a source file
+AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.i:
+	$(MAKE) -f CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/build.make CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.i
+.PHONY : AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.i
+
+AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.s: AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.s
+
+.PHONY : AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.s
+
+# target to generate assembly for a file
+AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.s:
+	$(MAKE) -f CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/build.make CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.s
+.PHONY : AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.s
 
 AdvancedSFINAE.o: AdvancedSFINAE.cpp.o
 
@@ -1762,6 +1935,33 @@ PolicyBasedDesign/UseOfPolicyObjects2.s: PolicyBasedDesign/UseOfPolicyObjects2.c
 PolicyBasedDesign/UseOfPolicyObjects2.cpp.s:
 	$(MAKE) -f CMakeFiles/UseOfPolicyObjects2.dir/build.make CMakeFiles/UseOfPolicyObjects2.dir/PolicyBasedDesign/UseOfPolicyObjects2.cpp.s
 .PHONY : PolicyBasedDesign/UseOfPolicyObjects2.cpp.s
+
+PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.o: PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.o
+
+.PHONY : PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.o
+
+# target to build an object file
+PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.o:
+	$(MAKE) -f CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/build.make CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.o
+.PHONY : PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.o
+
+PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.i: PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.i
+
+.PHONY : PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.i
+
+# target to preprocess a source file
+PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.i:
+	$(MAKE) -f CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/build.make CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.i
+.PHONY : PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.i
+
+PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.s: PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.s
+
+.PHONY : PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.s
+
+# target to generate assembly for a file
+PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.s:
+	$(MAKE) -f CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/build.make CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.s
+.PHONY : PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.cpp.s
 
 RAII_for_other_resources.o: RAII_for_other_resources.cpp.o
 
@@ -2908,12 +3108,16 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... PolymorphicDecoratorsAndTheirLimitations"
+	@echo "... BasicDecoratorPattern"
+	@echo "... UsingPoliciesToControlThePublicInterface"
 	@echo "... PoliciesForConstructors"
 	@echo "... FoundationsOfPolicyBasedDesign"
 	@echo "... LeakySingleton"
 	@echo "... SingletonIpm1"
 	@echo "... MeyersSingleton"
 	@echo "... StaticSingleton"
+	@echo "... DecoratorsTheCppWay"
 	@echo "... WhatIsASingleton"
 	@echo "... SingletonIpm1_p1"
 	@echo "... Composability"
@@ -2961,6 +3165,7 @@ help:
 	@echo "... ExpandingTheInterface"
 	@echo "... AdvancedSFINAErevisited"
 	@echo "... Type_erasedAndCallableObjects"
+	@echo "... ComposableDecorators"
 	@echo "... ScopedGuardBasics"
 	@echo "... EffectOfLocalbufferOptimization"
 	@echo "... TheCostOfMemoryAllocations"
@@ -2977,6 +3182,18 @@ help:
 	@echo "... MeyersSingleton_p1"
 	@echo "... RAII"
 	@echo "... Releasing_early"
+	@echo "... AdaptersAndDecorators/BasicDecoratorPattern.o"
+	@echo "... AdaptersAndDecorators/BasicDecoratorPattern.i"
+	@echo "... AdaptersAndDecorators/BasicDecoratorPattern.s"
+	@echo "... AdaptersAndDecorators/ComposableDecorators.o"
+	@echo "... AdaptersAndDecorators/ComposableDecorators.i"
+	@echo "... AdaptersAndDecorators/ComposableDecorators.s"
+	@echo "... AdaptersAndDecorators/DecoratorsTheCppWay.o"
+	@echo "... AdaptersAndDecorators/DecoratorsTheCppWay.i"
+	@echo "... AdaptersAndDecorators/DecoratorsTheCppWay.s"
+	@echo "... AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.o"
+	@echo "... AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.i"
+	@echo "... AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.s"
 	@echo "... AdvancedSFINAE.o"
 	@echo "... AdvancedSFINAE.i"
 	@echo "... AdvancedSFINAE.s"
@@ -3061,6 +3278,9 @@ help:
 	@echo "... PolicyBasedDesign/UseOfPolicyObjects2.o"
 	@echo "... PolicyBasedDesign/UseOfPolicyObjects2.i"
 	@echo "... PolicyBasedDesign/UseOfPolicyObjects2.s"
+	@echo "... PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.o"
+	@echo "... PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.i"
+	@echo "... PolicyBasedDesign/UsingPoliciesToControlThePublicInterface.s"
 	@echo "... RAII_for_other_resources.o"
 	@echo "... RAII_for_other_resources.i"
 	@echo "... RAII_for_other_resources.s"

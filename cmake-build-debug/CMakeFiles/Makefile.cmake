@@ -52,6 +52,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/AdapterVersusPolicy.dir/DependInfo.cmake"
+  "CMakeFiles/CompileTimeAdapters.dir/DependInfo.cmake"
   "CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/DependInfo.cmake"
   "CMakeFiles/BasicDecoratorPattern.dir/DependInfo.cmake"
   "CMakeFiles/UsingPoliciesToControlThePublicInterface.dir/DependInfo.cmake"
@@ -77,6 +79,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TypeErasureByExample.dir/DependInfo.cmake"
   "CMakeFiles/TypeErasureinCpp.dir/DependInfo.cmake"
   "CMakeFiles/FriendsOfTemplateClasses.dir/DependInfo.cmake"
+  "CMakeFiles/FunctionAdapters.dir/DependInfo.cmake"
   "CMakeFiles/FriendsVersusMemberFunction.dir/DependInfo.cmake"
   "CMakeFiles/PolymorphicFactory.dir/DependInfo.cmake"
   "CMakeFiles/GenericScopeGuard.dir/DependInfo.cmake"
@@ -96,6 +99,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CompileTimePolymorphism.dir/DependInfo.cmake"
   "CMakeFiles/DynamicTypeRegistry.dir/DependInfo.cmake"
   "CMakeFiles/WhatIsWringWithAVirtualFunction.dir/DependInfo.cmake"
+  "CMakeFiles/BasisAdapterPattern.dir/DependInfo.cmake"
   "CMakeFiles/SmallVector.dir/DependInfo.cmake"
   "CMakeFiles/UseOfPolicyObjects.dir/DependInfo.cmake"
   "CMakeFiles/MethodChainingInClassHierarchies.dir/DependInfo.cmake"

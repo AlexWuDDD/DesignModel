@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wualex/Documents/DesignPattern/AdaptersAndDecorators/FunctionAdapters.cpp
+cmath
+-
+algorithm
+-
+iostream
+-
+vector
+-
+

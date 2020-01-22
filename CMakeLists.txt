@@ -3,7 +3,7 @@ project(DesignPattern)
 
 # include_directories(SYSTEM "/foo/bar")
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_FLAG -g -O4 -Wall -Wextra -Werror -pedantic)
 
 include_directories(/usr/local/include)
@@ -131,3 +131,8 @@ add_executable(BasicDecoratorPattern AdaptersAndDecorators/BasicDecoratorPattern
 add_executable(DecoratorsTheCppWay AdaptersAndDecorators/DecoratorsTheCppWay.cpp)
 add_executable(PolymorphicDecoratorsAndTheirLimitations AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp)
 add_executable(ComposableDecorators AdaptersAndDecorators/ComposableDecorators.cpp)
+
+add_executable(BasisAdapterPattern AdaptersAndDecorators/BasisAdapterPattern.cpp)
+add_executable(FunctionAdapters AdaptersAndDecorators/FunctionAdapters.cpp)
+add_executable(CompileTimeAdapters AdaptersAndDecorators/CompileTimeAdapters.cpp)
+add_executable(AdapterVersusPolicy AdaptersAndDecorators/AdapterVersusPolicy.cpp)

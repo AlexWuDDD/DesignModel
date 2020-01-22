@@ -1,5 +1,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdapterVersusPolicy.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CompileTimeAdapters.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/BasicDecoratorPattern.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/UsingPoliciesToControlThePublicInterface.dir
@@ -25,6 +27,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TypeErasureByExample.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TypeErasureinCpp.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FriendsOfTemplateClasses.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FunctionAdapters.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/FriendsVersusMemberFunction.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PolymorphicFactory.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/GenericScopeGuard.dir
@@ -44,6 +47,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CompileTimePolymorphism.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/DynamicTypeRegistry.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/WhatIsWringWithAVirtualFunction.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/BasisAdapterPattern.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SmallVector.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/UseOfPolicyObjects.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/MethodChainingInClassHierarchies.dir

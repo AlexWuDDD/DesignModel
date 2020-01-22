@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named AdapterVersusPolicy
+
+# Build rule for target.
+AdapterVersusPolicy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AdapterVersusPolicy
+.PHONY : AdapterVersusPolicy
+
+# fast build rule for target.
+AdapterVersusPolicy/fast:
+	$(MAKE) -f CMakeFiles/AdapterVersusPolicy.dir/build.make CMakeFiles/AdapterVersusPolicy.dir/build
+.PHONY : AdapterVersusPolicy/fast
+
+#=============================================================================
+# Target rules for targets named CompileTimeAdapters
+
+# Build rule for target.
+CompileTimeAdapters: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CompileTimeAdapters
+.PHONY : CompileTimeAdapters
+
+# fast build rule for target.
+CompileTimeAdapters/fast:
+	$(MAKE) -f CMakeFiles/CompileTimeAdapters.dir/build.make CMakeFiles/CompileTimeAdapters.dir/build
+.PHONY : CompileTimeAdapters/fast
+
+#=============================================================================
 # Target rules for targets named PolymorphicDecoratorsAndTheirLimitations
 
 # Build rule for target.
@@ -436,6 +462,19 @@ FriendsOfTemplateClasses/fast:
 .PHONY : FriendsOfTemplateClasses/fast
 
 #=============================================================================
+# Target rules for targets named FunctionAdapters
+
+# Build rule for target.
+FunctionAdapters: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FunctionAdapters
+.PHONY : FunctionAdapters
+
+# fast build rule for target.
+FunctionAdapters/fast:
+	$(MAKE) -f CMakeFiles/FunctionAdapters.dir/build.make CMakeFiles/FunctionAdapters.dir/build
+.PHONY : FunctionAdapters/fast
+
+#=============================================================================
 # Target rules for targets named FriendsVersusMemberFunction
 
 # Build rule for target.
@@ -681,6 +720,19 @@ WhatIsWringWithAVirtualFunction: cmake_check_build_system
 WhatIsWringWithAVirtualFunction/fast:
 	$(MAKE) -f CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build.make CMakeFiles/WhatIsWringWithAVirtualFunction.dir/build
 .PHONY : WhatIsWringWithAVirtualFunction/fast
+
+#=============================================================================
+# Target rules for targets named BasisAdapterPattern
+
+# Build rule for target.
+BasisAdapterPattern: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BasisAdapterPattern
+.PHONY : BasisAdapterPattern
+
+# fast build rule for target.
+BasisAdapterPattern/fast:
+	$(MAKE) -f CMakeFiles/BasisAdapterPattern.dir/build.make CMakeFiles/BasisAdapterPattern.dir/build
+.PHONY : BasisAdapterPattern/fast
 
 #=============================================================================
 # Target rules for targets named SmallVector
@@ -1072,6 +1124,33 @@ Releasing_early/fast:
 	$(MAKE) -f CMakeFiles/Releasing_early.dir/build.make CMakeFiles/Releasing_early.dir/build
 .PHONY : Releasing_early/fast
 
+AdaptersAndDecorators/AdapterVersusPolicy.o: AdaptersAndDecorators/AdapterVersusPolicy.cpp.o
+
+.PHONY : AdaptersAndDecorators/AdapterVersusPolicy.o
+
+# target to build an object file
+AdaptersAndDecorators/AdapterVersusPolicy.cpp.o:
+	$(MAKE) -f CMakeFiles/AdapterVersusPolicy.dir/build.make CMakeFiles/AdapterVersusPolicy.dir/AdaptersAndDecorators/AdapterVersusPolicy.cpp.o
+.PHONY : AdaptersAndDecorators/AdapterVersusPolicy.cpp.o
+
+AdaptersAndDecorators/AdapterVersusPolicy.i: AdaptersAndDecorators/AdapterVersusPolicy.cpp.i
+
+.PHONY : AdaptersAndDecorators/AdapterVersusPolicy.i
+
+# target to preprocess a source file
+AdaptersAndDecorators/AdapterVersusPolicy.cpp.i:
+	$(MAKE) -f CMakeFiles/AdapterVersusPolicy.dir/build.make CMakeFiles/AdapterVersusPolicy.dir/AdaptersAndDecorators/AdapterVersusPolicy.cpp.i
+.PHONY : AdaptersAndDecorators/AdapterVersusPolicy.cpp.i
+
+AdaptersAndDecorators/AdapterVersusPolicy.s: AdaptersAndDecorators/AdapterVersusPolicy.cpp.s
+
+.PHONY : AdaptersAndDecorators/AdapterVersusPolicy.s
+
+# target to generate assembly for a file
+AdaptersAndDecorators/AdapterVersusPolicy.cpp.s:
+	$(MAKE) -f CMakeFiles/AdapterVersusPolicy.dir/build.make CMakeFiles/AdapterVersusPolicy.dir/AdaptersAndDecorators/AdapterVersusPolicy.cpp.s
+.PHONY : AdaptersAndDecorators/AdapterVersusPolicy.cpp.s
+
 AdaptersAndDecorators/BasicDecoratorPattern.o: AdaptersAndDecorators/BasicDecoratorPattern.cpp.o
 
 .PHONY : AdaptersAndDecorators/BasicDecoratorPattern.o
@@ -1098,6 +1177,60 @@ AdaptersAndDecorators/BasicDecoratorPattern.s: AdaptersAndDecorators/BasicDecora
 AdaptersAndDecorators/BasicDecoratorPattern.cpp.s:
 	$(MAKE) -f CMakeFiles/BasicDecoratorPattern.dir/build.make CMakeFiles/BasicDecoratorPattern.dir/AdaptersAndDecorators/BasicDecoratorPattern.cpp.s
 .PHONY : AdaptersAndDecorators/BasicDecoratorPattern.cpp.s
+
+AdaptersAndDecorators/BasisAdapterPattern.o: AdaptersAndDecorators/BasisAdapterPattern.cpp.o
+
+.PHONY : AdaptersAndDecorators/BasisAdapterPattern.o
+
+# target to build an object file
+AdaptersAndDecorators/BasisAdapterPattern.cpp.o:
+	$(MAKE) -f CMakeFiles/BasisAdapterPattern.dir/build.make CMakeFiles/BasisAdapterPattern.dir/AdaptersAndDecorators/BasisAdapterPattern.cpp.o
+.PHONY : AdaptersAndDecorators/BasisAdapterPattern.cpp.o
+
+AdaptersAndDecorators/BasisAdapterPattern.i: AdaptersAndDecorators/BasisAdapterPattern.cpp.i
+
+.PHONY : AdaptersAndDecorators/BasisAdapterPattern.i
+
+# target to preprocess a source file
+AdaptersAndDecorators/BasisAdapterPattern.cpp.i:
+	$(MAKE) -f CMakeFiles/BasisAdapterPattern.dir/build.make CMakeFiles/BasisAdapterPattern.dir/AdaptersAndDecorators/BasisAdapterPattern.cpp.i
+.PHONY : AdaptersAndDecorators/BasisAdapterPattern.cpp.i
+
+AdaptersAndDecorators/BasisAdapterPattern.s: AdaptersAndDecorators/BasisAdapterPattern.cpp.s
+
+.PHONY : AdaptersAndDecorators/BasisAdapterPattern.s
+
+# target to generate assembly for a file
+AdaptersAndDecorators/BasisAdapterPattern.cpp.s:
+	$(MAKE) -f CMakeFiles/BasisAdapterPattern.dir/build.make CMakeFiles/BasisAdapterPattern.dir/AdaptersAndDecorators/BasisAdapterPattern.cpp.s
+.PHONY : AdaptersAndDecorators/BasisAdapterPattern.cpp.s
+
+AdaptersAndDecorators/CompileTimeAdapters.o: AdaptersAndDecorators/CompileTimeAdapters.cpp.o
+
+.PHONY : AdaptersAndDecorators/CompileTimeAdapters.o
+
+# target to build an object file
+AdaptersAndDecorators/CompileTimeAdapters.cpp.o:
+	$(MAKE) -f CMakeFiles/CompileTimeAdapters.dir/build.make CMakeFiles/CompileTimeAdapters.dir/AdaptersAndDecorators/CompileTimeAdapters.cpp.o
+.PHONY : AdaptersAndDecorators/CompileTimeAdapters.cpp.o
+
+AdaptersAndDecorators/CompileTimeAdapters.i: AdaptersAndDecorators/CompileTimeAdapters.cpp.i
+
+.PHONY : AdaptersAndDecorators/CompileTimeAdapters.i
+
+# target to preprocess a source file
+AdaptersAndDecorators/CompileTimeAdapters.cpp.i:
+	$(MAKE) -f CMakeFiles/CompileTimeAdapters.dir/build.make CMakeFiles/CompileTimeAdapters.dir/AdaptersAndDecorators/CompileTimeAdapters.cpp.i
+.PHONY : AdaptersAndDecorators/CompileTimeAdapters.cpp.i
+
+AdaptersAndDecorators/CompileTimeAdapters.s: AdaptersAndDecorators/CompileTimeAdapters.cpp.s
+
+.PHONY : AdaptersAndDecorators/CompileTimeAdapters.s
+
+# target to generate assembly for a file
+AdaptersAndDecorators/CompileTimeAdapters.cpp.s:
+	$(MAKE) -f CMakeFiles/CompileTimeAdapters.dir/build.make CMakeFiles/CompileTimeAdapters.dir/AdaptersAndDecorators/CompileTimeAdapters.cpp.s
+.PHONY : AdaptersAndDecorators/CompileTimeAdapters.cpp.s
 
 AdaptersAndDecorators/ComposableDecorators.o: AdaptersAndDecorators/ComposableDecorators.cpp.o
 
@@ -1152,6 +1285,33 @@ AdaptersAndDecorators/DecoratorsTheCppWay.s: AdaptersAndDecorators/DecoratorsThe
 AdaptersAndDecorators/DecoratorsTheCppWay.cpp.s:
 	$(MAKE) -f CMakeFiles/DecoratorsTheCppWay.dir/build.make CMakeFiles/DecoratorsTheCppWay.dir/AdaptersAndDecorators/DecoratorsTheCppWay.cpp.s
 .PHONY : AdaptersAndDecorators/DecoratorsTheCppWay.cpp.s
+
+AdaptersAndDecorators/FunctionAdapters.o: AdaptersAndDecorators/FunctionAdapters.cpp.o
+
+.PHONY : AdaptersAndDecorators/FunctionAdapters.o
+
+# target to build an object file
+AdaptersAndDecorators/FunctionAdapters.cpp.o:
+	$(MAKE) -f CMakeFiles/FunctionAdapters.dir/build.make CMakeFiles/FunctionAdapters.dir/AdaptersAndDecorators/FunctionAdapters.cpp.o
+.PHONY : AdaptersAndDecorators/FunctionAdapters.cpp.o
+
+AdaptersAndDecorators/FunctionAdapters.i: AdaptersAndDecorators/FunctionAdapters.cpp.i
+
+.PHONY : AdaptersAndDecorators/FunctionAdapters.i
+
+# target to preprocess a source file
+AdaptersAndDecorators/FunctionAdapters.cpp.i:
+	$(MAKE) -f CMakeFiles/FunctionAdapters.dir/build.make CMakeFiles/FunctionAdapters.dir/AdaptersAndDecorators/FunctionAdapters.cpp.i
+.PHONY : AdaptersAndDecorators/FunctionAdapters.cpp.i
+
+AdaptersAndDecorators/FunctionAdapters.s: AdaptersAndDecorators/FunctionAdapters.cpp.s
+
+.PHONY : AdaptersAndDecorators/FunctionAdapters.s
+
+# target to generate assembly for a file
+AdaptersAndDecorators/FunctionAdapters.cpp.s:
+	$(MAKE) -f CMakeFiles/FunctionAdapters.dir/build.make CMakeFiles/FunctionAdapters.dir/AdaptersAndDecorators/FunctionAdapters.cpp.s
+.PHONY : AdaptersAndDecorators/FunctionAdapters.cpp.s
 
 AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.o: AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.cpp.o
 
@@ -3108,6 +3268,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... AdapterVersusPolicy"
+	@echo "... CompileTimeAdapters"
 	@echo "... PolymorphicDecoratorsAndTheirLimitations"
 	@echo "... BasicDecoratorPattern"
 	@echo "... UsingPoliciesToControlThePublicInterface"
@@ -3133,6 +3295,7 @@ help:
 	@echo "... TypeErasureByExample"
 	@echo "... TypeErasureinCpp"
 	@echo "... FriendsOfTemplateClasses"
+	@echo "... FunctionAdapters"
 	@echo "... FriendsVersusMemberFunction"
 	@echo "... PolymorphicFactory"
 	@echo "... GenericScopeGuard"
@@ -3152,6 +3315,7 @@ help:
 	@echo "... CompileTimePolymorphism"
 	@echo "... DynamicTypeRegistry"
 	@echo "... WhatIsWringWithAVirtualFunction"
+	@echo "... BasisAdapterPattern"
 	@echo "... SmallVector"
 	@echo "... UseOfPolicyObjects"
 	@echo "... MethodChainingInClassHierarchies"
@@ -3182,15 +3346,27 @@ help:
 	@echo "... MeyersSingleton_p1"
 	@echo "... RAII"
 	@echo "... Releasing_early"
+	@echo "... AdaptersAndDecorators/AdapterVersusPolicy.o"
+	@echo "... AdaptersAndDecorators/AdapterVersusPolicy.i"
+	@echo "... AdaptersAndDecorators/AdapterVersusPolicy.s"
 	@echo "... AdaptersAndDecorators/BasicDecoratorPattern.o"
 	@echo "... AdaptersAndDecorators/BasicDecoratorPattern.i"
 	@echo "... AdaptersAndDecorators/BasicDecoratorPattern.s"
+	@echo "... AdaptersAndDecorators/BasisAdapterPattern.o"
+	@echo "... AdaptersAndDecorators/BasisAdapterPattern.i"
+	@echo "... AdaptersAndDecorators/BasisAdapterPattern.s"
+	@echo "... AdaptersAndDecorators/CompileTimeAdapters.o"
+	@echo "... AdaptersAndDecorators/CompileTimeAdapters.i"
+	@echo "... AdaptersAndDecorators/CompileTimeAdapters.s"
 	@echo "... AdaptersAndDecorators/ComposableDecorators.o"
 	@echo "... AdaptersAndDecorators/ComposableDecorators.i"
 	@echo "... AdaptersAndDecorators/ComposableDecorators.s"
 	@echo "... AdaptersAndDecorators/DecoratorsTheCppWay.o"
 	@echo "... AdaptersAndDecorators/DecoratorsTheCppWay.i"
 	@echo "... AdaptersAndDecorators/DecoratorsTheCppWay.s"
+	@echo "... AdaptersAndDecorators/FunctionAdapters.o"
+	@echo "... AdaptersAndDecorators/FunctionAdapters.i"
+	@echo "... AdaptersAndDecorators/FunctionAdapters.s"
 	@echo "... AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.o"
 	@echo "... AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.i"
 	@echo "... AdaptersAndDecorators/PolymorphicDecoratorsAndTheirLimitations.s"

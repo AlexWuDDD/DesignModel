@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named GenericVisitor
+
+# Build rule for target.
+GenericVisitor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GenericVisitor
+.PHONY : GenericVisitor
+
+# fast build rule for target.
+GenericVisitor/fast:
+	$(MAKE) -f CMakeFiles/GenericVisitor.dir/build.make CMakeFiles/GenericVisitor.dir/build
+.PHONY : GenericVisitor/fast
+
+#=============================================================================
+# Target rules for targets named BasicVisitorinCpp
+
+# Build rule for target.
+BasicVisitorinCpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BasicVisitorinCpp
+.PHONY : BasicVisitorinCpp
+
+# fast build rule for target.
+BasicVisitorinCpp/fast:
+	$(MAKE) -f CMakeFiles/BasicVisitorinCpp.dir/build.make CMakeFiles/BasicVisitorinCpp.dir/build
+.PHONY : BasicVisitorinCpp/fast
+
+#=============================================================================
 # Target rules for targets named AdapterVersusPolicy
 
 # Build rule for target.
@@ -722,6 +748,19 @@ WhatIsWringWithAVirtualFunction/fast:
 .PHONY : WhatIsWringWithAVirtualFunction/fast
 
 #=============================================================================
+# Target rules for targets named AcyclicVisitor
+
+# Build rule for target.
+AcyclicVisitor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 AcyclicVisitor
+.PHONY : AcyclicVisitor
+
+# fast build rule for target.
+AcyclicVisitor/fast:
+	$(MAKE) -f CMakeFiles/AcyclicVisitor.dir/build.make CMakeFiles/AcyclicVisitor.dir/build
+.PHONY : AcyclicVisitor/fast
+
+#=============================================================================
 # Target rules for targets named BasisAdapterPattern
 
 # Build rule for target.
@@ -824,6 +863,19 @@ AdvancedSFINAE2: cmake_check_build_system
 AdvancedSFINAE2/fast:
 	$(MAKE) -f CMakeFiles/AdvancedSFINAE2.dir/build.make CMakeFiles/AdvancedSFINAE2.dir/build
 .PHONY : AdvancedSFINAE2/fast
+
+#=============================================================================
+# Target rules for targets named WhatIsTheVisitorPattern
+
+# Build rule for target.
+WhatIsTheVisitorPattern: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 WhatIsTheVisitorPattern
+.PHONY : WhatIsTheVisitorPattern
+
+# fast build rule for target.
+WhatIsTheVisitorPattern/fast:
+	$(MAKE) -f CMakeFiles/WhatIsTheVisitorPattern.dir/build.make CMakeFiles/WhatIsTheVisitorPattern.dir/build
+.PHONY : WhatIsTheVisitorPattern/fast
 
 #=============================================================================
 # Target rules for targets named PoliciesForConstructors2
@@ -980,6 +1032,19 @@ AdvancedSFINAErevisited2: cmake_check_build_system
 AdvancedSFINAErevisited2/fast:
 	$(MAKE) -f CMakeFiles/AdvancedSFINAErevisited2.dir/build.make CMakeFiles/AdvancedSFINAErevisited2.dir/build
 .PHONY : AdvancedSFINAErevisited2/fast
+
+#=============================================================================
+# Target rules for targets named SerializationAndDeserializationWithVisitor
+
+# Build rule for target.
+SerializationAndDeserializationWithVisitor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 SerializationAndDeserializationWithVisitor
+.PHONY : SerializationAndDeserializationWithVisitor
+
+# fast build rule for target.
+SerializationAndDeserializationWithVisitor/fast:
+	$(MAKE) -f CMakeFiles/SerializationAndDeserializationWithVisitor.dir/build.make CMakeFiles/SerializationAndDeserializationWithVisitor.dir/build
+.PHONY : SerializationAndDeserializationWithVisitor/fast
 
 #=============================================================================
 # Target rules for targets named CarefulImplementationOfRAIIobject
@@ -2882,6 +2947,141 @@ TheUltimateSFINAE.cpp.s:
 	$(MAKE) -f CMakeFiles/TheUltimateSFINAE.dir/build.make CMakeFiles/TheUltimateSFINAE.dir/TheUltimateSFINAE.cpp.s
 .PHONY : TheUltimateSFINAE.cpp.s
 
+TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.o: TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.o
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.o
+
+# target to build an object file
+TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.o:
+	$(MAKE) -f CMakeFiles/AcyclicVisitor.dir/build.make CMakeFiles/AcyclicVisitor.dir/TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.o
+.PHONY : TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.o
+
+TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.i: TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.i
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.i
+
+# target to preprocess a source file
+TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.i:
+	$(MAKE) -f CMakeFiles/AcyclicVisitor.dir/build.make CMakeFiles/AcyclicVisitor.dir/TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.i
+.PHONY : TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.i
+
+TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.s: TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.s
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.s
+
+# target to generate assembly for a file
+TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.s:
+	$(MAKE) -f CMakeFiles/AcyclicVisitor.dir/build.make CMakeFiles/AcyclicVisitor.dir/TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.s
+.PHONY : TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp.s
+
+TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.o: TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.o
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.o
+
+# target to build an object file
+TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.o:
+	$(MAKE) -f CMakeFiles/BasicVisitorinCpp.dir/build.make CMakeFiles/BasicVisitorinCpp.dir/TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.o
+.PHONY : TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.o
+
+TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.i: TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.i
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.i
+
+# target to preprocess a source file
+TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.i:
+	$(MAKE) -f CMakeFiles/BasicVisitorinCpp.dir/build.make CMakeFiles/BasicVisitorinCpp.dir/TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.i
+.PHONY : TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.i
+
+TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.s: TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.s
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.s
+
+# target to generate assembly for a file
+TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.s:
+	$(MAKE) -f CMakeFiles/BasicVisitorinCpp.dir/build.make CMakeFiles/BasicVisitorinCpp.dir/TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.s
+.PHONY : TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp.s
+
+TheVisitorPatternAndMultipleDispatch/GenericVisitor.o: TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.o
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/GenericVisitor.o
+
+# target to build an object file
+TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.o:
+	$(MAKE) -f CMakeFiles/GenericVisitor.dir/build.make CMakeFiles/GenericVisitor.dir/TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.o
+.PHONY : TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.o
+
+TheVisitorPatternAndMultipleDispatch/GenericVisitor.i: TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.i
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/GenericVisitor.i
+
+# target to preprocess a source file
+TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.i:
+	$(MAKE) -f CMakeFiles/GenericVisitor.dir/build.make CMakeFiles/GenericVisitor.dir/TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.i
+.PHONY : TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.i
+
+TheVisitorPatternAndMultipleDispatch/GenericVisitor.s: TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.s
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/GenericVisitor.s
+
+# target to generate assembly for a file
+TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.s:
+	$(MAKE) -f CMakeFiles/GenericVisitor.dir/build.make CMakeFiles/GenericVisitor.dir/TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.s
+.PHONY : TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp.s
+
+TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.o: TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.o
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.o
+
+# target to build an object file
+TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.o:
+	$(MAKE) -f CMakeFiles/SerializationAndDeserializationWithVisitor.dir/build.make CMakeFiles/SerializationAndDeserializationWithVisitor.dir/TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.o
+.PHONY : TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.o
+
+TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.i: TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.i
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.i
+
+# target to preprocess a source file
+TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.i:
+	$(MAKE) -f CMakeFiles/SerializationAndDeserializationWithVisitor.dir/build.make CMakeFiles/SerializationAndDeserializationWithVisitor.dir/TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.i
+.PHONY : TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.i
+
+TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.s: TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.s
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.s
+
+# target to generate assembly for a file
+TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.s:
+	$(MAKE) -f CMakeFiles/SerializationAndDeserializationWithVisitor.dir/build.make CMakeFiles/SerializationAndDeserializationWithVisitor.dir/TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.s
+.PHONY : TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp.s
+
+TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.o: TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.o
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.o
+
+# target to build an object file
+TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.o:
+	$(MAKE) -f CMakeFiles/WhatIsTheVisitorPattern.dir/build.make CMakeFiles/WhatIsTheVisitorPattern.dir/TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.o
+.PHONY : TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.o
+
+TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.i: TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.i
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.i
+
+# target to preprocess a source file
+TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.i:
+	$(MAKE) -f CMakeFiles/WhatIsTheVisitorPattern.dir/build.make CMakeFiles/WhatIsTheVisitorPattern.dir/TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.i
+.PHONY : TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.i
+
+TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.s: TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.s
+
+.PHONY : TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.s
+
+# target to generate assembly for a file
+TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.s:
+	$(MAKE) -f CMakeFiles/WhatIsTheVisitorPattern.dir/build.make CMakeFiles/WhatIsTheVisitorPattern.dir/TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.s
+.PHONY : TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp.s
+
 TypeErasureByExample.o: TypeErasureByExample.cpp.o
 
 .PHONY : TypeErasureByExample.o
@@ -3268,6 +3468,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... GenericVisitor"
+	@echo "... BasicVisitorinCpp"
 	@echo "... AdapterVersusPolicy"
 	@echo "... CompileTimeAdapters"
 	@echo "... PolymorphicDecoratorsAndTheirLimitations"
@@ -3315,6 +3517,7 @@ help:
 	@echo "... CompileTimePolymorphism"
 	@echo "... DynamicTypeRegistry"
 	@echo "... WhatIsWringWithAVirtualFunction"
+	@echo "... AcyclicVisitor"
 	@echo "... BasisAdapterPattern"
 	@echo "... SmallVector"
 	@echo "... UseOfPolicyObjects"
@@ -3323,6 +3526,7 @@ help:
 	@echo "... TheUltimateSFINAE"
 	@echo "... HowToGrantFriendShip"
 	@echo "... AdvancedSFINAE2"
+	@echo "... WhatIsTheVisitorPattern"
 	@echo "... PoliciesForConstructors2"
 	@echo "... AdvancedSFINAE"
 	@echo "... CRTPFactoryAndReturnTypes"
@@ -3335,6 +3539,7 @@ help:
 	@echo "... TheCostOfMemoryAllocations"
 	@echo "... ExceptionDrivernScopedGuard"
 	@echo "... AdvancedSFINAErevisited2"
+	@echo "... SerializationAndDeserializationWithVisitor"
 	@echo "... CarefulImplementationOfRAIIobject"
 	@echo "... PerformanceOfTheNamedArgumentsIdiom"
 	@echo "... ApplicationsOfTheTemplateMethod"
@@ -3541,6 +3746,21 @@ help:
 	@echo "... TheUltimateSFINAE.o"
 	@echo "... TheUltimateSFINAE.i"
 	@echo "... TheUltimateSFINAE.s"
+	@echo "... TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.o"
+	@echo "... TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.i"
+	@echo "... TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.s"
+	@echo "... TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.o"
+	@echo "... TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.i"
+	@echo "... TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.s"
+	@echo "... TheVisitorPatternAndMultipleDispatch/GenericVisitor.o"
+	@echo "... TheVisitorPatternAndMultipleDispatch/GenericVisitor.i"
+	@echo "... TheVisitorPatternAndMultipleDispatch/GenericVisitor.s"
+	@echo "... TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.o"
+	@echo "... TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.i"
+	@echo "... TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.s"
+	@echo "... TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.o"
+	@echo "... TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.i"
+	@echo "... TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.s"
 	@echo "... TypeErasureByExample.o"
 	@echo "... TypeErasureByExample.i"
 	@echo "... TypeErasureByExample.s"

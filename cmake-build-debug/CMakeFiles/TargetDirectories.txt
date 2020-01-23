@@ -1,5 +1,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/GenericVisitor.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/BasicVisitorinCpp.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdapterVersusPolicy.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CompileTimeAdapters.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir
@@ -47,6 +49,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CompileTimePolymorphism.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/DynamicTypeRegistry.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/WhatIsWringWithAVirtualFunction.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AcyclicVisitor.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/BasisAdapterPattern.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SmallVector.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/UseOfPolicyObjects.dir
@@ -55,6 +58,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheUltimateSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/HowToGrantFriendShip.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE2.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/WhatIsTheVisitorPattern.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PoliciesForConstructors2.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAE.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CRTPFactoryAndReturnTypes.dir
@@ -67,6 +71,7 @@
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/TheCostOfMemoryAllocations.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ExceptionDrivernScopedGuard.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/AdvancedSFINAErevisited2.dir
+/Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/SerializationAndDeserializationWithVisitor.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/CarefulImplementationOfRAIIobject.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir
 /Users/wualex/Documents/DesignPattern/cmake-build-debug/CMakeFiles/ApplicationsOfTheTemplateMethod.dir

@@ -52,6 +52,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/GenericVisitor.dir/DependInfo.cmake"
+  "CMakeFiles/BasicVisitorinCpp.dir/DependInfo.cmake"
   "CMakeFiles/AdapterVersusPolicy.dir/DependInfo.cmake"
   "CMakeFiles/CompileTimeAdapters.dir/DependInfo.cmake"
   "CMakeFiles/PolymorphicDecoratorsAndTheirLimitations.dir/DependInfo.cmake"
@@ -99,6 +101,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CompileTimePolymorphism.dir/DependInfo.cmake"
   "CMakeFiles/DynamicTypeRegistry.dir/DependInfo.cmake"
   "CMakeFiles/WhatIsWringWithAVirtualFunction.dir/DependInfo.cmake"
+  "CMakeFiles/AcyclicVisitor.dir/DependInfo.cmake"
   "CMakeFiles/BasisAdapterPattern.dir/DependInfo.cmake"
   "CMakeFiles/SmallVector.dir/DependInfo.cmake"
   "CMakeFiles/UseOfPolicyObjects.dir/DependInfo.cmake"
@@ -107,6 +110,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TheUltimateSFINAE.dir/DependInfo.cmake"
   "CMakeFiles/HowToGrantFriendShip.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAE2.dir/DependInfo.cmake"
+  "CMakeFiles/WhatIsTheVisitorPattern.dir/DependInfo.cmake"
   "CMakeFiles/PoliciesForConstructors2.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAE.dir/DependInfo.cmake"
   "CMakeFiles/CRTPFactoryAndReturnTypes.dir/DependInfo.cmake"
@@ -119,6 +123,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TheCostOfMemoryAllocations.dir/DependInfo.cmake"
   "CMakeFiles/ExceptionDrivernScopedGuard.dir/DependInfo.cmake"
   "CMakeFiles/AdvancedSFINAErevisited2.dir/DependInfo.cmake"
+  "CMakeFiles/SerializationAndDeserializationWithVisitor.dir/DependInfo.cmake"
   "CMakeFiles/CarefulImplementationOfRAIIobject.dir/DependInfo.cmake"
   "CMakeFiles/PerformanceOfTheNamedArgumentsIdiom.dir/DependInfo.cmake"
   "CMakeFiles/ApplicationsOfTheTemplateMethod.dir/DependInfo.cmake"

@@ -37,6 +37,90 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="GenericVisitor">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/GenericVisitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 GenericVisitor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GenericVisitor/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/GenericVisitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 GenericVisitor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BasicVisitorinCpp">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/BasicVisitorinCpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicVisitorinCpp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BasicVisitorinCpp/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/BasicVisitorinCpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 BasicVisitorinCpp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="AdapterVersusPolicy">
 				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/AdapterVersusPolicy" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
@@ -2011,6 +2095,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="AcyclicVisitor">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/AcyclicVisitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 AcyclicVisitor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AcyclicVisitor/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/AcyclicVisitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 AcyclicVisitor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="BasisAdapterPattern">
 				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/BasisAdapterPattern" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
@@ -2342,6 +2468,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSFINAE2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WhatIsTheVisitorPattern">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/WhatIsTheVisitorPattern" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 WhatIsTheVisitorPattern"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="WhatIsTheVisitorPattern/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/WhatIsTheVisitorPattern" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 WhatIsTheVisitorPattern/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -2846,6 +3014,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 AdvancedSFINAErevisited2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerializationAndDeserializationWithVisitor">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/SerializationAndDeserializationWithVisitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 SerializationAndDeserializationWithVisitor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SerializationAndDeserializationWithVisitor/fast">
+				<Option output="/Users/wualex/Documents/DesignPattern/cmake-build-debug/SerializationAndDeserializationWithVisitor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wualex/Documents/DesignPattern/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 SerializationAndDeserializationWithVisitor/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wualex/Documents/DesignPattern/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -3515,6 +3725,21 @@
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/TheUltimateSFINAE.cpp">
 			<Option target="TheUltimateSFINAE"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/TheVisitorPatternAndMultipleDispatch/AcyclicVisitor.cpp">
+			<Option target="AcyclicVisitor"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/TheVisitorPatternAndMultipleDispatch/BasicVisitorinCpp.cpp">
+			<Option target="BasicVisitorinCpp"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/TheVisitorPatternAndMultipleDispatch/GenericVisitor.cpp">
+			<Option target="GenericVisitor"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/TheVisitorPatternAndMultipleDispatch/SerializationAndDeserializationWithVisitor.cpp">
+			<Option target="SerializationAndDeserializationWithVisitor"/>
+		</Unit>
+		<Unit filename="/Users/wualex/Documents/DesignPattern/TheVisitorPatternAndMultipleDispatch/WhatIsTheVisitorPattern.cpp">
+			<Option target="WhatIsTheVisitorPattern"/>
 		</Unit>
 		<Unit filename="/Users/wualex/Documents/DesignPattern/TypeErasureByExample.cpp">
 			<Option target="TypeErasureByExample"/>
